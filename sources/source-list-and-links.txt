@@ -1,0 +1,53 @@
+From Dr. Campbell, 2/14/25:
+
+Weekly Bills of Mortality (52)
+Source for 1665 Bills of Mortality: https://wellcomecollection.org/works/bqxkq9yy/items
+The XML is done but needs to be checked for errors.
+
+Annual Bills of Mortality (2: 1665 was done, 1666 was not)
+
+1665: https://wellcomecollection.org/works/bqxkq9yy/items?canvas=116
+1666: https://wellcomecollection.org/works/bqxkq9yy/items?canvas=119
+For the the year-end Bills , use the template Bills-Mortality-year-16xx.xml, which should be in the London's Dreadful Visitation repo.
+
+
+Parish Registers including causes of death
+
+Burial registers of certain parish churches survive and can be used to augment and double-check the Bills of Mortality data. It could also be interesting to see the effect of the plague on the numbers of baptisms (which would correlate to the birthrate) and marriages by comparing them to longer-term averages as seen in these parishes.
+
+The XML form to use for these is Parish-name-register-with-causes.xml
+
+Links to the parish registers:
+
+St Peter Cornhill: https://archive.org/details/registerofallchr01stpe/page/216/mode/2up
+
+St Paul Covent Garden: https://archive.org/details/registersofstpau36stpa/page/32/mode/2up
+
+St Christopher Stocks: https://archive.org/details/registerbookofpa00lond/page/50/mode/2up
+
+St Nicholas Acons: https://archive.org/details/registerbookpar00pargoog/page/n128/mode/2up
+
+Kensington, Middlesex: https://archive.org/details/parishregisterof16kens/page/132/mode/2up
+
+Parish registers not including causes of death
+You will be using this XML file: Parish-name-register-no-causes.xml
+
+St Vedast, Foster Lane, aka St Fosters https://archive.org/details/registersofstved30stve/page/190/mode/2up
+
+St Antholins ( mixes baptisms, marriages and burials, so must read carefully) https://archive.org/details/parishregisters02pargoog/page/n105/mode/2up
+ 
+St Thomas the Apostle (does not give cause of death but DOES give separate dates of death and burial) https://archive.org/details/parishregisterso06stth/page/136/mode/2up
+
+St James Clerkenwell (a populous parish so a large sample) https://archive.org/details/trueregisterofal17stja/page/360/mode/2up
+
+St Bene't (Benedict) Paul's Wharf  (a populous parish so a large sample) https://archive.org/details/registersofstben41stbe/page/54/mode/2up
+
+St Michael Cornhill https://archive.org/details/parishregisterso07stmi/page/254/mode/2up
+
+St Mary Aldermanbury  https://archive.org/details/parishregisterso00stma/page/184/mode/2up
+
+St Denis Backchurch  https://archive.org/details/reiesterbookesa00socigoog/page/n246/mode/2up
+
+ 
+
+Others may be available: https://harleian.org.uk/Volumes.htm vols. 43 onwards

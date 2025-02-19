@@ -2,17 +2,29 @@
 <stock>
 
     <burialis> 
-        <char name="William Mathewes" >William Mathewes</char> (sometime sexton of ye parish) was buried in ye <place loc="Churchyard">Churchyard</place>  <date>Aprill ye
-            1st 1665</date> Mary Daughter of <char>Henery Hallsey</char> was buried in ye <place loc="Churchyard">Churchyard</place>  <date>Aprill ye 15th 1665.</date>
-        <char>Christopher</char> ye son of <char>Christopher Marsham</char> was buried in ye <place loc="South Chappell">South Chappell</place> <date>Aprill ye 19th
-            1665</date> <char>tfrances Duckett</char> widow was buried in ye <place loc="Chancell">Chancell</place> <date>Aprill the 28 1665. </date>
+        A <char>Chrisome</char> Child of <char>Timothie Boxer</char> was buried in ye <place loc="Churchyard">Churchyard</place> <data>May ye 4th 1664</data> <char>John Bucknell</char>
+        Apprentice to <char>Mr Thomas Hooton</char> was buried in ye <place loc="Churchyard">Churchyard</place><date>May ye 5th 1664 </date>
+        <char>Ether Jones</char> carried out of ye parsh and buried in <place>St Dionis Backechurch</place> <date>May ye I7th 1664.</date> <char>Su.sanna Lansdell</char> caried out of ye parsh and buried in
+        <place>St Mildred Poultry</place> <data>May ye 19th 1664</data> <char>Phillip Henley</char> apprentice to <char>Mr Richard Jones</char> was buried in the <place loc="Churchyard">Churchyard</place> <data>May ye 21 1664</data> 
+        <char>Elizabeth Ayleworth</char> Daughter of <char>Peter Ayleworth</char> was buried in ye <place>south Isle</place> <data>May ye 31 1664</data> <char>John Robin</char> son of ye Company of Sciuveners was buried in ye <place>Chauncell</place>
+        <data>June ye 10th 1664</data><char> Mr ffoxe</char> caried out of ye parish and buried in <place>Christchurch</place> <data>June ye 17 1664</data> <char>Richard Hinde</char> free of ye Companie of Haberdashers
+        was buried in ye <place>Church over against ye Gallery Dore</place><date> July ye 16th 1664</date> <char>Robert Brewster</char> (Apprentise) was buried in ye <place>Middle Isle</place> ye <data>19 of July 1664</data> 
+        <char>ffrancis Mayo</char>,free of ye Companie of Cookes) was buried in ye <place>South Chappell</place> ye <data>20th of Aug 1664</data> <char>Elizabeth</char> Daughter of <char>Alyce Hawes</char> wid; was buried in ye <place>Church-yard</place>
+        <date>Septemb 18.</date><char>William</char> son of <char>Edward Buckerfield</char> was buried in 3d <place>Middle Isle</place> <data>October ye 11 1664</data> <char>Thomas</char> son of <char>John White</char> (of Oxford Gent:) and <char>Anne</char>
+        his wife was buried in ye <place>South Isle</place> <data>October ye 14th 1664</data>his wife was buried in ye<place> South Isle</place> <date>October ye 14th 1664</date> <char>Mary</char> ye Daughter of <char>Fowlk Jones</char>
+        was buried in ye <place loc="Churchyard">Churchyard</place> <date>December ye 12th 1664</date> <char name="William Mathewes" >William Mathewes</char> 
+        (sometime sexton of ye parish) was buried in ye <place loc="Churchyard">Churchyard</place>  <date>Aprill ye 1st 1665</date> Mary Daughter of <char>Henery Hallsey</char> was buried in ye <place loc="Churchyard">Churchyard</place>
+        <date>Aprill ye 15th 1665.</date><char>Christopher</char> ye son of <char>Christopher Marsham</char> was buried in ye <place loc="South Chappell">South Chappell</place> <date>Aprill ye 19th 1665</date>
+        <char>tfrances Duckett</char> widow was buried in ye <place loc="Chancell">Chancell</place> <date>Aprill the 28 1665. </date>
         
+    
+       
         <char>Sarah</char> ye wife of <char>ffowlke Jones</char> was buried in ye <place loc="Churchyard">Churchyard</place> 
         <date>May ye 2nd 1665</date>. <char>Penelope</char> ye wife of <char>John Nuttall</char> was buried in ye <place loc="Churchyard">Churchyard</place><date>July ye 26th 1665.</date>
         <char>Child bed William</char> son of <char>William Mason </char>was buried in ye <place loc="Churchyard">Churchyard</place><date>August ye 8th 1665</date> — <cause res= "surfeit">surfeit</cause>
         <char> Ann</char> ye wife of <char>Thomas Hooton</char> was buried in ye <place loc="Churchyard">Churchyard</place><date>August ye 12th 1665</date> — <cause res= "dropsie">Dropsie</cause>. 
         
-        <char>Abell Coares</char>(Apprentise to <char>Mr Peter Bell</char> was buried in ye <place loc="Churchyard">Churchyard</place><data>August ye 17 1665.</data> — 
+        <char>Abell Coares</char>(Apprentise to <char>Mr Peter Bell</char> was buried in ye <place loc="Churchyard">Churchyard</place><date>August ye 17 1665.</date> — 
         <cause res="consumption">Consumption</cause> <char>Ann</char> ye wife of <char>ffrancis Mayo</char> was buried in ye <place loc="South Chappell">South Chappell</place>
         <date>Aug: ye 31th 1665.</date>— <cause res="plague">plague </cause>
         <char>Margaret wife</char> of <char>Peter Bell</char> was buried at ye <place>Lower end of ye North Isle</place> <date>September ye 1. 1665</date>— <cause res="plague">plague</cause>

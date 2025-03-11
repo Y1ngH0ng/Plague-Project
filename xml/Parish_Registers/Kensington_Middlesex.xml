@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <register parish="insert-parish-name-here">
     <encoder name="Trenton Wood"/>
     <!--I plan to publish these files online. If you want your name removed before I do so, you need to email me when you submit this to let me know that. Otherwise I will assume I have permission to give you credit by name.-->
@@ -33,7 +34,7 @@
         <burial name="Mary Peacock" date="1664-08-30" cause="x"/>
         <burial name="Rachell d" date="1664-09-04" cause="x"/>
         <burial name="Robert s" date="1664-09-19" cause="x"/>
-        <burial name="Richard Muskett" date="1664-010-14" cause="x"/>
+        <burial name="Richard Muskett" date="1664-10-14" cause="x"/>
         <burial name="Elizabeth Addamson" date="1664-10-14" cause="x"/>
         <burial name="Hugh Mores" date="1664-10-31" cause="x"/>
         <burial name="Anna d" date="1664-11-14" cause="x"/>
@@ -169,7 +170,7 @@
         <burial name="Elizabeth Sammon" date="1666-08-10" cause="plague"/>
         <burial name="Richard Squelch" date="1666-08-20" cause="x"/>
         <burial name="Dnaiell Kerton" date="1666-08-22" cause="x"/>
-        \
+        
         <!--copy and paste extra lines as needed; delete any unused/blank lines-->
     </burials>
 

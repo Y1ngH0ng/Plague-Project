@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <register parish="St-Christopher-Stocks">
     <encoder name="Zhaohao Weng"/>
     <source href="Converted from St Christopher Stocks.xml"/>

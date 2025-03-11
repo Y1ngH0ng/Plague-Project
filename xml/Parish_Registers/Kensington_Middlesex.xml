@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<register parish="insert-parish-name-here">
+    <encoder name="Trenton Wood"/>
+    <!--I plan to publish these files online. If you want your name removed before I do so, you need to email me when you submit this to let me know that. Otherwise I will assume I have permission to give you credit by name.-->
+    <source href="https://archive.org/details/parishregisterof16kens/page/132/mode/2up"/>
+
+    <burials date-from="1664-01-01" date-to="1664-12-31">
+        <!--note Old Style dates: 1 Jan. to 25 March 1665 may be called 1664 in the register; call it 1665 below-->
+        <!--do not record extra information such as burial location. If no cause given, leave as "x"-->
+        <!--when filling in dates, leave year as is, fill in two-digit month for mm and two-digit day for dd-->
+        <burial name="Catthren Lambord" date="1664-01-15" cause="x"/>
+        <burial name="Frances Barnet" date="1664-01-15" cause="x"/>
+        <burial name="Daniell Saywell" date="1664-02-05" cause="x"/>
+        <burial name="Elissabeth Ells" date="1664-02-06" cause="x"/>
+        <burial name="James Powill" date="1664-02-07" cause="x"/>
+        <burial name="Ould Willam Cary" date="1664-02-10" cause="x"/>
+        <burial name="John Churchhill" date="1664-02-15" cause="x"/>
+        <burial name="Susance" date="1664-02-27" cause="x"/>
+        <burial name="Ann Cooke" date="1664-03-19" cause="x"/>
+        <burial name="John Grimes" date="1664-04-15" cause="x"/>
+        <burial name="Arter Averey" date="1664-05-06" cause="x"/>
+        <burial name="Roger Goderd" date="1664-05-14" cause="x"/>
+        <burial name="Stillborn Infant" date="1664-05-18" cause="stillborn"/>
+        <burial name="John Rushworth" date="1664-05-18" cause="x"/>
+        <burial name="Ann Goodwyn" date="1664-06-03" cause="x"/>
+        <burial name="Susance Slades" date="1664-06-21" cause="x"/>
+        <burial name="John Widgsdale" date="1664-07-07" cause="x"/>
+        <burial name="Ann Harris" date="1664-07-28" cause="x"/>
+        <burial name="William Browne" date="1664-08-06" cause="x"/>
+        <burial name="Mary Groves" date="1664-08-13" cause="x"/>
+        <burial name="Frances d" date="1664-08-16" cause="x"/>
+        <burial name="Edward s" date="1664-08-17" cause="x"/>
+        <burial name="Mary Peacock" date="1664-08-30" cause="x"/>
+        <burial name="Rachell d" date="1664-09-04" cause="x"/>
+        <burial name="Robert s" date="1664-09-19" cause="x"/>
+        <burial name="Richard Muskett" date="1664-10-14" cause="x"/>
+        <burial name="Elizabeth Addamson" date="1664-10-14" cause="x"/>
+        <burial name="Hugh Mores" date="1664-10-31" cause="x"/>
+        <burial name="Anna d" date="1664-11-14" cause="x"/>
+        <burial name="Elizzabeth d." date="1664-12-01" cause="x"/>
+        <burial name="child of Thomas Peacocks" date="1664-12-02" cause="x"/>
+        <burial name="Jane d" date="1664-12-07" cause="x"/>
+        <burial name="Peter White" date="1664-12-28" cause="x"/>
+       
+        <!--copy and paste extra lines as needed; delete any unused/blank lines-->
+    </burials>
+
+  
+
+    <burials date-from="1665-01-01" date-to="1665-12-31">
+
+        <burial name="Charles s" date="1665-01-10" cause="x"/>
+        <burial name="Ann Chambers" date="1665-01-18" cause="x"/>
+        <burial name="not listed" date="1665-01-20" cause="x"/>
+        <burial name="William Norliffe" date="1665-02-20" cause="x"/>
+        <burial name="Mary d" date="1665-02-24" cause="x"/>
+        <burial name="Jane d" date="1665-03-10" cause="x"/>
+        <burial name="Thomas Roberrough" date="1665-03-11" cause="x"/>
+        <burial name="Sarah Roberrough" date="1665-03-18" cause="x"/>
+        <burial name="Adam s" date="1665-04-04" cause="x"/>
+        <burial name="Thomas Woodfind" date="1665-04-06" cause="x"/>
+        <burial name="Richard Arnold" date="1665-04-07" cause="x"/>
+        <burial name="Johnathan Prat" date="1665-04-07" cause="x"/>
+        <burial name="Thomas s" date="1665-04-24" cause="x"/>
+        <burial name="Elizabeth Powell" date="1665-04-25" cause="x"/>
+        <burial name="Geoffery Austen" date="1665-04-28" cause="x"/>
+        <burial name="Arthur Berisford" date="1665-05-04" cause="x"/>
+        <burial name="Mathew Child" date="1665-05-16" cause="x"/>
+        <burial name="Jane Phenix" date="1665-05-20" cause="x"/>
+        <burial name="Gilbert Basmore" date="1665-05-27" cause="x"/>
+        <burial name="Mary Monke" date="1665-06-10" cause="x"/>
+        <burial name="Basset Jones" date="1665-06-12" cause="x"/>
+        <burial name="John Danbey" date="1665-07-02" cause="x"/>
+        <burial name="Margaret Grimes" date="1665-07-04" cause="x"/>
+        <burial name="William Parre" date="1665-07-13" cause="x"/>
+        <burial name="Joice Ludlow" date="1665-07-21" cause="plague"/>
+        <burial name="Anne Freeman" date="1665-07-25" cause="x"/>
+        <burial name="Nathaniell Guttery" date="1665-07-31" cause="x"/>
+        <burial name="Elizabeth Groves" date="1665-08-06" cause="x"/>
+        <burial name="Katherine Ludlow" date="1665-08-11" cause="plague"/>
+        <burial name="Katherine Rock" date="1665-08-13" cause="x"/>
+        <burial name="Edward Price" date="1665-08-17" cause="x"/>
+        <burial name="Henry Ludlow" date="1665-08-17" cause="plague"/>
+        <burial name="Thomas Arnold" date="1665-08-24" cause="plague"/>
+        <burial name="John Scott" date="1665-08-26" cause="x"/>
+        <burial name="William Pargeter" date="1665-08-27" cause="plague"/>
+        <burial name="Nathaniel Pargeter" date="1665-08-29" cause="plague"/>
+        <burial name="Elizabeth Clayton" date="1665-09-02" cause="plague"/>
+        <burial name="Hellen Clayton" date="1665-09-02" cause="plague"/>
+        <burial name="Edward Basemore" date="1665-09-04" cause="plague"/>
+        <burial name="William Clayton" date="1665-09-10" cause="plague"/>
+        <burial name="Elizabeth Powell" date="1665-09-11" cause="plague"/>
+        <burial name="John Clayton" date="1665-09-13" cause="plague"/>
+        <burial name="William Ball" date="1665-09-14" cause="plague"/>
+        <burial name="Margaret Evans" date="1665-09-16" cause="x"/>
+        <burial name="Mary Beard" date="1665-09-18" cause="x"/>
+        <burial name="Andrew Baxter" date="1665-09-18" cause="plague"/>
+        <burial name="Thomas Goffe" date="1665-09-29" cause="plague"/>
+        <burial name="Mary Malew" date="1665-10-06" cause="x"/>
+        <burial name="Elizabeth Knowles" date="1665-10-08" cause="x"/>
+        <burial name="John Clayton" date="1665-10-13" cause="plague"/>
+        <burial name="Anne Groves" date="1665-10-14" cause="plague"/>
+        <burial name="George Shed" date="1665-10-18" cause="plague"/>
+        <burial name="Mary Sparkes" date="1665-10-25" cause="x"/>
+        <burial name="Richard Miller" date="1665-10-29" cause="x"/>
+        <burial name="Elizabeth Knowles" date="1665-10-30" cause="plague"/>
+        <burial name="John Knowles" date="1665-11-02" cause="x"/>
+        <burial name="William Knowles" date="1665-11-02" cause="plague"/>
+        <burial name="Alice Illford" date="1665-11-04" cause="plague"/>
+        <burial name="Mary Shed" date="1665-11-12" cause="plague"/>
+        <burial name="John Smith" date="1665-11-21" cause="x"/>
+        <burial name="Moses Groves" date="1665-11-21" cause="plague"/>
+        <burial name="Thomas Eyres" date="1665-12-20" cause="x"/>
+        <burial name="Thomas Barley" date="1665-12-20" cause="x"/>
+        <burial name="John Lewis" date="1665-12-22" cause="plague"/>
+        <burial name="Richard Hunt" date="1665-12-22" cause="plague"/>
+        
+        <!--copy and paste extra lines as needed; delete any unused/blank lines-->
+    </burials>
+
+    <!--burials Jan. 1st-March 24 1665/6-->
+    <burials date-from="1666-01-01" date-to="1666-03-24">
+        <burial name="Anthony Dowris" date="1666-01-31" cause="plague"/>
+        <burial name="Widow Cottrell" date="1666-02-08" cause="x"/>
+        <burial name="William Brewer" date="1666-02-24" cause="x"/>
+        <burial name="William Lacy" date="1666-02-25" cause="plague"/>
+        <burial name="Robert Fen" date="1666-03-11" cause="x"/>
+        <burial name="Edith Painter" date="1666-03-14" cause="x"/>
+        <burial name="Henry Barret" date="1666-03-26" cause="x"/>
+        <burial name="Elizabeth Illford" date="1666-03-28" cause="x"/>
+       
+        <!--copy and paste extra lines as needed; delete any unused/blank lines-->
+    </burials>
+
+    <!--burials March 28-Aug. 31 1666-->
+    <burials date-from="1666-03-25" date-to="1666-08-31">
+        <burial name="Anne Jones" date="1666-04-12" cause="x"/>
+        <burial name="Mary Godman" date="1666-04-12" cause="plague"/>
+        <burial name="Mary Cleeve" date="1666-04-17" cause="x"/>
+        <burial name="Thomas Oventon" date="1666-04-17" cause="x"/>
+        <burial name="James Atkins" date="1666-04-27" cause="x"/>
+        <burial name="Nicholas Parker" date="1666-04-27" cause="x"/>
+        <burial name="Thomas Rowberry" date="1666-05-02" cause="plague"/>
+        <burial name="Robert Rowberry" date="1666-05-02" cause="plague"/>
+        <burial name="Jane Rowberry" date="1666-05-08" cause="plague"/>
+        <burial name="Anne Sell" date="1666-05-28" cause="plague"/>
+        <burial name="Thomas Townessend" date="1666-06-01" cause="x"/>
+        <burial name="Roger Goodday" date="1666-06-09" cause="x"/>
+        <burial name="Elizabeth Parre" date="1666-06-14" cause="x"/>
+        <burial name="Anne Hudson" date="1666-06-17" cause="x"/>
+        <burial name="Martha Smith" date="1666-06-28" cause="x"/>
+        <burial name="Mathew May" date="1666-07-02" cause="x"/>
+        <burial name="Alice Sexton" date="1666-07-06" cause="x"/>
+        <burial name="William Tyner" date="1666-07-08" cause="x"/>
+        <burial name="Robert Harwood" date="1666-07-09" cause="x"/>
+        <burial name="Duglas Davenport" date="1666-07-10" cause="x"/>
+        <burial name="Catherine Peacock" date="1666-07-14" cause="x"/>
+        <burial name="Alice Harwood" date="1666-07-15" cause="x"/>
+        <burial name="William Cockain" date="1666-07-18" cause="x"/>
+        <burial name="Thomas Irons" date="1666-07-16" cause="plague"/>
+        <burial name="Richard White" date="1666-07-20" cause="x"/>
+        <burial name="William Davenport" date="1666-07-22" cause="plague"/>
+        <burial name="William Hall" date="1666-07-22" cause="plague"/>
+        <burial name="Sara Davenport" date="1666-07-23" cause="plague"/>
+        <burial name="Peter Samon" date="1666-07-28" cause="plague"/>
+        <burial name="Elizabeth Hicky" date="1666-07-31" cause="x"/>
+        <burial name="James Venner" date="1666-07-31" cause="x"/>
+        <burial name="Baldwin Palmer" date="1666-08-10" cause="x"/>
+        <burial name="Elizabeth Sammon" date="1666-08-10" cause="plague"/>
+        <burial name="Richard Squelch" date="1666-08-20" cause="x"/>
+        <burial name="Dnaiell Kerton" date="1666-08-22" cause="x"/>
+        
+        <!--copy and paste extra lines as needed; delete any unused/blank lines-->
+    </burials>
+
+</register>

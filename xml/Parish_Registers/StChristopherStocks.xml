@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<register parish="St-Christopher-Stocks">
+    <encoder name="Zhaohao Weng"/>
+    <source href="Converted from St Christopher Stocks.xml"/>
+    
+    <burials date-from="1664-01-01" date-to="1664-12-31">
+        <!--wzh, marked cause=x for unlisted cause of death-->
+        <burial name="Chrisome Child of Timothie Boxer" date="1664-05-04" cause="x"/>
+        <burial name="John Bucknell Apprentice to Mr Thomas Hooton" date="1664-05-05" cause="x"/>
+        <burial name="Ether Jones" date="1664-05-17" cause="x"/>
+        <burial name="Su.sanna Lansdell" date="1664-05-19" cause="x"/>
+        <burial name="Phillip Henley apprentice to Mr Richard Jones" date="1664-05-21" cause="x"/>
+        <burial name="Elizabeth Ayleworth Daughter of Peter Ayleworth" date="1664-05-31" cause="x"/>
+        <burial name="John Robin son of ye Company of Sciuveners" date="1664-06-10" cause="x"/>
+        <burial name="Mr ffoxe" date="1664-06-17" cause="x"/>
+        <burial name="Richard Hinde free of ye Companie of Haberdashers" date="1664-07-16" cause="x"/>
+        <burial name="Robert Brewster (Apprentise)" date="1664-07-19" cause="x"/>
+        <burial name="ffrancis Mayo,free of ye Companie of Cookes" date="1664-08-20" cause="x"/>
+        <burial name="Elizabeth Daughter of Alyce Hawes wid" date="1664-09-18" cause="x"/>
+        <burial name="William son of Edward Buckerfield" date="1664-10-11" cause="x"/>
+        <burial name="Thomas son of John White (of Oxford Gent:) and Anne his wife" date="1664-10-14" cause="x"/>
+        <burial name="Mary ye Daughter of Fowlk Jones" date="1664-12-12" cause="x"/>
+    </burials>
+    
+    <burials date-from="1665-01-01" date-to="1665-12-31">
+        <burial name="William Mathewes (sometime sexton of ye parish)" date="1665-04-01" cause="x"/>
+        <burial name="Mary Daughter of Henery Hallsey" date="1665-04-15" cause="x"/>
+        <burial name="Christopher ye son of Christopher Marsham" date="1665-04-19" cause="x"/>
+        <burial name="tfrances Duckett widow" date="1665-04-28" cause="x"/>
+        <burial name="Sarah ye wife of ffowlke Jones" date="1665-05-02" cause="x"/>
+        <burial name="Penelope ye wife of John Nuttall" date="1665-07-26" cause="x"/>
+        <burial name="Child bed William son of William Mason" date="1665-08-08" cause="surfeit"/>
+        <burial name="Ann ye wife of Thomas Hooton" date="1665-08-12" cause="dropsie"/>
+        <burial name="Abell Coares(Apprentise to Mr Peter Bell" date="1665-08-17" cause="consumption"/>
+        <burial name="Ann ye wife of ffrancis Mayo" date="1665-08-31" cause="plague"/>
+        <burial name="Margaret wife of Peter Bell" date="1665-09-01" cause="plague"/>
+        <burial name="Catherine Smith widdow" date="1665-09-03" cause="plague"/>
+        <burial name="William ye son of William Baynbrigg" date="1665-09-05" cause="plague"/>
+        <burial name="Alexander Chock (Apprentise to Henery Baynbrigg Escp" date="1665-09-05" cause="plague"/>
+        <burial name="Peter Bell scrivener" date="1665-09-10" cause="plague"/>
+        <burial name="Amy Thomas a servant maide to Edward Poultney" date="1665-09-11" cause="plague"/>
+        <burial name="Elizabeth Daughter of Martha Williams wid" date="1665-09-12" cause="plague"/>
+        <burial name="Ann Vosse Lodger" date="1665-09-13" cause="plague"/>
+        <burial name="Christopher English ffreeman" date="1665-09-13" cause="plague"/>
+        <burial name="Beniamin Write servant to Hen:Sutton" date="1665-09-15" cause="plague"/>
+        <burial name="Hannah Standbridge" date="1665-09-17" cause="x"/>
+        <burial name="Henery Sutton ffre of ye Companie of Joyners" date="1665-09-21" cause="plague"/>
+        <burial name="Samuel Browne free of ye Companie of Stationers" date="1665-09-21" cause="plague"/>
+        <burial name="Henery son of Hen:Sutton (Lately Deceased)" date="1665-09-23" cause="plague"/>
+        <burial name="Jane wife of Samuel Browne(Lately Deceased)" date="1665-09-24" cause="plague"/>
+        <burial name="William son of Thomas Lowe (deceased)" date="1665-09-24" cause="plague"/>
+        <burial name="Robert Mickell free scrivener" date="1665-09-25" cause="plague"/>
+        <burial name="Susanna Killingley servant to Mr Pountney" date="1665-10-01" cause="plague"/>
+        <burial name="Sarah Standbridge daughter to Sarah Standbridge widdow" date="1665-10-01" cause="plague"/>
+        <burial name="Sarah Standbridge widdow" date="1665-10-02" cause="plague"/>
+        <burial name="Henery Bainbrigg Esquire free of the Company of Cloathworkers" date="1665-10-02" cause="plague"/>
+        <burial name="Eleanor the wife of Thomas Austin" date="1665-10-06" cause="x"/>
+        <burial name="Susanna the daughter of Henery Sutton" date="1665-10-08" cause="x"/>
+        <burial name="William the son of Daniel Lingar" date="1665-10-08" cause="x"/>
+        <burial name="Joseph the son of Martha Williams widdow" date="1665-10-09" cause="plague"/>
+        <burial name="Josias the son of Martha Williams widdow" date="1665-10-12" cause="plague"/>
+        <burial name="Docter Raph Harrison Rector of this parish" date="1665-10-14" cause="plague"/>
+        <burial name="Sarah Burton daughter of firancis and Mary Burton" date="1665-10-16" cause="plague"/>
+        <burial name="Martha Burton daughter of firancis and Mary Burton" date="1665-10-16" cause="plague"/>
+        <burial name="Daniell Lingar" date="1665-10-21" cause="plague"/>
+        <burial name="Elizabeth Lingar" date="1665-11-02" cause="plague"/>
+        <burial name="Joane Light (servant to Alderm Bainbrigg Deed)" date="1665-11-05" cause="plague"/>
+        <burial name="Rebecca Walker wife of Willm Walker" date="1665-11-08" cause="plague"/>
+        <burial name="Matthew Son of Willm Bate" date="1665-12-03" cause="dropsie"/>
+        <burial name="Clement Egleston Cittizen and Grocer" date="1665-12-05" cause="plague"/>
+        <burial name="Lucy Egleston wife Clemt Egleston late deed" date="1665-12-23" cause="plague"/>
+        <burial name="Mary Burton Servt Mr Walker" date="1665-12-23" cause="plague"/>
+    </burials>
+    
+    <burials date-from="1666-03-25" date-to="1666-08-31">
+        <burial name="Willm Peyton of London Gente" date="1666-03-28" cause="consumption"/>
+        <burial name="Lucy filack late wife to Nathll ff" date="1666-04-26" cause="x"/>
+        <burial name="Age James Hickes son of James H:Jun" date="1666-05-03" cause="wormes"/>
+        <burial name="Mary (ye wife of Edward Butterfeild) and Sarah his daughter" date="1666-05-29" cause="x"/>
+        <burial name="John Barnett Servt to Sr Phillip ffroude" date="1666-06-24" cause="small pox"/>
+        <burial name="A Crisome Child of Mr Ste: Toree" date="1666-07-29" cause="x"/>
+        <burial name="Elizabeth ye wife of Ste: Toree" date="1666-08-10" cause="x"/>
+        <burial name="Childbed Alice Hawes widdowe" date="1666-08-08" cause="dropsy"/>
+        <burial name="A Crisome child of ye sd Ste: Torees" date="1666-08-16" cause="x"/>
+        <burial name="Thomas Bolton" date="1666-08-31" cause="x"/>
+    </burials>
+</register>

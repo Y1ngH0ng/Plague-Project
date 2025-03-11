@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href=".rnc" type="application/relax-ng-compact-syntax"?>
+<register parish="St Paul Covent Garden"  >
+<!-- XML Mark up down by Joisah Whipkey -->
+<!-- For use of this xml please contact me at jww58@pitt.edu -->
+    <encoder name="Joisah Whipkey"/>
+    <source href="https://archive.org/details/registersofstpau36stpa/page/28/mode/2up"/> 
+    
+     <burials date-from="1664-01-01" date-to="1664-12-31">
+        <burial name="Mrs Jane Leuitt " date="1664-01-01" cause="x"/>  
+        <burial name="Child" date="1664-01-03" cause="x"/>
+        <burial name="Cornelios Garrett " date="1664-01-03" cause="x"/>
+        <burial name="Child" date="1664-01-03" cause="x"/>
+        <burial name="Peter Hare" date="1664-01-05" cause="x"/>
+        <burial name="John Preston" date="1664-01-07" cause="x"/>
+        <burial name="Nathaniell Loue" date="1664-01-10" cause="x"/>
+        <burial name="Vencent Skidmore" date="1664-01-01" cause="x"/>
+        <burial name="Christopher Johnson" date="1664-01-11" cause="x"/>
+        <burial name="Peter Sturdy" date="1664-01-14" cause="x"/>
+        <burial name="Frances Newland" date="1664-01-16" cause="x"/>
+        <burial name="Laurance Winstone" date="1664-01-16" cause="x"/>
+        <burial name="Elizebeth Edgerton" date="1664-01-20" cause="x"/>
+        <burial name="Phillip Lishwin" date="1664-01-20" cause="x"/>
+        <burial name="John Bree" date="1664-01-21" cause="x"/>
+        <burial name="Dauid Simons" date="1664-01-21" cause="x"/>
+        <burial name="John Morcott" date="1664-01-22" cause="x"/>
+        <burial name="Margaritt Slingsby" date="1664-01-22" cause="x"/>
+        <burial name="Ann Wardiner" date="1664-01-22" cause="x"/>
+        <burial name="Howard Atkins" date="1664-01-25" cause="x"/>
+        <burial name="Dorathy Sawers" date="1664-01-26" cause="x"/>
+        <burial name="Elizbeth Southcott" date="1664-01-26" cause="x"/>
+        <burial name="Henry Baken" date="1664-01-27" cause="x"/>
+        <burial name="Anthoney Mowsey" date="1664-01-29" cause="x"/>
+        <burial name="Cot Edward Garrad" date="1664-01-30" cause="x"/>
+        <burial name="Katherin Burlace" date="1664-02-02" cause="x"/>
+        <burial name="Ann Hanbury" date="1664-02-03" cause="x"/>
+        <burial name="Andrew Selbey" date="1664-02-16" cause="x"/>
+        <burial name="Ambrose Sanders" date="1664-02-17" cause="x"/>
+        <burial name="Elizabeth Brise" date="1664-02-18" cause="x"/>
+        <burial name="Henry Morgen" date="1664-02-18" cause="x"/>
+        <burial name="Doctor Francis House" date="1664-02-24" cause="x"/>
+        <burial name="Howard  Walter" date="1664-02-27" cause="x"/>
+        <burial name="Mary Cragnell" date="1664-02-28" cause="x"/>
+        <burial name="Thomas Bradbury" date="1664-02-29" cause="x"/>
+        <burial name="Giles Hooper" date="1664-03-01" cause="x"/>
+        <burial name="Elizabeth Browne" date="1664-03-02" cause="x"/>
+        <burial name="Robert Levit" date="1664-03-06" cause="x"/>
+        <burial name="Robert Astin" date="1664-03-12" cause="murder"/>
+        <burial name="Margarett King" date="1664-03-14" cause="x"/>
+        <burial name="Mr Renee Bazen" date="1664-03-17" cause="x"/>
+        <burial name="Hue Wagstave" date="1664-03-18" cause="x"/>
+        <burial name="John Browne" date="1664-03-20" cause="x"/>
+        <burial name="Thomas Guthredge" date="1664-03-24" cause="x"/>
+        <burial name="Henry Frogmorton" date="1664-03-28" cause="x"/>
+        <burial name="Elizabeth Haukesworth" date="1664-04-03" cause="x"/>
+        <burial name="Katherine Lucas" date="1664-04-06" cause="x"/>
+        <burial name="Child" date="1664-04-12" cause="still borne"/>
+        <burial name="Eliz" date="1664-04-13" cause="x"/>
+        <burial name="Stephen Broughten" date="1664-04-16" cause="x"/>
+        <burial name="Fraunces May" date="1664-04-17" cause="x"/>
+        <burial name="Rayman Bucanon" date="1664-04-30" cause="x"/>
+        <burial name="Wilt Farncom" date="1664-05-14" cause="x"/>
+        <burial name="Anne Jolley" date="1664-05-23" cause="x"/>
+        <burial name="Robart Web" date="1664-05-24" cause="x"/>
+        <burial name="Child" date="1664-06-02" cause="x"/>
+        <burial name="Thomas Groue" date="1664-06-06" cause="x"/>
+        <burial name="Thomas Beech" date="1664-06-09" cause="x"/>
+        <burial name="Elizebeth Paule" date="1664-06-11" cause="x"/>
+        <burial name="Mary Doe" date="1664-06-13" cause="x"/>
+        <burial name="Barbara Field" date="1664-06-01" cause="x"/>
+        <burial name="Katherin Dau" date="1664-06-14" cause="x"/>
+        <burial name="Frances Dau" date="1664-06-26" cause="x"/>
+        <burial name="Charles Aubery" date="1664-06-30" cause="x"/>
+        <burial name="Mary Bacock" date="1664-07-02" cause="x"/>
+        <burial name="John Willoby" date="1664-07-04" cause="x"/>
+        <burial name="Elizabeth Kersey" date="1664-07-07" cause="x"/>
+        <burial name="Elizebeth How" date="1664-07-08" cause="x"/>
+        <burial name="Mary Lipscom" date="1664-07-10" cause="x"/>
+        <burial name="Mary Holmes" date="1664-07-12" cause="x"/>
+        <burial name="Phillip Prichard Gent" date="1664-07-15" cause="x"/>
+        <burial name="Elizebeth Milles" date="1664-07-20" cause="x"/>
+        <burial name="Thomas Window" date="1664-07-27" cause="x"/>
+        <burial name="Ann Gutteris" date="1664-07-29" cause="x"/>
+        <burial name="Antonia Butter" date="1664-08-01" cause="x"/>
+        <burial name="John Millington" date="1664-08-08" cause="x"/>
+        <burial name="Abraham Pert Buried" date="1664-08-09" cause="x"/>
+        <burial name="Thomas Mones" date="1664-08-16" cause="x"/>
+        <burial name="Doraty Reeve" date="1664-08-19" cause="x"/>
+        <burial name="Mary Tinkner" date="1664-08-20" cause="x"/>
+        <burial name="Anne Lock" date="1664-08-24" cause="x"/>
+        <burial name="Elizebeth Jonson" date="1664-08-27" cause="x"/>
+        <burial name="Peter Dronfield" date="1664-08-27" cause="x"/>
+        <burial name="Beutress Chansey" date="1664-08-29" cause="x"/>
+        <burial name="Thomas Thorill" date="1664-08-30" cause="x"/>
+        <burial name="James King" date="1664-09-04" cause="x"/>
+        <burial name="Child" date="1664-09-10" cause="x"/>
+        <burial name="Jane Garrard" date="1664-09-14" cause="x"/>
+        <burial name="Mary Knight" date="1664-09-15" cause="x"/>
+        <burial name="Ann Mills" date="1664-09-21" cause="x"/>
+        <burial name="Thomas Lucas" date="1664-09-22" cause="x"/>
+        <burial name="Sarah Brucer" date="1664-09-22" cause="x"/>
+        <burial name="Elizebeth Jones" date="1664-09-24" cause="x"/>
+        <burial name="Elizebeth Parrett" date="1664-09-25" cause="x"/>
+        <burial name="Frances Howse" date="1664-09-26" cause="x"/>
+        <burial name="Elizebeth Pinckney" date="1664-09-29" cause="x"/>
+        <burial name="Anthoney Leeson" date="1664-10-02" cause="x"/>
+        <burial name="Child" date="1664-10-01" cause="x"/>
+        <burial name="Alice Reeue" date="1664-10-15" cause="x"/>
+        <burial name="Ann Witball" date="1664-10-21" cause="x"/>
+        <burial name="John Jew" date="1664-10-23" cause="x"/>
+        <burial name="Peter Menshan" date="1664-10-25" cause="x"/>
+        <burial name="Elizebeth Belkins" date="1664-10-27" cause="x"/>
+        <burial name="Peter Belkins" date="1664-10-30" cause="x"/>
+        <burial name="William Parker" date="1664-10-31" cause="x"/>
+        <burial name="Elizebeth Jones" date="1664-10-01" cause="x"/>
+        <burial name="John Burguin" date="1664-11-05" cause="x"/>
+        <burial name="Katherin Harris" date="1664-11-11" cause="x"/>
+        <burial name="John Higdon" date="1664-11-12" cause="x"/>
+        <burial name="Ann Vnion" date="1664-11-14" cause="x"/>
+        <burial name="William Garrett" date="1664-11-17" cause="x"/>
+        <burial name="Elizebeth Thomson" date="1664-11-18" cause="x"/>
+        <burial name="Dowson" date="1664-11-18" cause="x"/>
+        <burial name="Elizebeth Eeeds" date="1664-12-08" cause="x"/>
+        <burial name="Martha Terrey" date="1664-12-09" cause="x"/>
+        <burial name="James Backster" date="1664-12-16" cause="x"/>
+        <burial name="Walter Doods" date="1664-12-23" cause="x"/>
+    </burials> 
+  <burials date-from="1665-01-01" date-to="1665-12-31">
+        <burial name="Child" date="1665-01-06" cause="still borne"/>
+        <burial name="Child" date="1665-01-06" cause="x"/>
+        <burial name="Child" date="1665-01-08" cause="still borne"/>
+        <burial name="Jane Sweetaple" date="1665-01-10" cause="x"/>
+        <burial name="Jane Martin" date="1665-01-11" cause="x"/>
+        <burial name="Patrick Branden Laday Clanrickards Seruant" date="1665-01-14" cause="x"/>
+        <burial name="Rebecca Scott" date="1665-01-19" cause="x"/>
+        <burial name="Elinor Wade" date="1665-01-22" cause="x"/>
+        <burial name="John Martin" date="1665-01-26" cause="x"/>
+        <burial name="James Farrill" date="1665-02-03" cause="x"/>
+        <burial name="William Edgert" date="1665-02-03" cause="x"/>
+        <burial name="Richard Bagley" date="1665-02-05" cause="x"/>
+        <burial name="Ann Williams" date="1665-02-07" cause="x"/>
+        <burial name="John Dollory" date="1665-02-08" cause="x"/>
+        <burial name="Mary Facott" date="1665-02-08" cause="x"/>
+        <burial name="Child" date="1665-02-11" cause="x"/>
+        <burial name="Thomas case" date="1665-02-12" cause="x"/>
+        <burial name="Mary Smith" date="1665-02-16" cause="x"/>
+        <burial name="Samuell Smith" date="1665-02-17" cause="x"/>
+        <burial name="Richard Waite" date="1665-02-20" cause="x"/>
+        <burial name="Child" date="1665-02-20" cause="still borne"/>
+        <burial name="Mr Edward Jonson" date="1665-02-21" cause="x"/>
+        <burial name="Mr John Hoskins" date="1665-02-22" cause="x"/>
+        <burial name="Ann Bourne" date="1665-02-25" cause="x"/>
+        <burial name="Edward Sanders" date="1665-02-26" cause="x"/>
+        <burial name="Adrian Boytroy" date="1665-03-09" cause="x"/>
+        <burial name="Basilliana Lewes" date="1665-03-10" cause="x"/>
+        <burial name="Lewes Gibbon" date="1665-03-13" cause="x"/>
+        <burial name="Edward Wilton" date="1665-03-18" cause="x"/>
+        <burial name="Mary Wilford" date="1665-03-19" cause="x"/>
+        <burial name="Mary Jonson" date="1665-03-20" cause="x"/>
+        <burial name="Elizebeth Clare" date="1665-03-27" cause="x"/>
+        <burial name="William Brocklesby" date="1665-03-27" cause="x"/>
+        <burial name="Josias Stacy" date="1665-03-28" cause="x"/>
+        <burial name="Thomas Osburne" date="1665-03-31" cause="x"/>
+        <burial name="Anabella Gritfin" date="1665-04-02" cause="x"/>
+        <burial name="Thoms Armstrong" date="1665-04-05" cause="x"/>
+        <burial name="Edmond Hopkins" date="1665-04-06" cause="x"/>
+        <burial name="Mary Christopher" date="1665-04-10" cause="x"/>
+        <burial name="Margarit Ponteus" date="1665-04-12" cause="x"/>
+        <burial name="Henry Cockdill" date="1665-04-16" cause="x"/>
+        <burial name="George Neuill" date="1665-04-20" cause="x"/>
+        <burial name="Thomas Winckfield" date="1665-04-23" cause="x"/>
+        <burial name="Capt Robert Wardner" date="1665-05-01" cause="x"/>
+        <burial name="Jane Ewe" date="1665-05-01" cause="x"/>
+        <burial name="Richard Winn" date="1665-05-07" cause="x"/>
+        <burial name="Jane Rutland" date="1665-05-11" cause="x"/>
+        <burial name="Will Watts" date="1665-05-13" cause="x"/>
+        <burial name="Mr Bowler" date="1665-05-13" cause="x"/>
+        <burial name="Child" date="1665-05-16" cause="x"/>
+        <burial name="Thomas Man" date="1665-05-16" cause="x"/>
+        <burial name="John Forist" date="1665-05-19" cause="x"/>
+        <burial name="WM Carter" date="1665-05-21" cause="x"/>
+        <burial name="Margeritt Buttler" date="1665-05-24" cause="x"/>
+        <burial name="WM" date="1665-05-24" cause="x"/>
+        <burial name="Jone Barnard" date="1665-05-28" cause="x"/>
+        <burial name="John Beard" date="1665-05-29" cause="x"/>
+        <burial name="Child" date="1665-06-01" cause="x"/>
+        <burial name="Charles Barnard" date="1665-06-05" cause="x"/>
+        <burial name="Thomas Whitell" date="1665-06-07" cause="x"/>
+        <burial name="katherin Flemin" date="1665-06-12" cause="x"/>
+        <burial name="Richard Chamberlin" date="1665-06-15" cause="x"/>
+        <burial name="Susana Burrard" date="1665-06-17" cause="x"/>
+        <burial name="John Parrie" date="1665-06-21" cause="x"/>
+        <burial name="Ann Singleton" date="1665-06-24" cause="plag"/>
+        <burial name="Ann Sanders" date="1665-06-25" cause="plag"/>
+        <burial name="Alice Jones" date="1665-06-26" cause="plag"/>
+        <burial name="Child" date="1665-06-01" cause="x"/>
+        <burial name="Charles Robenson" date="1665-07-01" cause="x"/>
+        <burial name="Mary Leuitt" date="1665-07-03" cause="x"/>
+        <burial name="Thomas Whiley" date="1665-07-04" cause="x"/>
+        <burial name="Mr Wm Rumballs" date="1665-07-06" cause="plag"/>
+        <burial name="Austins Dore" date="1665-07-09" cause="plag"/>
+        <burial name="Elizabeth Newmans" date="1665-07-09" cause="plag"/>
+        <burial name="William Aldridge" date="1665-07-13" cause="x"/>
+        <burial name="Thomas Wood" date="1665-07-13" cause="plag"/>
+        <burial name="Thomas Wood Wife" date="1665-07-13" cause="plag"/>
+        <burial name="Thomas Wood Daughter" date="1665-07-15" cause="plag"/>
+        <burial name="George Clare" date="1665-07-17" cause="x"/>
+        <burial name="George Medburne" date="1665-07-18" cause="x"/>
+        <burial name="Elizabeth Blake" date="1665-07-18" cause="x"/>
+        <burial name="James Blake" date="1665-07-20" cause="x"/>
+        <burial name="Charles Robenson" date="1665-07-01" cause="x"/>
+        <burial name="Marie Leuitt" date="1665-07-03" cause="x"/>
+        <burial name="Thomas Whilie" date="1665-07-01" cause="x"/>
+        <burial name="Mr Wm Rumball" date="1665-07-06" cause="plag"/>
+        <burial name="Thomas West" date="1665-07-07" cause="x"/>
+        <burial name="John Austin" date="1665-07-08" cause="plag"/>
+        <burial name="Austin" date="1665-07-09" cause="plag"/>
+        <burial name="Elizebeth Newman" date="1665-07-01" cause="x"/>
+        <burial name="William Aldrige" date="1665-07-13" cause="x"/>
+        <burial name="Thomas Wood" date="1665-07-13" cause="plag"/>
+        <burial name="Thomas Wood Wife" date="1665-07-13" cause="plag"/>
+        <burial name="Thomas Wood Daughter" date="1665-07-15" cause="plag"/>
+        <burial name="George Clare" date="1665-07-17" cause="x"/>
+        <burial name="Child" date="1665-07-18" cause="Mid borne"/>
+        <burial name="Elizbeth Blake" date="1665-07-18" cause="x"/>
+        <burial name="Child" date="1665-07-20" cause="x"/>
+        <burial name="Richer Wife" date="1665-07-20" cause="plag"/>
+        <burial name="Samuell Tomson" date="1665-07-20" cause="plag"/>
+        <burial name="Page" date="1665-07-23" cause="x"/>
+        <burial name="Thorns" date="1665-07-23" cause="x"/>
+        <burial name="Wife Carter" date="1665-07-24" cause="plag"/>
+        <burial name="Child" date="1665-08-01" cause="x"/>
+        <burial name="Child" date="1665-08-01" cause="x"/>
+        <burial name="Alexonder Tomson" date="1665-08-01" cause="x"/>
+        <burial name="Child" date="1665-08-01" cause="x"/>
+        <burial name="William Ouery" date="1665-08-02" cause="x"/>
+        <burial name="Child" date="1665-08-03" cause="x"/>
+        <burial name="Clemints" date="1665-08-03" cause="x"/>
+        <burial name="Susana Hornsby" date="1665-08-04" cause="x"/>
+        <burial name="Mr Thomas Ash " date="1665-08-01" cause="x"/>
+        <burial name="Squirs Man" date="1665-08-04" cause="x"/>
+        <burial name="Mayd Woods" date="1665-08-05" cause="x"/>
+        <burial name="Women Fursdens" date="1665-08-05" cause="x"/>
+        <burial name="Child" date="1665-08-06" cause="x"/>
+        <burial name="Mary Shaw" date="1665-08-07" cause="x"/>
+        <burial name="Margarits Aprentice" date="1665-08-07" cause="x"/>
+        <burial name="Child" date="1665-08-07" cause="x"/>
+        <burial name="Mr Vincett" date="1665-08-07" cause="x"/>
+        <burial name="Child" date="1665-08-07" cause="x"/>
+        <burial name="Child" date="1665-08-07" cause="x"/>
+        <burial name="Mary Berd" date="1665-08-09" cause="x"/>
+        <burial name="Child" date="1665-08-09" cause="x"/>
+        <burial name="Jones" date="1665-08-10" cause="plag"/>
+        <burial name="Mr Robert Brent" date="1665-08-11" cause="x"/>
+        <burial name="Mr John Clendon" date="1665-08-12" cause="x"/>
+        <burial name="Beniamen Marwood" date="1665-08-12" cause="x"/>
+        <burial name="George Beard" date="1665-08-13" cause="x"/>
+        <burial name="Mr Smiths Mayd" date="1665-08-13" cause="plag"/>
+        <burial name="Mrs Coope" date="1665-08-15" cause="plag"/>
+        <burial name="John Anderson" date="1665-08-15" cause="plag"/>
+        <burial name="Child" date="1665-08-15" cause="plag"/>
+        <burial name="Katherin Danian" date="1665-08-16" cause="plag"/>
+        <burial name="James Lahan" date="1665-08-17" cause="plag"/>
+        <burial name="Child" date="1665-08-18" cause="plag"/>
+        <burial name="Child" date="1665-08-18" cause="plag"/>
+        <burial name="Child" date="1665-08-18" cause="plag"/>
+        <burial name="Child" date="1665-08-18" cause="plag"/>
+        <burial name="Theadosia Anderson" date="1665-08-19" cause="plag"/>
+        <burial name="Child" date="1665-08-19" cause="plag"/>
+        <burial name="Rebeca Pulcer" date="1665-08-20" cause="plag"/>
+        <burial name="Child" date="1665-08-21" cause="plag"/>
+        <burial name="Woman" date="1665-08-22" cause="plag"/>
+        <burial name="Wife Sterbucks" date="1665-08-22" cause="plag"/>
+        <burial name="Child" date="1665-08-22" cause="plag"/>
+        <burial name="Elizabeth Hinton" date="1665-08-23" cause="x"/>
+        <burial name="Judeth Villers" date="1665-08-23" cause="x"/>
+        <burial name="Robert Throgmorton" date="1665-08-23" cause="plag"/>
+        <burial name="Robert Sanford" date="1665-08-23" cause="plag"/>
+        <burial name="Alam" date="1665-08-23" cause="plag"/>
+        <burial name="Mr Fouks Sister" date="1665-08-24" cause="plag"/>
+        <burial name="David Wins" date="1665-08-24" cause="plag"/>
+        <burial name="John Maltman Mayd" date="1665-08-24" cause="plag"/>
+        <burial name="Child" date="1665-08-25" cause="plag"/>
+        <burial name="John Hoare" date="1665-08-25" cause="x"/>
+        <burial name="Rebeca Anden" date="1665-08-25" cause="x"/>
+        <burial name="John Frasiar" date="1665-08-25" cause="plag"/>
+        <burial name="Child" date="1665-08-26" cause="plag"/>
+        <burial name="Mary Anderson" date="1665-08-26" cause="plag"/>
+        <burial name="Marwoods Mayd" date="1665-08-28" cause="plag"/>
+        <burial name="Child" date="1665-08-28" cause="plag"/>
+        <burial name="Susana Cumens" date="1665-08-28" cause="plag"/>
+        <burial name="Man Bennett" date="1665-08-28" cause="plag"/>
+        <burial name="Mr Gillbert Meese" date="1665-08-29" cause="x"/>
+        <burial name="Margarit Manto" date="1665-08-29" cause="plag"/>
+        <burial name="Samuell Lambe" date="1665-08-29" cause="plag"/>
+        <burial name="Christian Lambe" date="1665-08-29" cause="plag"/>
+        <burial name="Charles Lambe" date="1665-08-29" cause="plag"/>
+        <burial name="Peter gardner" date="1665-08-29" cause="x"/>
+        <burial name="Peter Wanderbush" date="1665-08-30" cause="x"/>
+        <burial name="John Blague" date="1665-08-30" cause="x"/>
+        <burial name="Richard Griffin" date="1665-08-30" cause="plag"/>
+        <burial name="Mary Lambe" date="1665-08-30" cause="plag"/>
+        <burial name="Nurse Jones" date="1665-08-30" cause="plag"/>
+        <burial name="Elizab Gould" date="1665-08-30" cause="plag"/>
+        <burial name="Charles Eussell" date="1665-08-31" cause="plag"/>
+        <burial name="Child" date="1665-08-31" cause="plag"/>
+        <burial name="Thomasan Smith" date="1665-08-31" cause="plag"/>
+        <burial name="Woman" date="1665-08-31" cause="plag"/>
+        <burial name="Charles Driuer" date="1665-08-31" cause="x"/>
+        <burial name="Child" date="1665-09-01" cause="plag"/>
+        <burial name="Thomas Lambe" date="1665-09-01" cause="plag"/>
+        <burial name="Child" date="1665-09-01" cause="plag"/>
+        <burial name="George Alexander" date="1665-09-01" cause="plag"/>
+        <burial name="Porter Horusbys" date="1665-09-01" cause="plag"/>
+        <burial name="Lady Clanrickards" date="1665-09-03" cause="plag"/>
+        <burial name="Mr Reeues maid" date="1665-09-03" cause="plag"/>
+        <burial name="Mrs Ipsleys maid" date="1665-09-04" cause="plag"/>
+        <burial name="Alin Prickett" date="1665-09-04" cause="plag"/>
+        <burial name="Henry Godbies" date="1665-09-04" cause="x"/>
+        <burial name="Child" date="1665-09-04" cause="plag"/>
+        <burial name="Margarit Keele" date="1665-09-05" cause="plag"/>
+        <burial name="Francis Jarman" date="1665-09-05" cause="plag"/>
+        <burial name="White" date="1665-09-05" cause="plag"/>
+        <burial name="Henry Keeles woman" date="1665-09-06" cause="plag"/>
+        <burial name="Child" date="1665-09-06" cause="plag"/>
+        <burial name="Alice Owen" date="1665-09-06" cause="plag"/>
+        <burial name="Child" date="1665-09-06" cause="plag"/>
+        <burial name="Kites maid" date="1665-09-06" cause="plag"/>
+        <burial name="Child" date="1665-09-07" cause="plag"/>
+        <burial name="Kendalls man" date="1665-09-01" cause="plag"/>
+        <burial name="Francis Mildmay" date="1665-09-07" cause="x"/>
+        <burial name="Child" date="1665-09-07" cause="plag"/>
+        <burial name="Mr Hudson maide" date="1665-09-07" cause="plag"/>
+        <burial name="Child" date="1665-09-08" cause="plag"/>
+        <burial name="Child" date="1665-09-08" cause="plag"/>
+        <burial name="Child" date="1665-09-08" cause="plag"/>
+        <burial name="Eobert Sanford wife" date="1665-09-08" cause="plag"/>
+        <burial name="Henry Keele Horne" date="1665-09-09" cause="plag"/>
+        <burial name="Mary Anslood" date="1665-09-09" cause="plag"/>
+        <burial name="Child" date="1665-09-09" cause="plag"/>
+        <burial name="Elizabeth Forsdick" date="1665-09-09" cause="plag"/>
+        <burial name="Mr Lyon" date="1665-09-09" cause="plag"/>
+        <burial name="Child" date="1665-09-10" cause="plag"/>
+        <burial name="Susana Spurill" date="1665-09-10" cause="plag"/>
+        <burial name="Ann Gartrope" date="1665-09-10" cause="plag"/>
+        <burial name="Abraham Costigin" date="1665-09-10" cause="plag"/>
+        <burial name="Jone Ratt" date="1665-09-11" cause="plag"/>
+        <burial name="Robert Knight" date="1665-09-11" cause="plag"/>
+        <burial name="John Tester wife" date="1665-09-12" cause="plag"/>
+        <burial name="Child" date="1665-09-12" cause="plag"/>
+        <burial name="Margarita Jarman" date="1665-09-13" cause="plag"/>
+        <burial name="Christian Mackham" date="1665-09-13" cause="plag"/>
+        <burial name="Robert Smith woman" date="1665-09-13" cause="plag"/>
+        <burial name="Lionell Madisen" date="1665-09-13" cause="plag"/>
+        <burial name="Child" date="1665-09-13" cause="plag"/>
+        <burial name="John Astin wife" date="1665-09-13" cause="plag"/>
+        <burial name="Walter Moriseus" date="1665-09-14" cause="plag"/>
+        <burial name="Robert Freebody" date="1665-09-14" cause="plag"/>
+        <burial name="Thomas Gartrope wife" date="1665-09-14" cause="plag"/>
+        <burial name="Elizab Marshall" date="1665-09-14" cause="x"/>
+        <burial name="Mrs Ipslys" date="1665-09-14" cause="plag"/>
+        <burial name="Person" date="1665-09-14" cause="x"/>
+        <burial name="George Beards seruant" date="1665-09-14" cause="plag"/>
+        <burial name="Child" date="1665-09-15" cause="plag"/>
+        <burial name="Richard Waters" date="1665-09-15" cause="plag"/>
+        <burial name="Paine wife" date="1665-09-15" cause="plag"/>
+        <burial name="Elizab Wilton" date="1665-09-15" cause="plag"/>
+        <burial name="Richard Freeman" date="1665-09-16" cause="plag"/>
+        <burial name="Vndervvood wife" date="1665-09-16" cause="plag"/>
+        <burial name="Mr Marwoods wooman" date="1665-09-16" cause="plag"/>
+        <burial name="Child" date="1665-09-17" cause="plag"/>
+        <burial name=" Child" date="1665-09-17" cause="plag"/>
+        <burial name="Marwoods women" date="1665-09-17" cause="plag"/>
+        <burial name="Child" date="1665-09-17" cause="plag"/>
+        <burial name="Elizab Harris" date="1665-09-17" cause="plag"/>
+        <burial name="Child" date="1665-09-18" cause="plag"/>
+        <burial name="Sara Neagors" date="1665-09-18" cause="plag"/>
+        <burial name="Mr Kittleby mayd" date="1665-09-18" cause="plag"/>
+        <burial name="Child" date="1665-09-19" cause="plag"/>
+        <burial name="Ann Tubb" date="1665-09-19" cause="plag"/>
+        <burial name="Ann Wade" date="1665-09-19" cause="plag"/>
+        <burial name="William Godby" date="1665-09-19" cause="plag"/>
+        <burial name="Mr Case" date="1665-09-21" cause="plag"/>
+        <burial name="Charles Dronfields wife" date="1665-09-21" cause="plag"/>
+        <burial name="Richard Fremans Mayd" date="1665-09-21" cause="plag"/>
+        <burial name="Mary Drew" date="1665-09-22" cause="plag"/>
+        <burial name="Abraham Costigan" date="1665-09-22" cause="plag"/>
+        <burial name="Child" date="1665-09-23" cause="plag"/>
+        <burial name="Jonson" date="1665-09-23" cause="plag"/>
+        <burial name="Mr Freeman maid" date="1665-09-23" cause="plag"/>
+        <burial name="Charles Norigton" date="1665-09-23" cause="plag"/>
+        <burial name="Sarah Ticknall" date="1665-09-23" cause="plag"/>
+        <burial name="John Ratt" date="1665-09-25" cause="plag"/>
+        <burial name="Bridgett Carter" date="1665-09-25" cause="plag"/>
+        <burial name="Alyn Pricketts wife" date="1665-09-25" cause="plag"/>
+        <burial name="Child" date="1665-09-25" cause="plag"/>
+        <burial name="Elizab Ramsbury" date="1665-09-25" cause="plag"/>
+        <burial name="Dorathy Lee" date="1665-09-26" cause="plag"/>
+        <burial name="Child" date="1665-09-26" cause="plag"/>
+        <burial name="Child" date="1665-09-27" cause="plag"/>
+        <burial name="Abraham Clinch" date="1665-09-28" cause="plag"/>
+        <burial name="Person" date="1665-09-28" cause="x"/>
+        <burial name="James Maguen" date="1665-09-28" cause="plag"/>
+        <burial name="Sarah Garthrop" date="1665-09-28" cause="plag"/>
+        <burial name="Thomas Hoskms" date="1665-09-29" cause="plag"/>
+        <burial name="Child" date="1665-09-29" cause="plag"/>
+        <burial name="Eichard Alcock" date="1665-09-29" cause="plag"/>
+        <burial name="Child" date="1665-09-29" cause="plag"/>
+        <burial name="John Mallerys Wife" date="1665-09-29" cause="plag"/>
+        <burial name="Mr Tester Maid" date="1665-09-30" cause="plag"/>
+        <burial name="Robert Ticknall" date="1665-09-30" cause="plag"/>
+        <burial name="John Windham" date="1665-09-30" cause="plag"/>
+        <burial name="Child" date="1665-09-30" cause="plag"/>
+        <burial name="William Wright" date="1665-09-30" cause="plag"/>
+        <burial name="Brown" date="1665-10-01" cause="plag"/>
+        <burial name="John Austin" date="1665-10-01" cause="plag"/>
+        <burial name="Child" date="1665-10-01" cause="plag"/>
+        <burial name="Child" date="1665-10-01" cause="plag"/>
+        <burial name="Mr Kinght kingswoman" date="1665-10-01" cause="plag"/>
+        <burial name="Ealph Sigwick" date="1665-10-02" cause="plag"/>
+        <burial name="Thomas Constable Junior" date="1665-10-02" cause="plag"/>
+        <burial name="George Hawksworth" date="1665-10-02" cause="plag"/>
+        <burial name="Ann Wilton" date="1665-10-03" cause="plag"/>
+        <burial name="Peter Maden" date="1665-10-03" cause="plag"/>
+        <burial name="Nures Godbys" date="1665-10-03" cause="plag"/>
+        <burial name="Witt Tisdall" date="1665-10-03" cause="plag"/>
+        <burial name="Child" date="1665-10-03" cause="plag"/>
+        <burial name="Ann Cragmiell" date="1665-10-04" cause="x"/>
+        <burial name="John Reeue" date="1665-10-04" cause="plag"/>
+        <burial name="Thomas Garthrop" date="1665-10-04" cause="plag"/>
+        <burial name="Peter Mayden" date="1665-10-05" cause="plag"/>
+        <burial name="John King" date="1665-10-05" cause="plag"/>
+        <burial name="Elizabeth Wade" date="1665-10-06" cause="plag"/>
+        <burial name="Beliuer" date="1665-10-07" cause="plag"/>
+        <burial name="Kights woman" date="1665-10-07" cause="plag"/>
+        <burial name="Katherin Wheeler" date="1665-10-08" cause="plag"/>
+        <burial name="Child" date="1665-10-09" cause="plag"/>
+        <burial name="Mary Gresham" date="1665-10-10" cause="x"/>
+        <burial name="Robert Herman" date="1665-10-10" cause="plag"/>
+        <burial name="Child" date="1665-10-11" cause="plag"/>
+        <burial name="Mr John Tate" date="1665-10-12" cause="x"/>
+        <burial name="Paine" date="1665-10-12" cause="x"/>
+        <burial name="Penelopy Russell" date="1665-10-12" cause="x"/>
+        <burial name="Child" date="1665-10-12" cause="plag"/>
+        <burial name="John Norington" date="1665-10-12" cause="plag"/>
+        <burial name="Richard Clnch" date="1665-10-12" cause="plag"/>
+        <burial name="Mr Bachilars Wife" date="1665-10-13" cause="plag"/>
+        <burial name="Mr Minchins Sister" date="1665-10-13" cause="x"/>
+        <burial name="Child" date="1665-10-13" cause="plag"/>
+        <burial name="John Reeue wife" date="1665-10-14" cause="plag"/>
+        <burial name="Mary Mason" date="1665-10-14" cause="x"/>
+        <burial name="Charles Seagraue" date="1665-10-14" cause="plag"/>
+        <burial name="Child" date="1665-10-17" cause="plag"/>
+        <burial name="Child" date="1665-10-17" cause="plag"/>
+        <burial name="Peter Gardiner" date="1665-10-17" cause="x"/>
+        <burial name="Child" date="1665-10-17" cause="plag"/>
+        <burial name="Peter Gardiners Wife" date="1665-10-18" cause="x"/>
+        <burial name="Ann Ramsbury" date="1665-10-18" cause="plag"/>
+        <burial name="Robert Owen" date="1665-10-19" cause="x"/>
+        <burial name="John Seagraue" date="1665-10-20" cause="x"/>
+        <burial name="Constance Aarish" date="1665-10-20" cause="plag"/>
+        <burial name="Mr hewes Maid" date="1665-10-21" cause="plag"/>
+        <burial name="Mary Betnes" date="1665-10-21" cause="x"/>
+        <burial name="Thomas Fouks" date="1665-10-22" cause="plag"/>
+        <burial name="Child" date="1665-10-24" cause="plag"/>
+        <burial name="John Edgerton" date="1665-10-24" cause="x"/>
+        <burial name="John Reeue Senior" date="1665-10-26" cause="plag"/>
+        <burial name="Ann Waldren" date="1665-10-26" cause="plag"/>
+        <burial name="Nathaniell Norington" date="1665-10-26" cause="plag"/>
+        <burial name="Ann Kitleby" date="1665-10-29" cause="x"/>
+        <burial name="Mary Brooks" date="1665-11-01" cause="x"/>
+        <burial name="Thomas Battersea" date="1665-11-02" cause="plag"/>
+        <burial name="Dauid Jolley" date="1665-11-02" cause="plag"/>
+        <burial name="Child" date="1665-11-03" cause="plag"/>
+        <burial name="Lady" date="1665-11-01" cause="x"/>
+        <burial name="Joh Barkstey wife" date="1665-11-07" cause="x"/>
+        <burial name="Richard Hai-ris" date="1665-11-07" cause="plag"/>
+        <burial name="spurill wife" date="1665-11-09" cause="x"/>
+        <burial name="Margarit Stuckly" date="1665-11-01" cause="x"/>
+        <burial name="Margarit Co01eridg" date="1665-11-01" cause="plag"/>
+        <burial name="Rebecca Clinch" date="1665-11-14" cause="plag"/>
+        <burial name="John Wright" date="1665-11-15" cause="x"/>
+        <burial name="Mr Greshams maid" date="1665-11-15" cause="plag"/>
+        <burial name="Richard Brice" date="1665-11-18" cause="x"/>
+        <burial name="John Onley" date="1665-11-20" cause="x"/>
+        <burial name="Jone Tooley" date="1665-11-22" cause="x"/>
+        <burial name="Child" date="1665-11-25" cause="x"/>
+        <burial name="Child" date="1665-11-26" cause="x"/>
+        <burial name="John Bradbury" date="1665-11-28" cause="x"/>
+        <burial name="Elizab Michener" date="1665-11-29" cause="plag"/>
+        <burial name="John Wade" date="1665-11-30" cause="x"/>
+        <burial name="woman" date="1665-12-02" cause="x"/>
+        <burial name="Paleman Brumfiel Martin" date="1665-12-06" cause="plag"/>
+        <burial name="Aron Bedford" date="1665-12-06" cause="x"/>
+        <burial name="Mr nathanell Barker" date="1665-12-09" cause="x"/>
+        <burial name="Oliuer Broughton" date="1665-12-12" cause="x"/>
+        <burial name="Jeremiah Martin" date="1665-12-15" cause="plag"/>
+        <burial name="Ann Corney" date="1665-12-16" cause="plag"/>
+        <burial name="Saphia Maaxwell" date="1665-12-22" cause="x"/>
+        <burial name="Stephen Bradbury" date="1665-12-22" cause="x"/>
+        <burial name="Child" date="1665-12-20" cause="x"/>
+        <burial name="Jonathan Litton" date="1665-12-29" cause="x"/>
+    </burials> 
+    
+
+   <burials date-from="1666-01-01" date-to="1666-08-31">
+        <burial name="Isabella Chester" date="1666-01-01" cause="x"/>
+        <burial name="Mary Thomas" date="1666-01-08" cause="x"/>
+        <burial name="Ann Oakely" date="1666-01-09" cause="x"/>
+        <burial name="Thomas Bancks" date="1666-01-13" cause="x"/>
+        <burial name="Mr Richard Reene" date="1666-01-30" cause="x"/>
+        <burial name="Dauid Leaueston" date="1666-01-30" cause="x"/>
+        <burial name="Mary Pearce" date="1666-02-13" cause="x"/>
+        <burial name="Thom Windham" date="1666-02-26" cause="x"/>
+        <burial name="Susana Rober" date="1666-03-06" cause="x"/>
+        <burial name="Alice Arnold" date="1666-03-09" cause="x"/>
+        <burial name="Magdalin Carter" date="1666-03-10" cause="x"/>
+        <burial name="Person" date="1666-03-12" cause="x"/>
+        <burial name="Elizabeth Warin" date="1666-03-12" cause="x"/>
+        <burial name="Child" date="1666-03-18" cause="x"/>
+        <burial name="Child" date="1666-03-01" cause="x"/>
+        <burial name="Andrew Wall" date="1666-03-20" cause="x"/>
+        <burial name="Child" date="1666-03-28" cause="x"/>
+        <burial name="Hugh Cuffe" date="1666-04-04" cause="x"/>
+        <burial name="B Harris" date="1666-04-13" cause="x"/>
+        <burial name="Child" date="1666-04-28" cause="x"/>
+        <burial name="Mr Ather Broune" date="1666-05-03" cause="x"/>
+        <burial name="Elizabeth Mason" date="1666-05-06" cause="x"/>
+        <burial name="Auery" date="1666-05-09" cause="x"/>
+        <burial name="Wite" date="1666-05-09" cause="x"/>
+        <burial name="Samuell Nelson" date="1666-05-01" cause="x"/>
+        <burial name="Charles Carr" date="1666-05-26" cause="x"/>
+        <burial name="Alla Burton" date="1666-06-01" cause="x"/>
+        <burial name="John Mayden" date="1666-06-13" cause="x"/>
+        <burial name="Child" date="1666-06-13" cause="x"/>
+        <burial name="Samuell Christopher" date="1666-07-16" cause="x"/>
+        <burial name="Mary Medwin" date="1666-07-16" cause="x"/>
+        <burial name="Mary Tissiard" date="1666-07-25" cause="x"/>
+        <burial name="Child" date="1666-07-25" cause="plag"/>
+        <burial name="George Harrison" date="1666-07-25" cause="x"/>
+        <burial name="William Abraham" date="1666-07-27" cause="x"/>
+        <burial name="John Windham" date="1666-08-01" cause="x"/>
+        <burial name="Charles Terry" date="1666-08-04" cause="x"/>
+        <burial name="CHild" date="1666-08-05" cause="x"/>
+        <burial name="Wife" date="1666-08-07" cause="x"/>
+        <burial name="Segraue" date="1666-08-07" cause="x"/>
+        <burial name="Mary Terrey" date="1666-08-08" cause="x"/>
+        <burial name="Child" date="1666-08-13" cause="x"/>
+        <burial name="Edmond Kersey" date="1666-08-16" cause="x"/>
+        <burial name="Mary Alcock" date="1666-08-16" cause="x"/>
+        <burial name="Thomas Jackson" date="1666-08-23" cause="x"/>
+        <burial name="Edward Yarmoth" date="1666-08-29" cause="x"/>
+    </burials>     
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</register>

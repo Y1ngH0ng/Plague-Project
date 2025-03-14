@@ -24,7 +24,7 @@
     </burials>
     
     <burials date-from="1665-01-01" date-to="1665-12-31">
-        <burial name="William Mathewes (sometime sexton of ye parish)" date="1665-04-01" cause="x"/>
+        <burial name="William Mathewes" date="1665-04-01" cause="x"/> <!--wzh, sometime sexton of ye parish-->
         <burial name="Mary Daughter of Henery Hallsey" date="1665-04-15" cause="x"/>
         <burial name="Christopher ye son of Christopher Marsham" date="1665-04-19" cause="x"/>
         <burial name="tfrances Duckett widow" date="1665-04-28" cause="x"/>
@@ -47,9 +47,9 @@
         <burial name="Hannah Standbridge" date="1665-09-17" cause="x"/>
         <burial name="Henery Sutton ffre of ye Companie of Joyners" date="1665-09-21" cause="plague"/>
         <burial name="Samuel Browne free of ye Companie of Stationers" date="1665-09-21" cause="plague"/>
-        <burial name="Henery son of Hen:Sutton (Lately Deceased)" date="1665-09-23" cause="plague"/>
-        <burial name="Jane wife of Samuel Browne(Lately Deceased)" date="1665-09-24" cause="plague"/>
-        <burial name="William son of Thomas Lowe (deceased)" date="1665-09-24" cause="plague"/>
+        <burial name="Henery son of Hen:Sutton" date="1665-09-23" cause="plague"/>
+        <burial name="Jane wife of Samuel Browne" date="1665-09-24" cause="plague"/>
+        <burial name="William son of Thomas Lowe" date="1665-09-24" cause="plague"/>
         <burial name="Robert Mickell free scrivener" date="1665-09-25" cause="plague"/>
         <burial name="Susanna Killingley servant to Mr Pountney" date="1665-10-01" cause="plague"/>
         <burial name="Sarah Standbridge daughter to Sarah Standbridge widdow" date="1665-10-01" cause="plague"/>
@@ -65,7 +65,7 @@
         <burial name="Martha Burton daughter of firancis and Mary Burton" date="1665-10-16" cause="plague"/>
         <burial name="Daniell Lingar" date="1665-10-21" cause="plague"/>
         <burial name="Elizabeth Lingar" date="1665-11-02" cause="plague"/>
-        <burial name="Joane Light (servant to Alderm Bainbrigg Deed)" date="1665-11-05" cause="plague"/>
+        <burial name="Joane Light" date="1665-11-05" cause="plague"/> <!--wzh,servant to Alderm Bainbrigg Deed-->
         <burial name="Rebecca Walker wife of Willm Walker" date="1665-11-08" cause="plague"/>
         <burial name="Matthew Son of Willm Bate" date="1665-12-03" cause="dropsie"/>
         <burial name="Clement Egleston Cittizen and Grocer" date="1665-12-05" cause="plague"/>

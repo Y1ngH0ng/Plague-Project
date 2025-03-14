@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Bills-Mortality-Revised-Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="Bills-Mortality-Revised-Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <bill week="24" date-from="1665-05-30"> <!--note Old Style dates: 1 Jan. to 25 March 1665 are called 1664; call them 1665 here-->
     <encoder name="Logan Jennings"/> <!-- Students opted in or out of having their names included as contributors. They were made aware that these files would be published online. -->
 

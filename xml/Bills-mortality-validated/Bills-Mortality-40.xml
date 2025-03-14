@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Bills-Mortality-Revised-Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<bill week="40" date-from="1665-09-19"> <!--note Old Style dates: 1 Jan. to 25 March 1665 are called 1664; call them 1665 here-->
+    <encoder name="anonymous"/> <!-- Students opted in or out of having their names included as contributors. They were made aware that these files would be published online. -->
+
+    <source href="https://wellcomecollection.org/works/bqxkq9yy/items"/>
+    <page n="1">
+        <parishes loc="within-the-walls">
+            <parish name="St-Alban-Woodstreet" bur="10" plag="5"/>
+            <parish name="Alhallows-Barking" bur="52" plag="41"/>
+            <parish name="Alhallows-Breadstreet" bur="3" plag="3"/>
+            <parish name="Alhallows-Great" bur="64" plag="59"/>
+            <parish name="Alhallows-Honylane" bur="1" plag="1"/>
+            <parish name="Alhallows-Lesse" bur="25" plag="24"/>
+            <parish name="Alhallows-Lumbardstreet" bur="11" plag="10"/>
+            <parish name="Alhallows-Stayning" bur="16" plag="11"/>
+            <parish name="Alhallows-the-Wall" bur="41" plag="35"/>
+            <parish name="St-Alphage" bur="11" plag="3"/>
+            <parish name="St-Andrew-Hubbard" bur="3" plag="0"/>
+            <parish name="St-Andrew-Undershaft" bur="26" plag="22"/>
+            <parish name="St-Andrew-Wardrobe" bur="50" plag="37"/>
+            <parish name="St-Ann-Aldersgate" bur="20" plag="16"/>
+            <parish name="St-Ann-Blackfriars" bur="39" plag="31"/>
+            <parish name="St-Antholins" bur="8" plag="7"/>
+            <parish name="St-Austins" bur="5" plag="3"/>
+            <parish name="St-Bartholomew-Exchange" bur="6" plag="6"/>
+            <parish name="St-Bennet-Fynck" bur="2" plag="0"/>
+            <parish name="St-Bennet-Gracechurch" bur="3" plag="2"/>
+            <parish name="St-Bennet-Paulswharf" bur="30" plag="19"/>
+            <parish name="St-Bennet-Sherehog" bur="1" plag="0"/>
+            <parish name="St-Botolph-Billingsgate" bur="3" plag="2"/>
+            <parish name="Christ-Church" bur="49" plag="43"/>
+            <parish name="St-Christophers" bur="6" plag="6"/>
+            <parish name="St-Clement-Eastcheap" bur="1" plag="1"/>
+            <parish name="St-Dionis-Backchurch" bur="5" plag="2"/>
+            <parish name="St-Dunstan-East" bur="21" plag="17"/>
+            <parish name="St-Edmund-Lumbardstreet" bur="5" plag="3"/>
+            <parish name="St-Ethelborough" bur="11" plag="7"/>
+            <parish name="St-Faith" bur="13" plag="10"/>
+            <parish name="St-Foster" bur="10" plag="9"/>
+            <parish name="St-Gabriel-Fenchurch" bur="7" plag="6"/>
+            <!--column 2 begins-->
+            <parish name="St-George-Botolphlane" bur="2" plag="0"/>
+            <parish name="St-Gregory-by-St-Pauls" bur="31" plag="26"/>
+            <parish name="St-Hellen" bur="4" plag="3"/>
+            <parish name="St-James-Dukes-place" bur="24" plag="21"/>
+            <parish name="St-James-Garlickhithe" bur="14" plag="10"/>
+            <parish name="St-John-Baptist" bur="10" plag="7"/>
+            <parish name="St-John-Evangelist" bur="0" plag="0"/>
+            <parish name="St-John-Zachary" bur="9" plag="7"/>
+            <parish name="St-Katherine-Coleman" bur="36" plag="35"/>
+            <parish name="St-Katherine-Crochurch" bur="30" plag="20"/>
+            <parish name="St-Lawrence-Jewry" bur="7" plag="5"/>
+            <parish name="St-Lawrence-Pountney" bur="17" plag="14"/>
+            <parish name="St-Leonard-Eastcheap" bur="3" plag="2"/>
+            <parish name="St-Leonard-Fosterlane" bur="30" plag="27"/>
+            <parish name="St-Magnus" bur="3" plag="1"/>
+            <parish name="St-Margaret-Lothbury" bur="6" plag="5"/>
+            <parish name="St-Margaret-Moses" bur="3" plag="3"/>
+            <parish name="St-Margaret-Newfishstreet" bur="7" plag="7"/>
+            <parish name="St-Margaret-Pattons" bur="5" plag="4"/>
+            <parish name="St-Mary-Abchurch" bur="6" plag="4"/>
+            <parish name="St-Mary-Aldermanbury" bur="19" plag="15"/>
+            <parish name="St-Mary-Aldermary" bur="13" plag="12"/>
+            <parish name="St-Mary-le-Bow" bur="3" plag="1"/>
+            <parish name="St-Mary-Bothaw" bur="1" plag="0"/>
+            <parish name="St-Mary-Colechurch" bur="3" plag="2"/>
+            <parish name="St-Mary-Hill" bur="5" plag="4"/>
+            <parish name="St-Mary-Mounthaw" bur="3" plag="3"/>
+            <parish name="St-Mary-Sommerset" bur="30" plag="26"/>
+            <parish name="St-Mary-Stayning" bur="8" plag="6"/>
+            <parish name="St-Mary-Woolchurch" bur="6" plag="6"/>
+            <parish name="St-Mary-Woolnoth" bur="11" plag="6"/>
+            <parish name="St-Martin-Iremongerlane" bur="2" plag="2"/>
+            <!--column 3 begins-->
+            <parish name="St-Martin-Ludgate" bur="27" plag="20"/>
+            <parish name="St-Martin-Orgars" bur="8" plag="3"/>
+            <parish name="St-Martin-Outwitch" bur="5" plag="5"/>
+            <parish name="St-Martin-Vintrey" bur="38" plag="36"/>
+            <parish name="St-Matthew-Fridaystreet" bur="1" plag="0"/>
+            <parish name="St-Maudlin-Milkstreet" bur="2" plag="1"/>
+            <parish name="St-Maudlin-Oldfishstreet" bur="10" plag="8"/>
+            <parish name="St-Michael-Bassishaw" bur="18" plag="16"/>
+            <parish name="St-Michael-Cornhill" bur="7" plag="5"/>
+            <parish name="St-Michael-Crookedlane" bur="15" plag="13"/>
+            <parish name="St-Michael-Queenhithe" bur="12" plag="10"/>
+            <parish name="St-Michael-Quern" bur="4" plag="3"/>
+            <parish name="St-Michael-Royal" bur="14" plag="12"/>
+            <parish name="St-Michael-Woodstreet" bur="9" plag="5"/>
+            <parish name="St-Mildred-Breadstreet" bur="1" plag="1"/>
+            <parish name="St-Mildred-Poultrey" bur="4" plag="4"/>
+            <parish name="St-Nicholas-Acons" bur="7" plag="5"/>
+            <parish name="St-Nicholas-Coleabby" bur="14" plag="14"/>
+            <parish name="St-Nicholas-Olaves" bur="7" plag="4"/>
+            <parish name="St-Olave-Hartstreet" bur="20" plag="19"/>
+            <parish name="St-Olave-Jewry" bur="1" plag="1"/>
+            <parish name="St-Olave-Silverstreet" bur="9" plag="7"/>
+            <parish name="St-Pancras-Soperlane" bur="4" plag="3"/>
+            <parish name="St-Peter-Cheap" bur="6" plag="5"/>
+            <parish name="St-Peter-Cornhill" bur="10" plag="10"/>
+            <parish name="St-Peter-Paulswharf" bur="15" plag="11"/>
+            <parish name="St-Peter-Poor" bur="8" plag="6"/>
+            <parish name="St-Steven-Colemanstreet" bur="56" plag="51"/>
+            <parish name="St-Steven-Walbrook" bur="3" plag="2"/>
+            <parish name="St-Swithin" bur="7" plag="6"/>
+            <parish name="St-Thomas-Apostles" bur="7" plag="5"/>
+            <parish name="Trinity-Parish" bur="10" plag="9"/>
+            <burials total="1268" plague="1025"/>
+        </parishes>
+        <parishes loc="without-walls-and-pesthouse">
+            <parish name="St-Andrew-Holborn" bur="202" plag="184"/>
+            <parish name="St-Bartholomew-Great" bur="20" plag="16"/>
+            <parish name="St-Bartholomew-Lesse" bur="11" plag="11"/>
+            <parish name="St-Bridget" bur="117" plag="91"/>
+            <parish name="Bridewel-Precinct" bur="26" plag="24"/>
+            <parish name="St-Botolph-Aldergate" bur="67" plag="64"/>
+            <!--column 2 begins-->
+            <parish name="St-Botolph-Aldgate" bur="469" plag="433"/>
+            <parish name="St-Botolph-Bishopsgate" bur="186" plag="145"/>
+            <parish name="St-Dunstan-West" bur="72" plag="58"/>
+            <parish name="St-George-Southwark" bur="153" plag="137"/>
+            <parish name="St-Giles-Cripplegate" bur="277" plag="225"/>
+            <parish name="St-Olave-Southwark" bur="472" plag="324"/>
+            <!--column 3 begins-->
+            <parish name="Saviours-Southwark" bur="356" plag="341"/>
+            <parish name="S-Sepulchres" bur="193" plag="138"/>
+            <parish name="St-Thomas-Southwark" bur="39" plag="36"/>
+            <parish name="Trinity-Minories" bur="21" plag="18"/>
+            <parish name="At-the-Pesthouse" bur="7" plag="7"/>
+            <burials total="2688" plague="2252"/>
+        </parishes>
+        <parishes loc="middlesex-and-surrey">
+            <parish name="St-Giles-in-the-Fields" bur="119" plag="107"/>
+            <parish name="Hackney" bur="8" plag="6"/>
+            <parish name="St-James-Clerkenwel" bur="76" plag="64"/>
+            <parish name="St-Kath.-near-the-Tower" bur="78" plag="62"/>
+            <!--column 2 begins-->
+            <parish name="Lambeth" bur="46" plag="40"/>
+            <parish name="St-Leonard-Shoreditch" bur="146" plag="138"/>
+            <parish name="St-Magdalen-Bermondsey" bur="201" plag="174"/>
+            <parish name="St-Mary-Newington" bur="94" plag="94"/>
+            <!--column 3 begins-->
+            <parish name="St-Mary-Islington" bur="44" plag="41"/>
+            <parish name="St-Mary-Whitechappel" bur="346" plag="320"/>
+            <parish name="Rothorith" bur="20" plag="18"/>
+            <parish name="Stepney" bur="616" plag="579"/>
+            <burials total="1794" plague="1643"/>
+        </parishes>
+        <parishes loc="city-and-liberties-Westminster">
+            <parish name="St-Clement-Danes" bur="152" plag="128"/>
+            <parish name="St-Paul-Covent-Garden" bur="19" plag="18"/>
+            <!--column 2 begins-->
+            <parish name="St-Martin-in-the-Fields" bur="219" plag="171"/>
+            <parish name="St-Mary-Savoy" bur="20" plag="13"/>
+            <!--column 3 begins-->
+            <parish name="St-Margaret-Westminster" bur="300" plag="283"/>
+            <parish name="Whereof-at-the-Pesthouse" bur="0" plag="11"/>
+            <burials total="710" plague="613"/>
+        </parishes>
+    </page>
+
+    <page n="2">
+        <title>The Diseases and Casualties this Week</title>
+        <deaths-by-cause>
+            <!--if a particular cause is not listed that week, fill in count="0"-->
+            <!--I went through weeks 1 to 13 and this is all the causes listed there, but other causes likely appear: these must be added below with
+            consistent naming-->
+            <item cause="Abortive" count="6"/>
+            <item cause="Aged" count="50"/>
+            <item cause="Ague" count="1"/>
+            <item cause="Apoplexie" count="2"/>
+            <item cause="Bedridden" count="0"/>
+            <item cause="Bleeding" count="0"/>
+            <item cause="Bloody_flux" count="0"/>
+            <item cause="Bruised" count="0"/>
+            <item cause="Burnt" count="0"/>
+            <item cause="Cancer" count="0"/> <!--may be spelled Canker-->
+            <item cause="Childbed" count="42"/>
+            <item cause="Chrisomes" count="11"/>
+            <item cause="Cold" count="1"/>
+            <item cause="Colick" count="0"/>
+            <item cause="Consumption" count="99"/>
+            <item cause="Convulsion" count="63"/>
+            <item cause="Cough" count="1"/>
+            <item cause="Distracted" count="0"/>
+            <item cause="Dropsie" count="22"/>
+            <item cause="Drowned" count="1"/> <!--may indicate circumstances and location; fill in only total number here-->
+            <item cause="Executed" count="0"/>
+            <item cause="Feaver" count="268"/>
+            <item cause="Fistula" count="2"/>
+            <item cause="Flox_and_Small-pox" count="4"/>
+            <item cause="Flux" count="1"/>
+            <item cause="Found_dead" count="1"/>
+            <item cause="French-pox" count="0"/>
+            <item cause="Gangrene" count="0"/>
+            <item cause="Gowt" count="1"/>
+            <item cause="Grief" count="3"/>
+            <item cause="Griping_in_the_Guts" count="35"/>
+            <item cause="Hanged" count="0"/>
+            <item cause="Headache" count="0"/>
+            <item cause="Head-mould-shot" count="0"/>
+            <item cause="Imposthume" count="0"/>
+            <item cause="Jaundies" count="2"/>
+            <item cause="Infants" count="9"/>
+            <item cause="Killed" count="0"/> <!--often includes descriptions and locations of individual accidents; give only total number here-->
+            <item cause="Kingsevil" count="2"/>
+            <item cause="Lethargy" count="0"/>
+            <item cause="Livergrown" count="0"/>
+            <item cause="Measles" count="0"/>
+            <item cause="Meagrome" count="2"/>
+            <item cause="Mother" count="0"/>
+            <item cause="Mouldfallen" count="0"/>
+            <item cause="Murthered" count="0"/> <!-- i.e. murdered; often includes descriptions and locations of individual incidents; give only total number here-->
+            <item cause="Overlaid" count="0"/>
+            <item cause="Palsie" count="0"/>
+            <item cause="Plague" count="5533"/>
+            <item cause="Plurisie" count="2"/>
+            <item cause="Poisoned" count="0"/>  <!--often includes descriptions and locations of individual incidents; give only total number here-->
+            <item cause="Quinsie" count="0"/>
+            <item cause="Rickets" count="10"/>
+            <item cause="Rising_of_the_Lights" count="13"/>
+            <item cause="Rupture" count="1"/>
+            <item cause="Scalded" count="0"/>
+            <item cause="Sciatica" count="0"/>
+            <item cause="Scowring" count="0"/>
+            <item cause="Scurvy" count="5"/>
+            <item cause="Sore_Brest" count="0"/>
+            <item cause="Sore_legge" count="0"/>
+            <item cause="Sore_mouth" count="0"/>
+            <item cause="Spleen" count="0"/>
+            <item cause="Spotted_Feaver" count="65"/>
+            <item cause="Starved" count="0"/>
+            <item cause="Stilborn" count="10"/>
+            <item cause="Stone" count="3"/>
+            <item cause="Stopping_of_the_stomach" count="6"/>
+            <item cause="Stranguary" count="0"/>
+            <item cause="Suddenly" count="1"/>
+            <item cause="Surfeit" count="36"/>
+            <item cause="Teeth" count="112"/>
+            <item cause="Thrush" count="3"/>
+            <item cause="Timpany" count="0"/>
+            <item cause="Tissick" count="5"/>
+            <item cause="Ulcer" count="0"/>
+            <item cause="Vomiting" count="4"/>
+            <item cause="Winde" count="1"/>
+            <item cause="Wormes" count="12"/>
+            <!--use additional item lines as necessary for causes not listed above-->
+            <item cause="Frighted" count="1"/>
+
+        </deaths-by-cause>
+
+        <summary>
+            <christenings males="68" females="78" total="146"/>
+            <burials males="3212" females="3248" total="6460" plague="5533"/>
+            <burial-trend count="-1837"/>   <!--use positive number for increase, negative for decrease-->
+            <parishes clear-of-plague="7" infected="123"/>
+        </summary>
+    </page>
+
+</bill>

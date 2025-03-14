@@ -1,0 +1,35 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start=bill
+bill = element bill {week, date-from, encoder, source, page+}
+week = attribute week {xsd:integer}
+date-from = attribute date-from {text}
+encoder = element encoder {name}
+name=attribute name {text}
+source = element source {href}
+href = attribute href {text}
+page = element page {n, (parishes|title|deaths-by-cause|summary)+}
+n = attribute n {xsd:integer}
+parishes = element parishes {(loc | parish | burials | clear-of-plague | infected)+}
+loc = attribute loc {text}
+parish = element parish {name, bur, plag}
+bur = attribute bur {xsd:integer}
+plag = attribute plag {xsd:integer}
+burials = element burials {(males | females | total | plague)+}
+total = attribute total {xsd:integer}
+plague = attribute plague {xsd:integer}
+title = element title {text}
+deaths-by-cause = element deaths-by-cause {item+}
+item = element item {cause, count}
+cause = attribute cause {text}
+count = attribute count {xsd:integer}
+summary = element summary {christenings, burials, burial-trend, parishes}
+clear-of-plague = attribute clear-of-plague {xsd:integer}
+infected = attribute infected {xsd:integer}
+christenings = element christenings {males, females, total}
+burial-trend = element burial-trend {count}
+males = attribute males {xsd:integer}
+females = attribute females {xsd:integer}
+
+
+

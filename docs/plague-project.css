@@ -1,4 +1,14 @@
 body
 {
     background-image: url('Projectbackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Makes sure the background covers the full viewport height */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; /* Adjust text color for visibility */
+    text-align: center
 }

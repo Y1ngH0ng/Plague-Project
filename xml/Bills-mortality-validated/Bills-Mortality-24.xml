@@ -127,7 +127,7 @@
             <parish name="St-Thomas-Southwark" bur="5" plag="0"/>
             <parish name="Trinity-Minories" bur="0" plag="0"/>
             <parish name="At-the-Pesthouse" bur="0" plag="0"/>
-            <burials total="135" plague="10"/>
+            <burials total="135" plague="5"/>
         </parishes>
         <parishes loc="middlesex-and-surrey">
             <parish name="St-Giles-in-the-Fields" bur="74" plag="31"/>
@@ -252,7 +252,7 @@
 
         <summary>
             <christenings males="119" females="115" total="234"/>
-            <burials males="211" females="194" total="405" plague="43"/>
+            <burials males="211" females="194" total="405" plague="38"/>
             <burial-trend count="5"/>   <!--use positive number for increase, negative for decrease-->
             <parishes clear-of-plague="123" infected="7"/>
         </summary>

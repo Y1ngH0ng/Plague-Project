@@ -20,11 +20,20 @@ return $name-list=>string-join('&#xa;'):)
 
 (:This works and gives me the names in a list form but the last attemtpt will not work:)
 (:Here I was tryig to build a list of Parish names and plag numbers on Bills of Mort 24 and it did not work:)
-let $parname:=//parish/@name
-let $plag:=//parish/@plag
-let $name-list:=$parname
-let $plagcount:=$plag
+(:let $pars:=//parish
+for $par in $pars
+let $plag:=$par/@plag
+let $parname:=$par/@name
 
-return concat($name-list,'had plag numbers', $plagcount,'&#xa;')
+
+return concat($parname,' had plag numbers ', $plag ,'&#xa;'):)
+
+let $pars:=//parish
+let $plagtotal:=//parish/@plag=>sum()
+for $par in $pars
+let $plag:=$par/@plag
+
+return $plagtotal
+
 
 

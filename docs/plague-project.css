@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('Projectbackground.png');
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,6 +9,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black; /* Adjust text color for visibility */
+    color: white; /* Adjust text color for visibility */
     text-align: center
 }

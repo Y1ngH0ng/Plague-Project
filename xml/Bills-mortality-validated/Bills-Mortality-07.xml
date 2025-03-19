@@ -155,7 +155,7 @@
             <!--column 3 begins-->
             <parish name="St-Margaret-Westminster" bur="18" plag="0"/>
             <parish name="Whereof-at-the-Pesthouse" bur="0" plag="0"/>
-            <burials total="64" plague="0"/>
+            <burials total="64" plague="3"/>
         </parishes>
     </page>
 
@@ -250,7 +250,7 @@
 
         <summary>
             <christenings males="103" females="118" total="221"/>
-            <burials males="198" females="195" total="393" plague="0"/>
+            <burials males="198" females="195" total="393" plague="3"/>
             <burial-trend count="-16"/>   <!--use positive number for increase, negative for decrease-->
             <parishes clear-of-plague="130" infected="0"/>
         </summary>

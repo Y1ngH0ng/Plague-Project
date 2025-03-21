@@ -1,8 +1,7 @@
 xquery version "3.1";
+declare option saxon:output "method=html";
+declare variable $allDocs := collection('../xml/Parish_Registers/?select=*.xml');  
 
-declare variable $allDocs := collection('../Plague-Project/xquery/jw-xquery2/?select=*.xml');
-for $b in //burial
-return 
 <html>
   <head>
     <title>Burial Summary</title>
@@ -18,7 +17,11 @@ return
         <th>Cause of Death</th>
         <th>Count</th>
       </tr>
-      {
+{
+(: for $b in //burial
+return  :)
+
+      
         for $cause in distinct-values($allDocs//burial/@cause)
         let $count := count($allDocs//burial[@cause = $cause])
         order by $count descending

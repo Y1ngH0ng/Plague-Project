@@ -1,5 +1,6 @@
 xquery version "3.1";
-declare variable $allDocs := collection('Plague-Project/Xquery/?select=*.xml');
+
+declare variable $allDocs := collection('../Plague-Project/xquery/jw-xquery2/?select=*.xml');
 for $b in //burial
 return 
 <html>
@@ -9,7 +10,7 @@ return
   <body>
     <h2>Burial Summary</h2>
     
-    <p><strong>Total Deaths:</strong> {count(//burial)}</p>
+    <p>Total Deaths: {count($allDocs//burial)}</p>
 
     <h3>Causes of Death Breakdown</h3>
     <table border="1">
@@ -18,8 +19,8 @@ return
         <th>Count</th>
       </tr>
       {
-        for $cause in distinct-values(//burial/@cause)
-        let $count := count(//burial[@cause = $cause])
+        for $cause in distinct-values($allDocs//burial/@cause)
+        let $count := count($allDocs//burial[@cause = $cause])
         order by $count descending
         return 
           <tr>

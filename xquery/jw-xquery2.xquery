@@ -1,4 +1,5 @@
 xquery version "3.1";
+
 for $b in //burial
 return 
 <html>

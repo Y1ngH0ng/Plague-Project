@@ -1,14 +1,13 @@
 xquery version "3.1";
-
+declare option saxon:output "method=html";
 declare variable $source-files := collection('../XML/Bills-mortality-validated/?select=*.xml');
 declare variable $Bills-mort-27 := doc('../XML/Bills-mortality-validated/Bills-Mortality-27.xml');
-
 let $doc := $Bills-mort-27
 let $parishes := $doc//parish
 let $total-plague := sum($parishes/@plag)
 
 return 
-    <result>
+    <table>
         <total-plague>{$total-plague}</total-plague>
         {
             for $parish in $parishes
@@ -16,7 +15,7 @@ return
             order by $parish/@plag descending
             return <parish name="{$parish/@name}" plague-count="{$parish/@plag}"/>
         }
-    </result>
+    </table>
 
 
 (:let $pars:=//parish

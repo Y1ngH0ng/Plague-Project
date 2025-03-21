@@ -1,5 +1,4 @@
 xquery version "3.1";
-declare variable $allDocs := collection('Plague-Project/Xquery/?select=*.xml');
 for $b in //burial
 return 
 <html>

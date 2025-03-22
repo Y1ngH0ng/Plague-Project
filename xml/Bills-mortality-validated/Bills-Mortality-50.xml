@@ -157,7 +157,7 @@
             <burials total="58" plague="32"/>
         </parishes>
     </page>
-
+    
     <page n="2">
         <title>The Diseases and Casualties this Week</title>
         <deaths-by-cause>
@@ -200,14 +200,14 @@
             <item cause="Ulcer" count="1"/>
             <item cause="Wormes" count="2"/>
         </deaths-by-cause>
-
+        
         <summary>
-          
+            
             <christenings males="59" females="64" total="123"/>
             <burials males="211" females="217" total="428" plague="210"/>
             <burial-trend count="116"/> 
             <parishes clear-of-plague="82" infected="48"/>
         </summary>
     </page>
-
+    
 </bill>

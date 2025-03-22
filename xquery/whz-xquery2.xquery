@@ -23,4 +23,3 @@ for $par in $pars
 let $plag:=$par/@plag
 let $parname:=$par/@name
 return concat($parname,' had plag numbers ', $plag ,'&#xa;'):)
-

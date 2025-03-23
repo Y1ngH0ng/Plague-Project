@@ -1,5 +1,6 @@
 xquery version "3.0";
-declare variable $bills := collection('./Bills-mortality-validated')//bill[@week];
+declare variable $bills := collection('../XML/Bills-mortality-validated/?select=*.xml')
+//bill[@week];
 declare variable $parish-registers := collection('./Bills-mortality-validated')/register;
 declare variable $parish-registers-with-causes := $parish-registers[.//burial/@cause];
 declare variable $parish-registers-no-causes := $parish-registers[.//burial/not(@cause)];

@@ -7,19 +7,22 @@ declare variable $source-files:=collection('../XML/Bills-mortality-validated/?se
 <body>
 <table>
 <tr><th>Name</th><th>Plag count</th><th>Week #</th></tr>
-{let $pars:=$source-files//parish
+
+{let $bills:= $source-files/bill
+for $bill in $bills
+let $pars:=$source-files//parish
 let $weeks:=$source-files//bill
 let $weeknums:=$weeks
 for $par in $pars
 let $plag:=$par/data(@plag)
 let $parname:=$par/string(@name)
 for $weeknum in $weeknums
-(:let $weeknum:=$weeks/data(@week):)
+let $weeknum:=$weeks/data(@week)
 
 
 
 (: I get this to generate an HTMl Table of all the bills with plag counts and parish names. I just cannot get the week count to show up. Also I was trying to alphabetize it but could not get it to work:)
-return <tr><td>{$parname}</td><td>{$plag}</td><td>{(:$weeknum:)}</td></tr> }
+return <tr><td>{$parname}</td><td>{$plag}</td><td>{$weeknum}</td></tr> }
 
 </table>
 </body>

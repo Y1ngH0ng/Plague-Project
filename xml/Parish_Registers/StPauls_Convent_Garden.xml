@@ -54,7 +54,7 @@
         <burial name="Henry Frogmorton" date="1664-03-28" cause="x"/>
         <burial name="Elizabeth Haukesworth" date="1664-04-03" cause="x"/>
         <burial name="Katherine Lucas" date="1664-04-06" cause="x"/>
-        <burial name="Child" date="1664-04-12" cause="still borne"/>
+        <burial name="Child" date="1664-04-12" cause="stillborn"/>
         <burial name="Eliz" date="1664-04-13" cause="x"/>
         <burial name="Stephen Broughten" date="1664-04-16" cause="x"/>
         <burial name="Fraunces May" date="1664-04-17" cause="x"/>
@@ -126,9 +126,9 @@
         <burial name="Walter Doods" date="1664-12-23" cause="x"/>
     </burials> 
   <burials date-from="1665-01-01" date-to="1665-12-31">
-        <burial name="Child" date="1665-01-06" cause="still borne"/>
+        <burial name="Child" date="1665-01-06" cause="stillborn"/>
         <burial name="Child" date="1665-01-06" cause="x"/>
-        <burial name="Child" date="1665-01-08" cause="still borne"/>
+        <burial name="Child" date="1665-01-08" cause="stillborn"/>
         <burial name="Jane Sweetaple" date="1665-01-10" cause="x"/>
         <burial name="Jane Martin" date="1665-01-11" cause="x"/>
         <burial name="Patrick Branden Laday Clanrickards Seruant" date="1665-01-14" cause="x"/>
@@ -146,7 +146,7 @@
         <burial name="Mary Smith" date="1665-02-16" cause="x"/>
         <burial name="Samuell Smith" date="1665-02-17" cause="x"/>
         <burial name="Richard Waite" date="1665-02-20" cause="x"/>
-        <burial name="Child" date="1665-02-20" cause="still borne"/>
+        <burial name="Child" date="1665-02-20" cause="stillborn"/>
         <burial name="Mr Edward Jonson" date="1665-02-21" cause="x"/>
         <burial name="Mr John Hoskins" date="1665-02-22" cause="x"/>
         <burial name="Ann Bourne" date="1665-02-25" cause="x"/>

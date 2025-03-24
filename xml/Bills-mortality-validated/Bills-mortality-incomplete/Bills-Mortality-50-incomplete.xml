@@ -5,65 +5,65 @@
     <source href="https://wellcomecollection.org/works/bqxkq9yy/items"/>
     <page n="1">
         <parishes loc="within-the-walls">
-            <parish name="St-Alban-Woodstreet" bur="x" plag="x"/>
-            <parish name="Alhallows-Barking" bur="x" plag="x"/>
-            <parish name="Alhallows-Breadstreet" bur="x" plag="x"/>
-            <parish name="Alhallows-Great" bur="1" plag="x"/>
-            <parish name="Alhallows-Honylane" bur="x" plag="x"/>
-            <parish name="Alhallows-Lesse" bur="4" plag="x"/>
-            <parish name="Alhallows-Lumbardstreet" bur="x" plag="x"/>
-            <parish name="Alhallows-Stayning" bur="3" plag="x"/>
-            <parish name="Alhallows-the-Wall" bur="1" plag="x"/>
-            <parish name="St-Alphage" bur="1" plag="x"/>
-            <parish name="St-Andrew-Hubbard" bur="1" plag="x"/>
-            <parish name="St-Andrew-Undershaft" bur="1" plag="x"/>
-            <parish name="St-Andrew-Wardrobe" bur="x" plag="x"/>
-            <parish name="St-Ann-Aldersgate" bur="x" plag="x"/>
-            <parish name="St-Ann-Blackfriars" bur="3" plag="1"/>
-            <parish name="St-Antholins" bur="x" plag="x"/>
-            <parish name="St-Austins" bur="1" plag="x"/>
-            <parish name="St-Bartholomew-Exchange" bur="1" plag="1"/>
-            <parish name="St-Bennet-Fynck" bur="x" plag="x"/>
-            <parish name="St-Bennet-Gracechurch" bur="1" plag="1"/>
-            <parish name="St-Bennet-Paulswharf" bur="2" plag="x"/>
-            <parish name="St-Bennet-Sherehog" bur="x" plag="x"/>
-            <parish name="St-Botolph-Billingsgate" bur="x" plag="x"/>
-            <parish name="Christ-Church" bur="x" plag="x"/>
-            <parish name="St-Christophers" bur="1" plag="x"/>
-            <parish name="St-Clement-Eastcheap" bur="x" plag="x"/>
-            <parish name="St-Dionis-Backchurch" bur="x" plag="x"/>
-            <parish name="St-Dunstan-East" bur="2" plag="2"/>
-            <parish name="St-Edmund-Lumbardstreet" bur="x" plag="x"/>
-            <parish name="St-Ethelborough" bur="x" plag="x"/>
-            <parish name="St-Faith" bur="2" plag="1"/>
-            <parish name="St-Foster" bur="x" plag="x"/>
-            <parish name="St-Gabriel-Fenchurch" bur="1" plag="x"/>
+            <parish name="St-Alban-Woodstreet" alt="St Alban Woodstrt" bur="x" plag="x"/>
+            <parish name="Alhallows-Barking" alt="Allhallows Barking" bur="x" plag="x"/>
+            <parish name="Alhallows-Breadstreet" alt="All Hallows Bread Str" bur="x" plag="x"/>
+            <parish name="Alhallows-Great" alt="Allhallows ye great" bur="1" plag="x"/>
+            <parish name="Alhallows-Honylane" alt="Alhallows Hony Lane" bur="x" plag="x"/>
+            <parish name="Alhallows-Lesse" alt= "Allhallows ye less" bur="4" plag="x"/>
+            <parish name="Alhallows-Lumbardstreet" alt="Allhallows Lumbard Str" bur="x" plag="x"/>
+            <parish name="Alhallows-Stayning" alt="Allhallows Staining" bur="3" plag="x"/>
+            <parish name="Alhallows-the-Wall" alt="Allhallows the Wall" bur="1" plag="x"/>
+            <parish name="St-Alphage" alt="St Alphage" bur="1" plag="x"/>
+            <parish name="St-Andrew-Hubbard" alt="St Andrew Hubbard" bur="1" plag="x"/>
+            <parish name="St-Andrew-Undershaft" alt="St Andrew Undersh" bur="1" plag="x"/>
+            <parish name="St-Andrew-Wardrobe" alt="St Andrew Wardrobe" bur="x" plag="x"/>
+            <parish name="St-Ann-Aldersgate" alt="St Ann Aldersgate" bur="x" plag="x"/>
+            <parish name="St-Ann-Blackfriars" alt="St Ann Blackfriers" bur="3" plag="1"/>
+            <parish name="St-Antholins" alt="St Antholins" bur="x" plag="x"/>
+            <parish name="St-Austins" alt="St Austin" bur="1" plag="x"/>
+            <parish name="St-Bartholomew-Exchange" alt="St Batholomw Exchan" bur="1" plag="1"/>
+            <parish name="St-Bennet-Fynck" alt="St Bennet Fink" bur="x" plag="x"/>
+            <parish name="St-Bennet-Gracechurch" alt="St Bennet Gracech" bur="1" plag="1"/>
+            <parish name="St-Bennet-Paulswharf" alt="St Bennt Pauls wharf" bur="2" plag="x"/>
+            <parish name="St-Bennet-Sherehog" alt="St Bennet Sherehog" bur="x" plag="x"/>
+            <parish name="St-Botolph-Billingsgate" alt="St Botolph Bps gate" bur="x" plag="x"/>
+            <parish name="Christ-Church" alt="Christ church" bur="x" plag="x"/>
+            <parish name="St-Christophers" alt="St Christophers" bur="1" plag="x"/>
+            <parish name="St-Clement-Eastcheap" alt="St Clement Eastcheap" bur="x" plag="x"/>
+            <parish name="St-Dionis-Backchurch" alt="St Dionis Backchurch" bur="x" plag="x"/>
+            <parish name="St-Dunstan-East" alt="St Dunstan East" bur="2" plag="2"/>
+            <parish name="St-Edmund-Lumbardstreet" alt="St Edmund Lumbd St" bur="x" plag="x"/>
+            <parish name="St-Ethelborough" alt="St Ethelborough" bur="x" plag="x"/>
+            <parish name="St-Faith"  alt="St Faith"bur="2" plag="1"/>
+            <parish name="St-Foster" alt="tbd" bur="x" plag="x"/>
+            <parish name="St-Gabriel-Fenchurch" alt="St Gabrll Fenchurch" bur="1" plag="x"/>
             <!--column 2 begins-->
-            <parish name="St-George-Botolphlane" bur="x" plag="x"/>
-            <parish name="St-Gregory-by-St-Pauls" bur="1" plag="x"/>
-            <parish name="St-Hellen" bur="1" plag="x"/>
-            <parish name="St-James-Dukes-place" bur="1" plag="1"/>
-            <parish name="St-James-Garlickhithe" bur="1" plag="x"/>
-            <parish name="St-John-Baptist" bur="1" plag="1"/>
-            <parish name="St-John-Evangelist" bur="x" plag="x"/>
-            <parish name="St-John-Zachary" bur="1" plag="x"/>
-            <parish name="St-Katherine-Coleman" bur="x" plag="x"/>
-            <parish name="St-Katherine-Crochurch" bur="2" plag="1"/>
-            <parish name="St-Lawrence-Jewry" bur="4" plag="3"/>
-            <parish name="St-Lawrence-Pountney" bur="1" plag="1"/>
-            <parish name="St-Leonard-Eastcheap" bur="x" plag="x"/>
-            <parish name="St-Leonard-Fosterlane" bur="3" plag="1"/>
-            <parish name="St-Magnus" bur="x" plag="x"/>
-            <parish name="St-Margaret-Lothbury" bur="x" plag="x"/>
-            <parish name="St-Margaret-Moses" bur="x" plag="x"/>
-            <parish name="St-Margaret-Newfishstreet" bur="x" plag="x"/>
-            <parish name="St-Margaret-Pattons" bur="x" plag="x"/>
-            <parish name="St-Mary-Abchurch" bur="1" plag="x"/>
-            <parish name="St-Mary-Aldermanbury" bur="1" plag="x"/>
-            <parish name="St-Mary-Aldermary" bur="1" plag="1"/>
-            <parish name="St-Mary-le-Bow" bur="x" plag="x"/>
-            <parish name="St-Mary-Bothaw" bur="x" plag="x"/>
-            <parish name="St-Mary-Colechurch" bur="x" plag="x"/>
+            <parish name="St-George-Botolphlane" alt="St George Bot Lane" bur="x" plag="x"/>
+            <parish name="St-Gregory-by-St-Pauls" alt="St Gregory by St Pauls"bur="1" plag="x"/>
+            <parish name="St-Hellen" alt="St Hellen" bur="1" plag="x"/>
+            <parish name="St-James-Dukes-place" alt="St James Dukes place" bur="1" plag="1"/>
+            <parish name="St-James-Garlickhithe" alt="St James Garlick hith" bur="1" plag="x"/>
+            <parish name="St-John-Baptist" alt="St John Baptist" bur="1" plag="1"/>
+            <parish name="St-John-Evangelist" alt="St John Evangelist" bur="x" plag="x"/>
+            <parish name="St-John-Zachary" alt="St John Zachary" bur="1" plag="x"/>
+            <parish name="St-Katherine-Coleman" alt="St Katherine Coleman" bur="x" plag="x"/>
+            <parish name="St-Katherine-Crochurch" alt="St Katherine Creechur" bur="2" plag="1"/>
+            <parish name="St-Lawrence-Jewry" alt="St Laurence Jewry" bur="4" plag="3"/>
+            <parish name="St-Lawrence-Pountney" alt="St Laurence Poultney" bur="1" plag="1"/>
+            <parish name="St-Leonard-Eastcheap"  alt="St Leonard Eastche"bur="x" plag="x"/>
+            <parish name="St-Leonard-Fosterlane" alt="St Leonard Foster Lane" bur="3" plag="1"/>
+            <parish name="St-Magnus" alt="St Magnus Parish" bur="x" plag="x"/>
+            <parish name="St-Margaret-Lothbury" alt="St Margt Lothbury" bur="x" plag="x"/>
+            <parish name="St-Margaret-Moses" alt="St Margaret Moses" bur="x" plag="x"/>
+            <parish name="St-Margaret-Newfishstreet" alt="St Margt New fish St" bur="x" plag="x"/>
+            <parish name="St-Margaret-Pattons" alt="St Margt Pattons" bur="x" plag="x"/>
+            <parish name="St-Mary-Abchurch" alt="St Mary Abchurch" bur="1" plag="x"/>
+            <parish name="St-Mary-Aldermanbury" alt="St Mary Aldermanbury" bur="1" plag="x"/>
+            <parish name="St-Mary-Aldermary" alt="St Mary Aldermary" bur="1" plag="1"/>
+            <parish name="St-Mary-le-Bow" alt="St Mary le Bow" bur="x" plag="x"/>
+            <parish name="St-Mary-Bothaw" alt="St Mary Bothaw" bur="x" plag="x"/>
+            <parish name="St-Mary-Colechurch" alt="St Mary Colechurch" bur="x" plag="x"/>
             <parish name="St-Mary-Hill" bur="1" plag="1"/>
             <parish name="St-Mary-Mounthaw" bur="x" plag="x"/>
             <parish name="St-Mary-Sommerset" bur="3" plag="2"/>

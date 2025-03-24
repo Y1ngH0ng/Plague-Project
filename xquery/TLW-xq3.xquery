@@ -9,15 +9,14 @@ declare variable $source-files:=collection('../XML/Bills-mortality-validated/?se
 <tr><th>Name</th><th>Plag count</th><th>Week #</th></tr>
 
 {let $bills:= $source-files/bill
-for $bill in $bills
 let $pars:=$source-files//parish
-let $weeks:=$source-files//bill
-let $weeknums:=$weeks
+for $bill in $bills
+let $weeknum:=$bills/data(@week)
 for $par in $pars
 let $plag:=$par/data(@plag)
 let $parname:=$par/string(@name)
-for $weeknum in $weeknums
-let $weeknum:=$weeks/data(@week)
+
+
 
 
 

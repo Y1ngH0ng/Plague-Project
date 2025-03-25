@@ -6,11 +6,14 @@ declare variable $source-files:=collection('../XML/Bills-mortality-validated/?se
 <head><title>Week count with Plague numbers</title></head>
 <body>
 <table>
-<tr><th>Name</th><th>Week 1</th></tr>
+<tr><th>Name</th>
 
 {
-(:whc: This starts by limiting parishes to the ones listed in the week 1 bill, so it only comes up with the list of parishes a single time, not separately for each bill:)
-let $pars:=$source-files[.//bill/data(@week)='01']//parish
+ for $bill in $source-files
+         let $weeknum:=$bill//bill//data(@week)
+         return <th>{$weeknum}</th>}</tr>
+{(:whc: This starts by limiting parishes to the ones listed in the week 1 bill, so it only comes up with the list of parishes a single time, not separately for each bill:)}
+{let $pars:=$source-files[.//bill/data(@week)='01']//parish
 
 (:whc: still iterating only over the parishes listed in the week 1 bill :)
 for $par in $pars

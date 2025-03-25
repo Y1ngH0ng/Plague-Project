@@ -9,32 +9,25 @@ declare variable $source-files:=collection('../XML/Bills-mortality-validated/?se
 <tr><th>Name</th><th>Week 1</th></tr>
 
 {
-(:let $parnames :=$source-files[bill/data/data(@week)='1']:)
+(:whc: This starts by limiting parishes to the ones listed in the week 1 bill, so it only comes up with the list of parishes a single time, not separately for each bill:)
 let $pars:=$source-files[.//bill/data(@week)='01']//parish
 
-(:order by $source-files[bill/data/data(@week)='1']//parish/string(@name)
-group by $parname:=$source-files[bill/data/data(@week)='1']//parish/string(@name)  :)
+(:whc: still iterating only over the parishes listed in the week 1 bill :)
 for $par in $pars
 let $parname := $par/data(@name)
 order by $parname
 
-let $plag:=$par/data(@plag)
-let $bur:= $par/data(@bur)
-return <tr><td>{$parname}</td><td>{$plag}</td></tr> 
-(:let $bills:= $source-files/bill
+return <tr><td>{$parname}</td>
+    { (:whc: next, to create the sequence of weekly plague deaths by iterating over the bills:)
+    for $bill in $source-files
+    
+    (:whc: the range variable finds, from each bill in sequence, the one parish with the same @name as the one for which we're currently building the table row :)
+    let $this-par := $bill//parish[data(@name)=$parname]
+    let $plag := $this-par/data(@plag)
+    (:whc: now we tell it to create one td element for each bill aka each week :)
+    return<td>{$plag}</td>}
 
-
-for $bill in $bills
-let $weeknum:=$bills/data(@week)
-:)
-
-
-
-
-
-
-
-(: I get this to generate an HTMl Table of all the bills with plag counts and parish names. I just cannot get the week count to show up. Also I was trying to alphabetize it but could not get it to work:)
+</tr> 
 }
 
 </table>

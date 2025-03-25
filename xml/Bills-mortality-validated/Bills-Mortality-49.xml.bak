@@ -64,96 +64,96 @@
             <parish name="St-Mary-Aldermary" alt="St Mary Aldermary" bur="4" plag="3"/>
             <parish name="St-Mary-le-Bow" alt="St Mary le Bow" bur="0" plag="0"/>
             <parish name="St-Mary-Bothaw" alt="St Mary Bothaw" bur="1" plag="0"/>
-            <parish name="St-Mary-Colechurch" bur="0" plag="0"/>
-            <parish name="St-Mary-Hill" bur="1" plag="0"/>
-            <parish name="St-Mary-Mounthaw" bur="0" plag="0"/>
-            <parish name="St-Mary-Sommerset" bur="5" plag="3"/>
-            <parish name="St-Mary-Stayning" bur="0" plag="0"/>
-            <parish name="St-Mary-Woolchurch" bur="0" plag="0"/>
-            <parish name="St-Mary-Woolnoth" bur="1" plag="0"/>
-            <parish name="St-Martin-Iremongerlane" bur="0" plag="0"/>
+            <parish name="St-Mary-Colechurch" alt="St Mary Colechurch" bur="0" plag="0"/>
+            <parish name="St-Mary-Hill" alt="St Mary Hill" bur="1" plag="0"/>
+            <parish name="St-Mary-Mounthaw" alt="St Mary Mounthaw" bur="0" plag="0"/>
+            <parish name="St-Mary-Sommerset" alt="St Mary Somerset" bur="5" plag="3"/>
+            <parish name="St-Mary-Stayning" alt="St Mary Staining"bur="0" plag="0"/>
+            <parish name="St-Mary-Woolchurch" alt="St Mary Woolchurch" bur="0" plag="0"/>
+            <parish name="St-Mary-Woolnoth" alt="St Mary Woolnoth" bur="1" plag="0"/>
+            <parish name="St-Martin-Iremongerlane" alt="St Martin Ironmon L" bur="0" plag="0"/>
             <!--column 3 begins-->
-            <parish name="St-Martin-Ludgate" bur="2" plag="0"/>
-            <parish name="St-Martin-Orgars" bur="0" plag="0"/>
-            <parish name="St-Martin-Outwitch" bur="0" plag="0"/>
-            <parish name="St-Martin-Vintrey" bur="4" plag="4"/>
-            <parish name="St-Matthew-Fridaystreet" bur="0" plag="0"/>
-            <parish name="St-Maudlin-Milkstreet" bur="0" plag="0"/>
-            <parish name="St-Maudlin-Oldfishstreet" bur="1" plag="1"/>
-            <parish name="St-Michael-Bassishaw" bur="1" plag="0"/>
-            <parish name="St-Michael-Cornhill" bur="1" plag="0"/>
-            <parish name="St-Michael-Crookedlane" bur="4" plag="2"/>
-            <parish name="St-Michael-Queenhithe" bur="0" plag="0"/>
-            <parish name="St-Michael-Quern" bur="0" plag="0"/>
-            <parish name="St-Michael-Royal" bur="1" plag="1"/>
-            <parish name="St-Michael-Woodstreet" bur="1" plag="1"/>
-            <parish name="St-Mildred-Breadstreet" bur="1" plag="0"/>
-            <parish name="St-Mildred-Poultrey" bur="0" plag="0"/>
-            <parish name="St-Nicholas-Acons" bur="0" plag="0"/>
-            <parish name="St-Nicholas-Coleabby" bur="0" plag="0"/>
-            <parish name="St-Nicholas-Olaves" bur="0" plag="0"/>
-            <parish name="St-Olave-Hartstreet" bur="3" plag="0"/>
-            <parish name="St-Olave-Jewry" bur="0" plag="0"/>
-            <parish name="St-Olave-Silverstreet" bur="3" plag="1"/>
-            <parish name="St-Pancras-Soperlane" bur="1" plag="1"/>
-            <parish name="St-Peter-Cheap" bur="0" plag="0"/>
-            <parish name="St-Peter-Cornhill" bur="3" plag="2"/>
-            <parish name="St-Peter-Paulswharf" bur="0" plag="0"/>
-            <parish name="St-Peter-Poor" bur="2" plag="1"/>
-            <parish name="St-Steven-Colemanstreet" bur="4" plag="4"/>
-            <parish name="St-Steven-Walbrook" bur="0" plag="0"/>
-            <parish name="St-Swithin" bur="1" plag="0"/>
-            <parish name="St-Thomas-Apostles" bur="0" plag="0"/>
-            <parish name="Trinity-Parish" bur="0" plag="0"/>
+            <parish name="St-Martin-Ludgate" alt="St Martin Ludgate" bur="2" plag="0"/>
+            <parish name="St-Martin-Orgars" alt="St Martin Orgars" bur="0" plag="0"/>
+            <parish name="St-Martin-Outwitch" alt="St Martin Outwich" bur="0" plag="0"/>
+            <parish name="St-Martin-Vintrey" alt="St Martin Vintry" bur="4" plag="4"/>
+            <parish name="St-Matthew-Fridaystreet" alt="St Mathew Friday Str" bur="0" plag="0"/>
+            <parish name="St-Maudlin-Milkstreet" alt="St Mary Magd Milk Street"" bur="0" plag="0"/>
+            <parish name="St-Maudlin-Oldfishstreet" alt="St Mary Magdalen O F St" bur="1" plag="1"/>
+            <parish name="St-Michael-Bassishaw" alt="St Michael Bassishaw" bur="1" plag="0"/>
+            <parish name="St-Michael-Cornhill" alt="St Michael Cornhill" bur="1" plag="0"/>
+            <parish name="St-Michael-Crookedlane" alt="St Michael Crookd la" bur="4" plag="2"/>
+            <parish name="St-Michael-Queenhithe" alt="St Michll Queenhith" bur="0" plag="0"/>
+            <parish name="St-Michael-Quern" alt="St Michael Querne" bur="0" plag="0"/>
+            <parish name="St-Michael-Royal" alt="St Michael Royal" bur="1" plag="1"/>
+            <parish name="St-Michael-Woodstreet"  alt="St Michael Wood str"bur="1" plag="1"/>
+            <parish name="St-Mildred-Breadstreet" alt="St Mildred Bred str" bur="1" plag="0"/>
+            <parish name="St-Mildred-Poultrey" alt="St Mildred Poultry" bur="0" plag="0"/>
+            <parish name="St-Nicholas-Acons" alt="St Nicholas Acon" bur="0" plag="0"/>
+            <parish name="St-Nicholas-Coleabby" alt="St Nicholas Coleab" bur="0" plag="0"/>
+            <parish name="St-Nicholas-Olaves" alt="St Nicholas Olave"  bur="0" plag="0"/>
+            <parish name="St-Olave-Hartstreet" alt="St Olave Hart street" bur="3" plag="0"/>
+            <parish name="St-Olave-Jewry" alt="St Olave Jewry" bur="0" plag="0"/>
+            <parish name="St-Olave-Silverstreet" alt="St Olave Silver Strt" bur="3" plag="1"/>
+            <parish name="St-Pancras-Soperlane" alt="St Pancras Soper La" bur="1" plag="1"/>
+            <parish name="St-Peter-Cheap" alt="St Peter Cheap" bur="0" plag="0"/>
+            <parish name="St-Peter-Cornhill" alt="St Peter Cornhil" bur="3" plag="2"/>
+            <parish name="St-Peter-Paulswharf" alt="St Peters Pauls wharf" bur="0" plag="0"/>
+            <parish name="St-Peter-Poor" alt="St Peter Poor" bur="2" plag="1"/>
+            <parish name="St-Steven-Colemanstreet" alt="St Stephen Coleman st" bur="4" plag="4"/>
+            <parish name="St-Steven-Walbrook" alt="St Stephen Walbroke" bur="0" plag="0"/>
+            <parish name="St-Swithin" alt="St Swithin" bur="1" plag="0"/>
+            <parish name="St-Thomas-Apostles" alt="St Thomas Apostle" bur="0" plag="0"/>
+            <parish name="Trinity-Parish" alt="Trinity Parish"  bur="0" plag="0"/>
             <burials total="136" plague="82"/>
         </parishes>
         <parishes loc="without-walls-and-pesthouse">
-            <parish name="St-Andrew-Holborn" bur="15" plag="10"/>
-            <parish name="St-Bartholomew-Great" bur="2" plag="2"/>
-            <parish name="St-Bartholomew-Lesse" bur="1" plag="1"/>
-            <parish name="St-Bridget" bur="11" plag="2"/>
-            <parish name="Bridewel-Precinct" bur="2" plag="1"/>
-            <parish name="St-Botolph-Aldergate" bur="0" plag="0"/>
+            <parish name="St-Andrew-Holborn" alt="t Andrew Holborn"  bur="15" plag="10"/>
+            <parish name="St-Bartholomew-Great"  alt="St Bartholomew the Great" bur="2" plag="2"/>
+            <parish name="St-Bartholomew-Lesse" alt="St Bartholomew the Less" bur="1" plag="1"/>
+            <parish name="St-Bridget" alt="St Bride"" bur="11" plag="2"/>
+            <parish name="Bridewel-Precinct" alt="Precinct of Bridewell" bur="2" plag="1"/>
+            <parish name="St-Botolph-Aldergate" alt="St Botolph Aldersgate" bur="0" plag="0"/>
             <!--column 2 begins-->
-            <parish name="St-Botolph-Aldgate" bur="22" plag="8"/>
-            <parish name="St-Botolph-Bishopsgate" bur="8" plag="5"/>
-            <parish name="St-Dunstan-West" bur="8" plag="5"/>
-            <parish name="St-George-Southwark" bur="3" plag="2"/>
-            <parish name="St-Giles-Cripplegate" bur="10" plag="2"/>
-            <parish name="St-Olave-Southwark" bur="26" plag="18"/>
+            <parish name="St-Botolph-Aldgate" alt="Norton Folgate" bur="22" plag="8"/>
+            <parish name="St-Botolph-Bishopsgate" alt="St Botolph Bishopsgate"  bur="8" plag="5"/>
+            <parish name="St-Dunstan-West"  alt="St Dunstan in the West"bur="8" plag="5"/>
+            <parish name="St-George-Southwark" alt="tbd" bur="3" plag="2"/>
+            <parish name="St-Giles-Cripplegate" alt="St Giles Cripplegate"  bur="10" plag="2"/>
+            <parish name="St-Olave-Southwark" alt="tbd" bur="26" plag="18"/>
             <!--column 3 begins-->
-            <parish name="Saviours-Southwark" bur="28" plag="22"/>
-            <parish name="S-Sepulchres" bur="16" plag="3"/>
-            <parish name="St-Thomas-Southwark" bur="0" plag="0"/>
-            <parish name="Trinity-Minories" bur="2" plag="0"/>
-            <parish name="At-the-Pesthouse" bur="2" plag="1"/>
+            <parish name="Saviours-Southwark" alt="tbd" bur="28" plag="22"/>
+            <parish name="S-Sepulchres"  alt="St Sepulcres"bur="16" plag="3"/>
+            <parish name="St-Thomas-Southwark" alt="St Thomas Apostle" bur="0" plag="0"/>
+            <parish name="Trinity-Minories" alt="Trinity Minories"  bur="2" plag="0"/>
+            <parish name="At-the-Pesthouse"  alt="tbd"bur="2" plag="1"/>
             <burials total="156" plague="82"/>
         </parishes>
         <parishes loc="middlesex-and-surrey">
-            <parish name="St-Giles-in-the-Fields" bur="13" plag="4"/>
-            <parish name="Hackney" bur="4" plag="3"/>
-            <parish name="St-James-Clerkenwel" bur="4" plag="3"/>
-            <parish name="St-Kath.-near-the-Tower" bur="7" plag="5"/>
+            <parish name="St-Giles-in-the-Fields" alt="S Giles in the Fields" bur="13" plag="4"/>
+            <parish name="Hackney" alt="tbd" bur="4" plag="3"/>
+            <parish name="St-James-Clerkenwel"  alt="S James Clerkenwell"bur="4" plag="3"/>
+            <parish name="St-Kath.-near-the-Tower"  alt="S Katherine Tower"bur="7" plag="5"/>
             <!--column 2 begins-->
-            <parish name="Lambeth" bur="10" plag="6"/>
-            <parish name="St-Leonard-Shoreditch" bur="6" plag="2"/>
-            <parish name="St-Magdalen-Bermondsey" bur="14" plag="8"/>
-            <parish name="St-Mary-Newington" bur="5" plag="3"/>
+            <parish name="Lambeth" alt="tbd" bur="10" plag="6"/>
+            <parish name="St-Leonard-Shoreditch" alt="S Leonard Shoreditch"  bur="6" plag="2"/>
+            <parish name="St-Magdalen-Bermondsey" alt="tbd" bur="14" plag="8"/>
+            <parish name="St-Mary-Newington"  alt="tbd"bur="5" plag="3"/>
             <!--column 3 begins-->
-            <parish name="St-Mary-Islington" bur="7" plag="4"/>
-            <parish name="St-Mary-Whitechappel" bur="11" plag="4"/>
-            <parish name="Rothorith" bur="9" plag="8"/>
-            <parish name="Stepney" bur="83" plag="75"/>
+            <parish name="St-Mary-Islington" alt="tbd" bur="7" plag="4"/>
+            <parish name="St-Mary-Whitechappel" alt="S Mary Whitechapel" bur="11" plag="4"/>
+            <parish name="Rothorith" alt="tbd" bur="9" plag="8"/>
+            <parish name="Stepney" alt="Stepney Parish" bur="83" plag="75"/>
             <burials total="178" plague="125"/>
         </parishes>
         <parishes loc="city-and-liberties-Westminster">
-            <parish name="St-Clement-Danes" bur="11" plag="4"/>
-            <parish name="St-Paul-Covent-Garden" bur="4" plag="2"/>
+            <parish name="St-Clement-Danes" alt="St Clement Danes" bur="11" plag="4"/>
+            <parish name="St-Paul-Covent-Garden" alt="tbd" bur="4" plag="2"/>
             <!--column 2 begins-->
-            <parish name="St-Martin-in-the-Fields" bur="25" plag="13"/>
+            <parish name="St-Martin-in-the-Fields" alt="tbd" bur="25" plag="13"/>
             <parish name="St-Mary-Savoy" bur="3" plag="3"/>
             <!--column 3 begins-->
-            <parish name="St-Margaret-Westminster" bur="31" plag="22"/>
+            <parish name="St-Margaret-Westminster" alt="tbd" bur="31" plag="22"/>
             <parish name="Whereof-at-the-Pesthouse" bur="0" plag="1"/>
             <burials total="74" plague="41"/>
         </parishes>

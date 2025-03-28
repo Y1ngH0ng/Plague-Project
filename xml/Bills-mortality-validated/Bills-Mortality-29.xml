@@ -71,6 +71,7 @@
             <parish name="St-Mary-Stayning" alt="St Mary Staining" bur="0" plag="0"/>
             <parish name="St-Mary-Woolchurch" alt="St Mary Woolchurch" bur="0" plag="0"/>
             <parish name="St-Mary-Woolnoth" alt="St Mary Woolnoth" bur="0" plag="0"/>
+            <parish name="St-Mary-Islington" alt="St Mary Islington" bur="10" plag="5"/> <!--whz, St-Mary-Islington was missing so add it the data was found online could be wrong-->
             <parish name="St-Martin-Iremongerlane" alt="St Martin Ironmon L" bur="0" plag="0"/>
             <!--column 3 begins-->
             <parish name="St-Martin-Ludgate" alt="St Martin Ludgate" bur="2" plag="1"/>

@@ -122,7 +122,7 @@
             <parish name="St-Giles-Cripplegate" alt="St Giles Cripplegate"  bur="33" plag="0"/>
             <parish name="St-Olave-Southwark" alt="tbd" bur="17" plag="0"/>
             <!--column 3 begins--> 
-            <parish name="Saviours-Southwork" bur="12" plag="0"/>                                            
+            <parish name="Saviours-Southwork" alt= "unknown" bur="12" plag="0"/>      <!--whz, it was missing a alt so i just put a unknown-->                                      
             <parish name="S-Sepulchres"  alt="St Sepulcres" bur="27" plag="0"/>
             <parish name="St-Thomas-Southwark" alt="St Thomas Apostle" bur="3" plag="0"/>
             <parish name="Trinity-Minories" alt="Trinity Minories"  bur="0" plag="0"/>

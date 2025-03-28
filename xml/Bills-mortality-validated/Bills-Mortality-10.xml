@@ -7,7 +7,7 @@
     <page n="1">
         <parishes loc="within-the-walls">
             <parish name="St-Alban-Woodstreet" alt="St Alban Woodstrt" bur="1" plag="0"/>
-            <parish name="Alhallows-Barking" alt="Allhallows Barking" bur="2" plag="-0"/>
+            <parish name="Alhallows-Barking" alt="Allhallows Barking" bur="2" plag="0"/>
             <parish name="Alhallows-Breadstreet" alt="All Hallows Bread Str" bur="0" plag="0"/>
             <parish name="Alhallows-Great" alt="Allhallows ye great" bur="1" plag="0"/>
             <parish name="Alhallows-Honylane" alt="Alhallows Hony Lane" bur="0" plag="0"/>

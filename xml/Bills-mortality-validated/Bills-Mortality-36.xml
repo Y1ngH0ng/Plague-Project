@@ -105,7 +105,7 @@
             <parish name="St-Swithin" alt="St Swithin" bur="4" plag="2"/>
             <parish name="St-Thomas-Apostles" alt="St Thomas Apostle" bur="12" plag="10"/>
             <parish name="Trinity-Parish" alt="Trinity Parish"  bur="4" plag="3"/>
-            <burials total="933" plague="700"/>
+            <burials total="933" plague="702"/>
         </parishes>
         <parishes loc="without-walls-and-pesthouse">
             <parish name="St-Andrew-Holborn" alt="t Andrew Holborn"  bur="399" plag="380"/>
@@ -155,7 +155,7 @@
             <!--column 3 begins-->
             <parish name="St-Margaret-Westminster" alt="tbd" bur="345" plag="309"/>
             <parish name="Whereof-at-the-Pesthouse"  alt="tbd" bur="0" plag="8"/>
-            <burials total="891" plague="715"/>
+            <burials total="891" plague="723"/>
         </parishes>
     </page>
 
@@ -213,7 +213,7 @@
             <item cause="Murthered" count="0"/> <!-- i.e. murdered; often includes descriptions and locations of individual incidents; give only total number here-->
             <item cause="Overlaid" count="0"/>
             <item cause="Palsie" count="0"/>
-            <item cause="Plague" count="6102"/>
+            <item cause="Plague" count="6112"/>
             <item cause="Plannet" count="3"/>
             <item cause="Purples" count="3"/>
             <item cause="Plurisie" count="0"/>
@@ -251,7 +251,7 @@
 
         <summary>
             <christenings males="87" females="82" total="169"/>
-            <burials males="3811" females="3685" total="7496" plague="6102"/>
+            <burials males="3811" females="3685" total="7496" plague="6112"/>
             <burial-trend count="1928"/>   <!--use positive number for increase, negative for decrease-->
             <parishes clear-of-plague="17" infected="113"/>
         </summary>

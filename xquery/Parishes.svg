@@ -1,27 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
     <desc>Deaths by Cause - Horizontal Bar Graph</desc>
-    <g transform="translate(200, 50)" font-family="Arial" font-size="12">
+    
+    <!-- Chart Title -->
+    <text x="400" y="30" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">
+        Deaths by Cause (1664–1666)
+    </text>
+    
+    <!-- Y-axis label rotated -->
+    <text x="30" y="200" transform="rotate(-90, 30, 200)" font-family="Arial" font-size="14" text-anchor="middle">
+        Causes of Death
+    </text>
+    
+    <g transform="translate(150, 60)" font-family="Arial" font-size="12">
         
-        <!-- x-axis -->
+        <!-- X-axis line -->
         <line x1="0" y1="0" x2="600" y2="0" stroke="black" stroke-width="2"/>
         
-        <!-- Cause labels and bars -->
-        <text x="-10" y="20" text-anchor="end">x</text>
-        <line x1="0" y1="20" x2="582" y2="20" stroke="red" stroke-width="15"/>
+        <!-- Grid line (optional, subtle) -->
+        <line x1="0" y1="-15" x2="600" y2="-15" stroke="#ccc" stroke-dasharray="2,2"/>
+        <line x1="0" y1="0" x2="0" y2="90" stroke="#ccc" stroke-dasharray="2,2"/>
+        <line x1="100" y1="0" x2="100" y2="90" stroke="#eee"/>
+        <line x1="300" y1="0" x2="300" y2="90" stroke="#eee"/>
+        <line x1="500" y1="0" x2="500" y2="90" stroke="#eee"/>
         
-        <text x="-10" y="50" text-anchor="end">plag</text>
-        <line x1="0" y1="50" x2="276" y2="50" stroke="red" stroke-width="15"/>
+        <!-- X-axis ticks -->
+        <text x="0" y="-5" text-anchor="middle">0</text>
+        <text x="100" y="-5" text-anchor="middle">100</text>
+        <text x="300" y="-5" text-anchor="middle">300</text>
+        <text x="500" y="-5" text-anchor="middle">500</text>
         
-        <text x="-10" y="80" text-anchor="end">plague</text>
-        <line x1="0" y1="80" x2="116" y2="80" stroke="red" stroke-width="15"/>
+        <!-- Bars and left-aligned labels (15px thick, stacked) -->
+        <text x="-10" y="15" text-anchor="end">x</text>
+        <line x1="0" y1="15" x2="582" y2="15" stroke="#cc3333" stroke-width="15"/>
         
-        <text x="-10" y="110" text-anchor="end">stillborn</text>
-        <line x1="0" y1="110" x2="10" y2="110" stroke="red" stroke-width="15"/>
+        <text x="-10" y="35" text-anchor="end">plag</text>
+        <line x1="0" y1="35" x2="392" y2="35" stroke="#cc3333" stroke-width="15"/>
         
-        <text x="-10" y="140" text-anchor="end">dropsie</text>
-        <line x1="0" y1="140" x2="2" y2="140" stroke="red" stroke-width="15"/>
+        <text x="-10" y="55" text-anchor="end">stillborn</text>
+        <line x1="0" y1="55" x2="10" y2="55" stroke="#cc3333" stroke-width="15"/>
         
-        <!-- Add more bars below... -->
-        
+        <text x="-10" y="75" text-anchor="end">dropsie</text>
+        <line x1="0" y1="75" x2="2" y2="75" stroke="#cc3333" stroke-width="15"/>
     </g>
+    
+    <!-- X-axis label -->
+    <text x="450" y="370" font-family="Arial" font-size="14" text-anchor="middle">
+        Number of Deaths
+    </text>
 </svg>
+

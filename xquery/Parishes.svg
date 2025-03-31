@@ -6,10 +6,7 @@
         Deaths by Cause (1664–1666)
     </text>
     
-    <!-- Y-axis label rotated -->
-    <text x="30" y="200" transform="rotate(-90, 30, 200)" font-family="Arial" font-size="14" text-anchor="middle">
-        Causes of Death
-    </text>
+    
     
     <g transform="translate(150, 60)" font-family="Arial" font-size="12">
         

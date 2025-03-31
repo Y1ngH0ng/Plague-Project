@@ -6,14 +6,15 @@
         Deaths by Cause (1664–1666)
     </text>
     
-    
+    <!-- Gray translucent background box -->
+    <rect x="140" y="50" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/>
     
     <g transform="translate(150, 60)" font-family="Arial" font-size="12">
         
         <!-- X-axis line -->
         <line x1="0" y1="0" x2="600" y2="0" stroke="black" stroke-width="2"/>
         
-        <!-- Grid line (optional, subtle) -->
+        <!-- Grid lines -->
         <line x1="0" y1="-15" x2="600" y2="-15" stroke="#ccc" stroke-dasharray="2,2"/>
         <line x1="0" y1="0" x2="0" y2="90" stroke="#ccc" stroke-dasharray="2,2"/>
         <line x1="100" y1="0" x2="100" y2="90" stroke="#eee"/>
@@ -26,7 +27,7 @@
         <text x="300" y="-5" text-anchor="middle">300</text>
         <text x="500" y="-5" text-anchor="middle">500</text>
         
-        <!-- Bars and left-aligned labels (15px thick, stacked) -->
+        <!-- Bars and labels -->
         <text x="-10" y="15" text-anchor="end">x</text>
         <line x1="0" y1="15" x2="582" y2="15" stroke="#cc3333" stroke-width="15"/>
         
@@ -41,7 +42,7 @@
     </g>
     
     <!-- X-axis label -->
-    <text x="450" y="370" font-family="Arial" font-size="14" text-anchor="middle">
+    <text x="450" y="180" font-family="Arial" font-size="14" text-anchor="middle">
         Number of Deaths
     </text>
 </svg>

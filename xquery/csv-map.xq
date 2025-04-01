@@ -13,7 +13,7 @@ let $pars:=$source-files[.//bill/data(@week)='01']//parish
 
 
 for $par in $pars
-    let $parname := $par/data(@alt)
+    let $parname := $par/data(@name)
     order by $parname
   (:  where $parname!="tbd" :)
     (: TLW This was an attempt to stop tbd from showing up but it isn;t even without this:)
@@ -21,7 +21,7 @@ for $par in $pars
 
     for $bill in $source-files
     
-        let $this-par := $bill//parish[data(@alt)=$parname]
+        let $this-par := $bill//parish[data(@name)=$parname]
         let $plag := $this-par/data(@plag)
         let $weeknum:=$bill//bill//data(@week)
         where $weeknum>0

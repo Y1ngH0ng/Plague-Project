@@ -2,13 +2,13 @@ xquery version "3.1";
 declare option saxon:output "method=text";
 declare variable $source-files:=collection('../XML/Bills-mortality-validated/?select=*.xml');
 
+declare variable $linefeed := "&#10;";
 
 
 
+concat("Label, Parish, Plag#, Week#",$linefeed,string-join(
 
 
-       
-         
 let $pars:=$source-files[.//bill/data(@week)='01']//parish
 
 
@@ -29,6 +29,6 @@ for $par in $pars
         
        
        
-        return concat($parname,',',$plag,',', $weeknum, ',', '&#xa;')
+        return concat(string-join($parname,',',$plag,',', $weeknum, ',', $linefeed))))
         (: output clones each parish 52 times when instead it needs to ne just one. This should be troubleshot:)
 

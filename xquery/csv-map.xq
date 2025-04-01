@@ -29,6 +29,6 @@ for $par in $pars
         
        
        
-        return concat(string-join($parname,',',$plag,',', $weeknum, ',', $linefeed))))
+        return concat($parname,',',$plag,',', $weeknum, ',', $linefeed)))=>string-join()
         (: output clones each parish 52 times when instead it needs to ne just one. This should be troubleshot:)
 

@@ -3,33 +3,30 @@ declare option saxon:output "method=text";
 declare variable $source-files:=collection('../XML/Bills-mortality-validated/?select=*.xml');
 
 declare variable $linefeed := "&#10;";
-declare variable $parname:=/parish/data(@name);
+(:declare variable $parname:=/parish/data(@name);  :)
 
 
-
-concat("Label",string-join(
-
-
-let $pars:=$source-files[.//bill/data(@week)='01']//parish
-
-
+(:whc: First we need to assemble the top row of the table :)
+concat("Label", ",", string-join(
+         for $bill in $source-files
+         let $weeknum:=$bill//bill//data(@week)
+         return $weeknum, ","), $linefeed,
+(:whc: note that we do not end with a closing paren after $linefeed. That's because the concat() is assembling not just this line but the entire table. :)
+(:whc: Next we need the FLWOR statement to create all the rows of data  :)
+string-join(
+let $pars:=$source-files[.//bill/data(@week)='01']//parish[data(@alt)!="tbd"]
 for $par in $pars
     let $parname := $par/data(@name)
-    order by $parname
-  where $parname!="tbd" 
-    (: TLW This was an attempt to stop tbd from showing up but it isn;t even without this:)
-
-
-    for $bill in $source-files
-    
+    let $par-alt-name := $par/data(@alt)
+    order by $par-alt-name
+    (:whc: the next return begins each row of the table, then the string-join assembles all the comma-separated values in the row :)
+    return concat($par-alt-name, ",", string-join(
+        for $bill in $source-files
         let $this-par := $bill//parish[data(@name)=$parname]
-        let $plag := $this-par/string(@plag)
+        let $plag := $this-par/data(@plag)
         let $weeknum:=$bill//bill//data(@week)
         where $weeknum>0
-        
-        
-       
-       
-        return string-join(concat($parname,',', $plag, ',', $weeknum, ',', $linefeed))))
-        (: output clones each parish 52 times when instead it needs to ne just one. This should be troubleshot:)
+        return $plag, ","),    
+               $linefeed)))
+
 

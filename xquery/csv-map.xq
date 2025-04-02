@@ -3,17 +3,18 @@ declare option saxon:output "method=text";
 declare variable $source-files:=collection('../XML/Bills-mortality-validated/?select=*.xml');
 
 declare variable $linefeed := "&#10;";
+declare variable $parname:=/parish/data(@name);
 
 
 
-concat("Label, Parish, Plag#, Week#",$linefeed,string-join(
+concat("Label",string-join(
 
 
 let $pars:=$source-files[.//bill/data(@week)='01']//parish
 
 
 for $par in $pars
-    let $parname := $par/data(@alt)
+    let $parname := $par/data(@name)
     order by $parname
   where $parname!="tbd" 
     (: TLW This was an attempt to stop tbd from showing up but it isn;t even without this:)
@@ -29,6 +30,6 @@ for $par in $pars
         
        
        
-        return concat($parname,',', $plag, ',', $weeknum, ',', $linefeed)))=>string-join()
+        return string-join(concat($parname,',', $plag, ',', $weeknum, ',', $linefeed))))
         (: output clones each parish 52 times when instead it needs to ne just one. This should be troubleshot:)
 

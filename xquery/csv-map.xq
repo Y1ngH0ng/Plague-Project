@@ -7,7 +7,7 @@ declare variable $linefeed := "&#10;";
 
 
 (:whc: First we need to assemble the top row of the table :)
-concat("Label", ",", string-join(
+concat("Weeks", ",", string-join(
          for $bill in $source-files
          let $weeknum:=$bill//bill//data(@week)
          return $weeknum, ","), $linefeed,

@@ -155,7 +155,7 @@
             <!--column 3 begins-->
             <parish name="St-Margaret-Westminster" alt="tbd" bur="98" plag="93"/>
             <parish name="Whereof-at-the-Pesthouse"  alt="tbd" bur="0" plag="2"/>
-            <burials total="210" plague="172"/>
+            <burials total="210" plague="174"/>
         </parishes>
     </page>
 
@@ -215,7 +215,7 @@
             <item cause="Murthered" count="0"/> <!-- i.e. murdered; often includes descriptions and locations of individual incidents; give only total number here-->
             <item cause="Overlaid" count="1"/>
             <item cause="Palsie" count="1"/>
-            <item cause="Plague" count="1421"/>
+            <item cause="Plague" count="1423"/>
             <item cause="Plurisie" count="0"/>
             <item cause="Poisoned" count="0"/>  <!--often includes descriptions and locations of individual incidents; give only total number here-->
             <item cause="Quinsie" count="1"/>
@@ -251,7 +251,7 @@
 
         <summary>
             <christenings males="60" females="44" total="104"/>
-            <burials males="951" females="855" total="1806" plague="1421"/>
+            <burials males="951" females="855" total="1806" plague="1423"/>
             <burial-trend count="-1413"/>   <!--use positive number for increase, negative for decrease-->
             <parishes clear-of-plague="26" infected="104"/>
         </summary>

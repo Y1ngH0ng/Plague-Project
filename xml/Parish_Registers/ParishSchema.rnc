@@ -1,7 +1,8 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start=register
-register=element register {(parish, encoder, source),burials+}
+register=element register {(parish, encoder, source),burials+, alt}
+alt= element alt {text}
 parish= attribute parish {text}
 encoder= element encoder {name}
 source= element source {href}

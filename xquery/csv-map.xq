@@ -13,22 +13,22 @@ let $pars:=$source-files[.//bill/data(@week)='01']//parish
 
 
 for $par in $pars
-    let $parname := $par/data(@name)
+    let $parname := $par/data(@alt)
     order by $parname
-  (:  where $parname!="tbd" :)
+  where $parname!="tbd" 
     (: TLW This was an attempt to stop tbd from showing up but it isn;t even without this:)
 
 
     for $bill in $source-files
     
         let $this-par := $bill//parish[data(@name)=$parname]
-        let $plag := $this-par/data(@plag)
+        let $plag := $this-par/string(@plag)
         let $weeknum:=$bill//bill//data(@week)
         where $weeknum>0
         
         
        
        
-        return concat($parname,',',$plag,',', $weeknum, ',', $linefeed)))=>string-join()
+        return concat($parname,',', $plag, ',', $weeknum, ',', $linefeed)))=>string-join()
         (: output clones each parish 52 times when instead it needs to ne just one. This should be troubleshot:)
 

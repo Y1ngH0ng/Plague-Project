@@ -1,7 +1,7 @@
 xquery version "3.1";
 declare option saxon:output "method=html";
 declare option saxon:output "doctype-system=about:legacy-compat";
-declare variable $source-files:=collection('../XML/Bills-mortality-validated/?select=*.xml');
+declare variable $source-files:=collection('../xml/Bills-mortality-validated/?select=*.xml');
 declare variable $pars:=//parish;
 declare variable $bill-week:=//bill/data(@week);
 declare variable $xspacer := 10;

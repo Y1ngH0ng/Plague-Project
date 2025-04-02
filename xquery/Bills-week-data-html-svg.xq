@@ -8,7 +8,7 @@ declare variable $xspacer := 10;
 declare variable $yspacer := 35;
 
 <html>
-<head><title>Plague Deaths for Week{$bill-week}</title></head>
+<head><title>Plague Deaths for Week {$bill-week}</title></head>
 <body>
 
 <p><table> 

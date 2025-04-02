@@ -154,7 +154,7 @@
             <!--column 3 begins-->
             <parish name="St-Margaret-Westminster" alt="tbd" bur="26" plag="14"/>
             <parish name="Whereof-at-the-Pesthouse"  alt="tbd" bur="0" plag="1"/>
-            <burials total="58" plague="32"/>
+            <burials total="58" plague="33"/>
         </parishes>
     </page>
     
@@ -183,7 +183,7 @@
             <item cause="Griping_in_the_Guts" count="4"/>
             <item cause="Infants" count="6"/>
             <item cause="Palfie" count="1"/>
-            <item cause="Plague" count="210"/> 
+            <item cause="Plague" count="211"/> 
             <item cause="Rickets" count="7"/>
             <item cause="Rising_of_the_Lights" count="5"/>
             <item cause="Scowring" count="2"/>
@@ -204,7 +204,7 @@
         <summary>
             
             <christenings males="59" females="64" total="123"/>
-            <burials males="211" females="217" total="428" plague="210"/>
+            <burials males="211" females="217" total="428" plague="211"/>
             <burial-trend count="116"/> 
             <parishes clear-of-plague="82" infected="48"/>
         </summary>

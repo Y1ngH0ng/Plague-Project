@@ -12,6 +12,8 @@ let $all-burials :=
   return
     try {
       let $doc := doc($full)
+      let $parish := $doc//register/@parish/string()
+
       for $burial in $doc//burial
 
       let $cause :=
@@ -38,6 +40,7 @@ let $all-burials :=
 
       return
         <entry>
+          <parish>{ $parish }</parish>
           <month>{ $month }</month>
           <name>{ $name }</name>
           <cause>{ $cause }</cause>
@@ -48,23 +51,29 @@ let $all-burials :=
     }
 
 let $grouped :=
-  for $m in distinct-values($all-burials/month)
-  let $group := $all-burials[month = $m]
-  let $suspicious := count($group[cause = "x"])
-  order by $m
+  for $p in distinct-values($all-burials/parish)
   return
-    <month name="{$m}">
-      <count>{ $suspicious }</count>
+    <parish name="{$p}">
       {
-        for $b in $group
+        for $m in distinct-values($all-burials[parish = $p]/month)
+        let $group := $all-burials[parish = $p and month = $m]
+        let $suspicious := count($group[cause = "x"])
+        order by $m
         return
-          <burial>
-            <name>{ $b/name/string() }</name>
-            <cause>{ $b/cause/string() }</cause>
-            <date>{ $b/date/string() }</date>
-          </burial>
+          <month YM="{$m}">
+            <count>{ $suspicious }</count>
+            {
+              for $b in $group
+              return
+                <burial>
+                  <name>{ $b/name/string() }</name>
+                  <cause>{ $b/cause/string() }</cause>
+                  <date>{ $b/date/string() }</date>
+                </burial>
+            }
+          </month>
       }
-    </month>
+    </parish>
 
 return
 <non-plague-burials>

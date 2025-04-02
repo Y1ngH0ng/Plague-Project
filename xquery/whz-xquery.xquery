@@ -1,15 +1,28 @@
+
 xquery version "3.1";
 
 declare variable $source-files := collection('../xml/Parish_Registers/?select=*.xml');
 declare variable $stchristopherstocks := doc('../xml/Parish_Registers/StChristopherStocks.xml');
-(:telling where to get the source:)
-let $stocks := $stchristopherstocks//burials[./burial[@cause="plague"]] (:find the thing tag by @cause plauge:)
-for $stock in $stocks
-    let $stock-name := $stock/burial[@cause="plague"]
-    let $stock-info := $stock/string() (:give me text of the @cause tag above:)
-return $stock-name/string() (:give me the list of the @cause plague:)
-(:return concat($stock-name, 'name' ,$stock-info, "$#xa"):)
 
-(:not giving me anything as a output:)
-
+let $burials := $stchristopherstocks//burial[@cause="plague"]
+return
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="black"/>
+  <text x="300" y="30" text-anchor="middle" font-size="20">Plague Burials in St. Christopher Stocks Parish</text>
+  
+  {
+    for $burial at $pos in $burials
+  
+    return (
+      <circle cx="100" cy="50" r="10" fill="red"/>,
+      <text x="120" y="5" font-size="14">
+        {$burial/person/name/string() || " (" || $burial/date/string() || ")"}
+      </text>
+    )
+  }
+  
+  <text x="300" y="380" text-anchor="middle" font-size="14">
+    Total plague burials: {count($burials)}
+  </text>
+</svg>
 

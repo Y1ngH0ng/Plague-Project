@@ -108,7 +108,7 @@
             <burials total="1493" plague="1199"/>
         </parishes>
         <parishes loc="without-walls-and-pesthouse">
-            <parish name="St-Andrew-Holborn" alt="t Andrew Holborn"  bur="271" plag="247"/>
+            <parish name="St-Andrew-Holborn" alt="St Andrew Holborn"  bur="271" plag="247"/>
             <parish name="St-Bartholomew-Great"  alt="St Bartholomew the Great" bur="21" plag="17"/>
             <parish name="St-Bartholomew-Lesse" alt="St Bartholomew the Less" bur="14" plag="12"/>
             <parish name="St-Bridget" alt="St Bride" bur="236" plag="180"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<register parish="Kensington-Middlesex">
+<register parish="Kensington-Middlesex" alt="TBD">
     <encoder name="Trenton Wood"/>
     <!--I plan to publish these files online. If you want your name removed before I do so, you need to email me when you submit this to let me know that. Otherwise I will assume I have permission to give you credit by name.-->
     <source href="https://archive.org/details/parishregisterof16kens/page/132/mode/2up"/>

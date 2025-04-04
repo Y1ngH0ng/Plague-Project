@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--This file should ONLY be used for the year-end summary Bills of Mortality, NOT the weekly Bills! -->
-<bill type="year-end" date-to="1666-12-18">
+<bill year="1666" type="year-end" date-to="1666-12-18">
     <encoder name="Zhaohao Weng"/>
     <source href="https://babel.hathitrust.org"/>
     <!--https://babel.hathitrust.org/cgi/pt?id=osu.32435018082602&seq=73-->

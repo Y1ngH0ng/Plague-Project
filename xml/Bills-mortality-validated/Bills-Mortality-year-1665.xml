@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--This file should ONLY be used for the year-end summary Bills of Mortality, NOT the weekly Bills! -->
-<bill type="year-end" date-to="1665-12-19"> <!--note Old Style dates: 1 Jan. to 25 March 1665 are called 1664; call them 1665 here-->
+<bill year="1665" type="year-end" date-to="1665-12-19"> <!--note Old Style dates: 1 Jan. to 25 March 1665 are called 1664; call them 1665 here-->
     <encoder name="Conor Thornton"/> <!-- Students opted in or out of having their names included as contributors. They were made aware that these files would be published online. -->
 
     <source href="https://wellcomecollection.org/works/bqxkq9yy/items"/>

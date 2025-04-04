@@ -6,7 +6,7 @@
         <line x1="0" y1="0" x2="600" y2="0" stroke="black" stroke-width="2"/>
         
         <!-- Cause labels and bars -->
-        <text x="-10" y="20" text-anchor="end">x</text>
+        <text x="-10" y="20" text-anchor="end">Not listed</text>
         <line x1="0" y1="20" x2="582" y2="20" stroke="red" stroke-width="15"/>
         
         <text x="-10" y="50" text-anchor="end">plag</text>

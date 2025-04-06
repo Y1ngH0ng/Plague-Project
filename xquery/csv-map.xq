@@ -7,8 +7,10 @@ declare variable $linefeed := "&#10;";
 
 
 (:whc: First we need to assemble the top row of the table :)
-concat("Weeks", ",", string-join(
+concat("Week Plague", ",",string-join(
          for $bill in $source-files
+         let $weeknum:=$bill//bill//data(@week)
+         return $weeknum, ","),",","Week Percent",string-join(for $bill in $source-files
          let $weeknum:=$bill//bill//data(@week)
          return $weeknum, ","), $linefeed,
 (:whc: note that we do not end with a closing paren after $linefeed. That's because the concat() is assembling not just this line but the entire table. :)
@@ -26,7 +28,9 @@ for $par in $pars
         let $plag := $this-par/data(@plag)
         let $weeknum:=$bill//bill//data(@week)
         where $weeknum>0
-        return $plag, ","),    
+        let $bur:= $this-par/data(@bur)
+        let $percent := ($plag div $bur) * 100=>round-half-to-even()
+        return $plag,",",$percent,","),    
                $linefeed)))
 
 

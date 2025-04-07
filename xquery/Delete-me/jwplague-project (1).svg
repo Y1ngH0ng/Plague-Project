@@ -10,10 +10,7 @@
         <line x1="0" y1="20" x2="582" y2="20" stroke="red" stroke-width="15"/>
         
         <text x="-10" y="50" text-anchor="end">plag</text>
-        <line x1="0" y1="50" x2="276" y2="50" stroke="red" stroke-width="15"/>
-        
-        <text x="-10" y="80" text-anchor="end">plague</text>
-        <line x1="0" y1="80" x2="116" y2="80" stroke="red" stroke-width="15"/>
+        <line x1="0" y1="50" x2="392" y2="50" stroke="red" stroke-width="15"/>
         
         <text x="-10" y="110" text-anchor="end">stillborn</text>
         <line x1="0" y1="110" x2="10" y2="110" stroke="red" stroke-width="15"/>

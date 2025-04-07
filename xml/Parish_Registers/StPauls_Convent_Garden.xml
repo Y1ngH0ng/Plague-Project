@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<register parish="St Paul Covent Garden"  >
+<register parish="St Paul Covent Garden" alt="none" >
 <!-- XML Mark up down by Joisah Whipkey -->
 <!-- For use of this xml please contact me at jww58@pitt.edu -->
     <encoder name="Joisah Whipkey"/>

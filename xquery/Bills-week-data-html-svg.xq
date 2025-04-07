@@ -24,7 +24,8 @@ return <tr><td>{$parname}</td><td>{$plag}</td></tr>}
 </table>
 </p>
 
-<p>The Graph Below is a visual of Plague-Deaths per week for {$bill-week}. The Red Line is Plague Deaths and the Blue Line is total burials. Parishes that do not have any Plague Deaths or Burials are not listed on the graph because of no data. They are present on the table</p>
+<p>The Graph Below is a visual of plague deaths per week for week {$bill-week}. The Red Line is Plague Deaths and the Blue Line is total burials. Parishes that do not have any Plague Deaths or Burials are not listed on the graph because of no data but, they are present on the table</p>
+<p>In the graph itself where there are no plague deaths it has a 0. Where no data for burials or Plague is present the parish does not appear on the graph.</p>
 
 <svg xmlns="http://www.w3.org/2000/svg" height="5000" width="7000" align="center">
     <desc></desc>

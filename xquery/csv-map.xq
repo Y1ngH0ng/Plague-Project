@@ -7,9 +7,10 @@ declare variable $linefeed := "&#10;";
 
 
 (:whc: First we need to assemble the top row of the table :)
-concat("Weeks", "," ,string-join(
+concat("Weeks",string-join(
          for $bill in $source-files
          let $weeknum:=$bill//bill//data(@week)
+         where $weeknum>0
          return concat(",","Week Plague",$weeknum,",","Week Percent", $weeknum)),$linefeed,
 (:whc: note that we do not end with a closing paren after $linefeed. That's because the concat() is assembling not just this line but the entire table. :)
 (:whc: Next we need the FLWOR statement to create all the rows of data  :)

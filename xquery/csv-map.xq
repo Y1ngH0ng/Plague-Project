@@ -31,7 +31,7 @@ for $par in $pars
         let $bur:= $this-par/data(@bur)
         
         return if ($bur=0) 
-        then concat($plag,",0,") 
+        then concat($plag,",0") 
         else concat($plag,",",(($plag div $bur *100)=>round-half-to-even())),",")), 
             $linefeed)) 
 

@@ -29,7 +29,7 @@ for $par in $pars
         let $weeknum:=$bill//bill//data(@week)
         where $weeknum>0
         let $bur:= $this-par/data(@bur)
-        let $percent := ($plag div $bur) * 100=>round-half-to-even()
+        let $percent := round-half-to-even(($plag div $bur) * 100)
         return concat($plag,",",$percent),","),    
                $linefeed)))
 

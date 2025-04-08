@@ -2,8 +2,17 @@
 <?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <register parish="St-christopher-stocks" alt="St-Margt-Lothbury"> <!--Please note that this parish has undergone a name change. Consequently, the data provided is from St. Christopher’s Stocks. However, the map will display the new parish name. -->
     <encoder name="Zhaohao Weng"/>
-    <source href="Converted from St Christopher Stocks.xml"/>
+    <source href="https://archive.org/details/registerbookofpa00lond/page/50/mode/2up"/>
     
+    <burials date-from="1663-01-01" date-to="1663-12-31">
+        <burial name="John son of Thomas Peyton" date="1663-01-05" cause="x"/>
+        <burial name="Maty Daughter of James Hickers" date="1663-01-18" cause="x"/>
+        <burial name="Rachel Morris" date="1663-01-26" cause="x"/>
+        <burial name="Rebecca Daughter of William Kensey" date="1663-01-30" cause="x"/>
+        <burial name="A Chrisom Child of Elizabeth Grey wid" date="1663-02-09" cause="x"/>
+        <burial name="Sarah Daughter of Daniel Lingard" date="1664-03-15" cause="x"/>
+    </burials>
+        
     <burials date-from="1664-01-01" date-to="1664-12-31">
         <!--wzh, marked cause=x for unlisted cause of death-->
         <burial name="Chrisome Child of Timothie Boxer" date="1664-05-04" cause="x"/>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
+
 <?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<register parish="St-nicholas-Acons" alt="St-Edmund-and-St-Mary-Woolnoths"><!-- This data is from the parish St-Nicholas_Acons which was divied into the two parish. -->
+<register parish="St-Nicholas-Acons" alt="St Nicholas Acons"><!-- This data is from the parish St-Nicholas_Acons which was divied into the two parish. -->
+>>>>>>> refs/remotes/origin/main
     <encoder name="RJ Romano"/>
     <!--I plan to publish these files online. If you want your name removed before I do so, you need to email me when you submit this to let me know that. Otherwise I will assume I have permission to give you credit by name.-->
     <source href="https://archive.org/details/registerbookpar00pargoog/page/n128/mode/2up"/>

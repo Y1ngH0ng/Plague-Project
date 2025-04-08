@@ -2,7 +2,7 @@ xquery version "3.1";
 
 declare namespace file = "http://expath.org/ns/file";
 
-let $dir := "/Users/rjromano/Documents/GitHub/Plague-Project/xml/Parish_Registers"
+let $dir := collection("../xml/Parish_Registers/?select=*.xml")
 let $files := file:list($dir, false())
 
 let $all-burials :=

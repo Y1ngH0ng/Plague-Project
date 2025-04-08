@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<register parish="St-christopher-stocks" alt="St-Margt-Lothbury"> <!--Please note that this parish has undergone a name change. Consequently, the data provided is from St. Christopher’s Stocks. However, the map will display the new parish name. -->
+
+<register parish="St-Christophers" alt="St Christophers"><!--Please note that this parish has undergone a name change. Consequently, the data provided is from St. Christopher’s Stocks. However, the map will display the new parish name. -->
+
+
     <encoder name="Zhaohao Weng"/>
     <source href="https://archive.org/details/registerbookofpa00lond/page/50/mode/2up"/>
     

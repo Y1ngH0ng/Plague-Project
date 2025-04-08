@@ -105,6 +105,11 @@ header h2 {
     text-align: center;
 }
 .about-wrapper {
+    width: fit-content;
+    background-color: rgba(100,100,100,100.5);
+    border: 1px solid black;
+    border-radius:25px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,5 +120,10 @@ header h2 {
 }
 
 .about-wrapper h2 {
+    width: fit-content;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid black;
+    border-radius:25px;
+    margin: 0 auto;
     margin-bottom: 20px;
 }

@@ -1,24 +1,43 @@
-declare variable $target-year := "1664";
-declare variable $target-month := "02";
+declare variable $start-year := 1664;
+declare variable $start-month := 01;
+declare variable $total-charts := 30;
+declare variable $bar-scale := 5;
 declare variable $xspacer := "10";
 declare variable $yspacer := "20";
+declare variable $chart-padding := 100;
 declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml')/register;
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
 
-    <g transform="translate(150, 60)" font-family="Arial" font-size="12">
-        <!--whc: change the following to a text output that gives the month and year using the variables:
-<year value="{$target-year}"> 
-  <month value="{$target-month}">  -->
-        
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+{
+  for $i in 0 to $total-charts - 1
+  let $year := $start-year + floor(($start-month + $i - 1) div 12)
+  let $month := (($start-month + $i - 1) mod 12) + 1
+  let $month-str := if ($month lt 10) then concat("0", $month) else string($month)
+  let $y-offset := $i * $chart-padding
+  return 
+    <g transform="translate(150, {$y-offset})" font-family="Arial" font-size="12">
+       
+         <text x="0" y="20" font-size="20" font-weight="bold">
+        {concat("Month: ", $month-str, " / ", $year)}
+      </text>
+      
 {      for $register at $n in $registers (:$n is a position indicator:)
       let $parish-name := $register/@parish
       let $burials := $register//burial[
-        substring(@date, 1, 4) = $target-year and 
-        substring(@date, 6, 2) = $target-month
+        substring(@date, 1, 4) = string($year) and 
+        substring(@date, 6, 2) = $month-str
       ]
+     
       where exists($burials)
+      let $cause := distinct-values($burials/@cause)
+      let $cause-count := count($cause)
+      let $y-spacing := if ($cause-count lt 5) then $yspacer else $xspacer
+      let $chart-height := number($cause-count) * number($y-spacing) + 50
+      let $parish-y := 30 + ($n - 1) * ($chart-height + 20)
       return
-      <g>  <!--position using transform translate and $n from above-->
+      
+      <g transform="translate(0, {$parish-y})">
+      <!--position using transform translate and $n from above-->
           <!-- Gray translucent background box -->
     <rect x="140" y="50" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> <!--whc: height of box can be scaled to fit the number of causes in that parish that month-->
     <!-- X-axis line -->
@@ -36,15 +55,27 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
         <text x="100" y="-5" text-anchor="middle">100</text>
         <text x="300" y="-5" text-anchor="middle">300</text>
         <text x="500" y="-5" text-anchor="middle">500</text>
+        <text x="0" y="5" ></text>
         <parish name="{$parish-name}"><!--replace this as a text element-->
+       
           {
             for $cause at $cause-no in distinct-values($burials/@cause)
             let $count := count($burials[@cause = $cause])
-            return <cause name="{$cause}" count="{$count}"/>
-            (:output cause as text label for bar, count as end label for bar, and use count to determine the length of bar:)
-            (:output line element for bar for graph, length based on $count, y-position based on $cause-no times a yspacer :)
-          }
-        </parish></g>
-}
-</g>
+            let $yspacer := 30 +number($cause-no)*number($yspacer)
+            let $bar-length := $count * $bar-scale
+             return (
+            <text x="10" y="{$yspacer + 5}" font-size="12">{$cause}</text>,
+            <line x1="150" y1="{$yspacer}" x2="{150 + $bar-length}" y2="{$yspacer}" stroke="steelblue" stroke-width="10"/>,
+            <text x="{155 + $bar-length}" y="{$yspacer + 5}" font-size="12" font-weight="bold">{$count}</text>
+          )}
+          
+         
+          
+        </parish>
+  
+        </g>
+        }
+ 
+        </g> 
+        }
 </svg>

@@ -1,13 +1,30 @@
+xquery version "3.1";
+declare option saxon:output"method=html";
+declare option saxon:output"doctype-system=about:legacy-compat";
 declare variable $start-year := 1664;
 declare variable $start-month := 01;
-declare variable $total-charts := 30;
+declare variable $total-charts := 34;
 declare variable $bar-scale := 5;
 declare variable $xspacer := "10";
 declare variable $yspacer := "20";
-declare variable $chart-padding := 100;
+declare variable $chart-padding := 500;
 declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml')/register;
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<html>
+<head>
+<title>hi</title>
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+<svg  viewBox="0 0 1000 6000">
 {
   for $i in 0 to $total-charts - 1
   let $year := $start-year + floor(($start-month + $i - 1) div 12)
@@ -39,7 +56,7 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
       <g transform="translate(0, {$parish-y})">
       <!--position using transform translate and $n from above-->
           <!-- Gray translucent background box -->
-    <rect x="140" y="50" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> <!--whc: height of box can be scaled to fit the number of causes in that parish that month-->
+    <rect x="100" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> <!--whc: height of box can be scaled to fit the number of causes in that parish that month-->
     <!-- X-axis line -->
         <line x1="0" y1="0" x2="600" y2="0" stroke="black" stroke-width="2"/>
         
@@ -69,6 +86,7 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
             <text x="{155 + $bar-length}" y="{$yspacer + 5}" font-size="12" font-weight="bold">{$count}</text>
           )}
           
+          <!--!<text x="0" y="-5" text-anchor="middle">0</text>text> -->
          
           
         </parish>
@@ -79,3 +97,5 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
         </g> 
         }
 </svg>
+</body>
+</html>

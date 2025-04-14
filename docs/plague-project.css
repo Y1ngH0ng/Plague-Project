@@ -1,6 +1,12 @@
 head{
     
 }
+
+
+div class lis{ position: fixed;
+  bottom: 0;
+    
+}
 body
 {
     background-color: black;
@@ -96,9 +102,4 @@ header nav ul li:hover a {
 
 header nav {
   left: 12%; 
-}
-
-div class lis{ position: fixed;
-  bottom: 0;
-    
 }

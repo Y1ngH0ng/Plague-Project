@@ -98,7 +98,7 @@ header nav {
   left: 12%; 
 }
 
-div class lis{ position: absolute;
-  bottom: -50%;
+div class lis{ position: fixed;
+  bottom: 0;
     
 }

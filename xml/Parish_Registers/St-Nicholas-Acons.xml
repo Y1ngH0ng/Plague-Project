@@ -5,7 +5,7 @@
 
 <?xml-model href="ParishSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <register parish="St-Nicholas-Acons" alt="St Nicholas Acons"><!-- This data is from the parish St-Nicholas_Acons which was divied into the two parish. -->
->>>>>>> refs/remotes/origin/main
+
     <encoder name="RJ Romano"/>
     <!--I plan to publish these files online. If you want your name removed before I do so, you need to email me when you submit this to let me know that. Otherwise I will assume I have permission to give you credit by name.-->
     <source href="https://archive.org/details/registerbookpar00pargoog/page/n128/mode/2up"/>
@@ -90,7 +90,7 @@
         <burial name="William Hughes" date="1666-01-19" cause="x"/>
         <burial name="Abigall Pettet" date="1666-03-03" cause="plag"/>
         <burial name="David King" date="1666-06-16" cause="x"/>
-        <burial name="Lidda Skinner" date="1666-10-19" cause="x"/>
+     
     </burials>
     
 </register>

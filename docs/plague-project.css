@@ -97,3 +97,8 @@ header nav ul li:hover a {
 header nav {
   left: 12%; 
 }
+
+lis{ position: absolute;
+  bottom: -50%;
+    
+}

@@ -3,7 +3,7 @@ declare option saxon:output"method=html";
 declare option saxon:output"doctype-system=about:legacy-compat";
 declare variable $start-year := 1664;
 declare variable $start-month := 01;
-declare variable $total-charts := 34;
+declare variable $total-charts := 32;
 declare variable $bar-scale := 5;
 declare variable $xspacer := "10";
 declare variable $yspacer := "20";
@@ -37,7 +37,22 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
          <text x="0" y="20" font-size="20" font-weight="bold">
         {concat("Month: ", $month-str, " / ", $year)}
       </text>
-      
+          <!-- X-axis line -->
+        <line x1="0" y1="0" x2="600" y2="0" stroke="black" stroke-width="2"/>
+        
+        <!-- Grid lines 
+        <line x1="0" y1="-15" x2="600" y2="-15" stroke="#ccc" stroke-dasharray="2,2"/>
+        <line x1="0" y1="0" x2="0" y2="90" stroke="#ccc" stroke-dasharray="2,2"/>
+        <line x1="100" y1="0" x2="100" y2="90" stroke="#eee"/>
+        <line x1="300" y1="0" x2="300" y2="90" stroke="#eee"/>
+        <line x1="500" y1="0" x2="500" y2="90" stroke="#eee"/>-->
+        
+        <!-- X-axis ticks -->
+        <text x="0" y="-5" text-anchor="middle">0</text>
+        <text x="100" y="-5" text-anchor="middle">100</text>
+        <text x="300" y="-5" text-anchor="middle">300</text>
+        <text x="500" y="-5" text-anchor="middle">500</text>
+        <text x="0" y="5" ></text>
 {      for $register at $n in $registers (:$n is a position indicator:)
       let $parish-name := $register/@parish
       let $burials := $register//burial[
@@ -54,26 +69,11 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
       return
       
       <g transform="translate(0, {$parish-y})">
-      <!--position using transform translate and $n from above-->
+      
           <!-- Gray translucent background box -->
-    <rect x="100" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> <!--whc: height of box can be scaled to fit the number of causes in that parish that month-->
-    <!-- X-axis line -->
-        <line x1="0" y1="0" x2="600" y2="0" stroke="black" stroke-width="2"/>
-        
-        <!-- Grid lines -->
-        <line x1="0" y1="-15" x2="600" y2="-15" stroke="#ccc" stroke-dasharray="2,2"/>
-        <line x1="0" y1="0" x2="0" y2="90" stroke="#ccc" stroke-dasharray="2,2"/>
-        <line x1="100" y1="0" x2="100" y2="90" stroke="#eee"/>
-        <line x1="300" y1="0" x2="300" y2="90" stroke="#eee"/>
-        <line x1="500" y1="0" x2="500" y2="90" stroke="#eee"/>
-        
-        <!-- X-axis ticks -->
-        <text x="0" y="-5" text-anchor="middle">0</text>
-        <text x="100" y="-5" text-anchor="middle">100</text>
-        <text x="300" y="-5" text-anchor="middle">300</text>
-        <text x="500" y="-5" text-anchor="middle">500</text>
-        <text x="0" y="5" ></text>
-        <parish name="{$parish-name}"><!--replace this as a text element-->
+    <rect x="0" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> <!--whc: height of box can be scaled to fit the number of causes in that parish that month-->
+
+        <parish name="{$parish-name}">
        
           {
             for $cause at $cause-no in distinct-values($burials/@cause)
@@ -81,12 +81,13 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
             let $yspacer := 30 +number($cause-no)*number($yspacer)
             let $bar-length := $count * $bar-scale
              return (
+             
             <text x="10" y="{$yspacer + 5}" font-size="12">{$cause}</text>,
             <line x1="150" y1="{$yspacer}" x2="{150 + $bar-length}" y2="{$yspacer}" stroke="steelblue" stroke-width="10"/>,
             <text x="{155 + $bar-length}" y="{$yspacer + 5}" font-size="12" font-weight="bold">{$count}</text>
           )}
           
-          <!--!<text x="0" y="-5" text-anchor="middle">0</text>text> -->
+          
          
           
         </parish>

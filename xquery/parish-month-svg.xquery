@@ -38,8 +38,9 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
         {concat("Month: ", $month-str, " / ", $year)}
       </text>
           <!-- X-axis line -->
-        <line x1="0" y1="0" x2="600" y2="0" stroke="black" stroke-width="2"/>
-        
+          <!--<div class="x-axis">
+        <line x1="0" y1="" x2="600" y2="" stroke="black" stroke-width="2"/>
+        </div>-->
         <!-- Grid lines 
         <line x1="0" y1="-15" x2="600" y2="-15" stroke="#ccc" stroke-dasharray="2,2"/>
         <line x1="0" y1="0" x2="0" y2="90" stroke="#ccc" stroke-dasharray="2,2"/>
@@ -70,8 +71,19 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
       
       <g transform="translate(0, {$parish-y})">
       
-          <!-- Gray translucent background box -->
-    <rect x="0" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> <!--whc: height of box can be scaled to fit the number of causes in that parish that month-->
+         <!-- Gray translucent background box -->
+   <!-- <rect x="0" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> -->
+<!-- Gray translucent background box (dynamic height) -->
+<rect x="0" y="0" width="620" height="{$chart-height}" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/>
+
+<!-- X-axis line and ticks positioned 10px below rect -->
+<g class="x-axis">
+  <line x1="0" y1="{$chart-height + 10}" x2="600" y2="{$chart-height + 10}" stroke="black" stroke-width="2"/>
+  <text x="0" y="{$chart-height + 5}" text-anchor="middle">0</text>
+  <text x="100" y="{$chart-height + 5}" text-anchor="middle">100</text>
+  <text x="300" y="{$chart-height + 5}" text-anchor="middle">300</text>
+  <text x="500" y="{$chart-height + 5}" text-anchor="middle">500</text>
+</g>
 
         <parish name="{$parish-name}">
        

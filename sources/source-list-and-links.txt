@@ -29,6 +29,9 @@ St Nicholas Acons: https://archive.org/details/registerbookpar00pargoog/page/n12
 
 Kensington, Middlesex: https://archive.org/details/parishregisterof16kens/page/132/mode/2up
 
+St Olave, Hart Street:
+https://archive.org/details/registersofstola46stol/page/192/mode/2up
+
 Parish registers not including causes of death
 You will be using this XML file: Parish-name-register-no-causes.xml
 
@@ -48,9 +51,32 @@ St Mary Aldermanbury  https://archive.org/details/parishregisterso00stma/page/18
 
 St Denis Backchurch  https://archive.org/details/reiesterbookesa00socigoog/page/n246/mode/2up
 
- 
+St Peter, Paul's Wharf https://archive.org/details/registersofstben41stbe/page/230/mode/2up
 
-Others may be available: https://harleian.org.uk/Volumes.htm vols. 43 onwards
+St Margaret Moses, Friday Street https://archive.org/details/registersofstmil42stmi/page/90/mode/2up
+
+All Hallows, Bread Street https://archive.org/details/registersofallha00allh/page/n435/mode/2up
+
+St. John the Evangelist, Friday Street https://archive.org/details/registersofallha00allh/page/n699/mode/2up
+
+St. Mary le Bowe https://archive.org/details/registersofstmar44stma/page/190/mode/2up
+
+St Stephen's, Walbrook https://archive.org/details/registersofstste49stst/page/102/mode/2up
+
+That's all the Harleian Society has listed (https://harleian.org.uk/Volumes.htm) as available online. The following might be obtainable by ILL:
+
+58	 	THE REGISTER OF ST. MARY MOUNTHAW, LONDON. Christenings 1538 to 1837; Marriages 1568 to 1835; Burials 1568 to 1849		Out of print
+1928	 	Ed. by W BRUCE BANNERMAN, FSA
+59-
+60	 	THE REGISTER OF ST. MARY SOMERSET, LONDON. Part I (Christenings and Marriages 1558 to 1837) & Part II (Burials 1557 to 1853)		Out of print
+1929-30	 	Ed. by W BRUCE BANNERMAN, FSA
+
+OMIT THE FOLLOWING:
+
+NB Allhallows Honey Lane is missing most burials for period, but specifies plague for the few deaths it has: could be compared to Bills of Mortality? https://archive.org/details/registersofstmar44stma/page/280/mode/2up
+
+Skip St Pancras Soper Lane, as it's confused: appears to list some marriages as burials, and has few burials for plague period: https://archive.org/details/registersofstmar44stma/page/306/mode/2up
+
 
 
 MAP OF LONDON PARISHES

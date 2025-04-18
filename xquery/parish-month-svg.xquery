@@ -5,11 +5,12 @@ declare variable $start-year := 1664;
 declare variable $start-month := 01;
 declare variable $total-charts := 32;
 declare variable $bar-scale := 5;
-declare variable $xspacer := "10";
-declare variable $yspacer := "20";
+declare variable $xspacer := "5";
+declare variable $yspacer := "10";
 declare variable $chart-padding := 500;
 declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml')/register;
-
+declare variable $y-value := "30";
+declare variable $value := "0" ;
 <html>
 <head>
 <title>hi</title>
@@ -24,7 +25,7 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
 
 
 
-<svg  viewBox="0 0 1000 6000">
+<svg  viewBox="0 0 1000 17000">
 {
   for $i in 0 to $total-charts - 1
   let $year := $start-year + floor(($start-month + $i - 1) div 12)
@@ -38,15 +39,7 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
         {concat("Month: ", $month-str, " / ", $year)}
       </text>
           <!-- X-axis line -->
-          <!--<div class="x-axis">
-        <line x1="0" y1="" x2="600" y2="" stroke="black" stroke-width="2"/>
-        </div>-->
-        <!-- Grid lines 
-        <line x1="0" y1="-15" x2="600" y2="-15" stroke="#ccc" stroke-dasharray="2,2"/>
-        <line x1="0" y1="0" x2="0" y2="90" stroke="#ccc" stroke-dasharray="2,2"/>
-        <line x1="100" y1="0" x2="100" y2="90" stroke="#eee"/>
-        <line x1="300" y1="0" x2="300" y2="90" stroke="#eee"/>
-        <line x1="500" y1="0" x2="500" y2="90" stroke="#eee"/>-->
+         
         
         <!-- X-axis ticks -->
         <text x="0" y="-5" text-anchor="middle">0</text>
@@ -61,13 +54,15 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
         substring(@date, 6, 2) = $month-str
       ]
      
-      where exists($burials)
-      let $cause := distinct-values($burials/@cause)
-      let $cause-count := count($cause)
-      let $y-spacing := if ($cause-count lt 5) then $yspacer else $xspacer
-      let $chart-height := number($cause-count) * number($y-spacing) + 50
-      let $parish-y := 30 + ($n - 1) * ($chart-height + 20)
-      return
+    where exists($burials)
+    let $cause := distinct-values($burials/@cause)
+    let $value := 0
+    let $cuase-count := count(@cause)
+    let $y-spacing := if ($value lt 5) then number($yspacer) else number($xspacer)
+    let $chart-height := $cuase-count * $y-spacing + 50
+    let $parish-y := 30 + ($n - 1) * ($chart-height + 20)
+    return
+
       
       <g transform="translate(0, {$parish-y})">
       
@@ -85,24 +80,28 @@ declare variable $registers := collection('../xml/Parish_Registers/?select=*.xml
   <text x="500" y="{$chart-height + 5}" text-anchor="middle">500</text>
 </g>
 
-        <parish name="{$parish-name}">
        
-          {
+        
+        <text x="0" y="0" font-size="20">{$parish-name}</text>
+   
+         {
             for $cause at $cause-no in distinct-values($burials/@cause)
+            let $cause-count := count($cause)
+            let $y-spacing := if ($cause-count lt 5) then number($yspacer) else number($xspacer)
+            let $chart-height := $cause-count * $y-spacing + 50
             let $count := count($burials[@cause = $cause])
-            let $yspacer := 30 +number($cause-no)*number($yspacer)
+            let $y-value := 30 + ($cause-no - 1) * $y-spacing
             let $bar-length := $count * $bar-scale
              return (
-             
-            <text x="10" y="{$yspacer + 5}" font-size="12">{$cause}</text>,
-            <line x1="150" y1="{$yspacer}" x2="{150 + $bar-length}" y2="{$yspacer}" stroke="steelblue" stroke-width="10"/>,
-            <text x="{155 + $bar-length}" y="{$yspacer + 5}" font-size="12" font-weight="bold">{$count}</text>
+           
+            <text x="10" y="{$y-value + 5}" font-size="12">{$cause}</text>,
+            <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>,
+            <text x="{155 + $bar-length}" y="{$y-value + 5}" font-size="12" font-weight="bold">{$count}</text>
           )}
           
           
          
-          
-        </parish>
+
   
         </g>
         }

@@ -18,13 +18,6 @@ declare variable $value := "0" ;
 </head>
 <body>
 
-
-
-
-
-
-
-
 <svg  viewBox="0 0 1000 17000">
 {
   for $i in 0 to $total-charts - 1
@@ -40,7 +33,6 @@ declare variable $value := "0" ;
       </text>
           <!-- X-axis line -->
          
-        
         <!-- X-axis ticks -->
         <text x="0" y="-5" text-anchor="middle">0</text>
         <text x="100" y="-5" text-anchor="middle">100</text>
@@ -57,9 +49,9 @@ declare variable $value := "0" ;
     where exists($burials)
     let $cause := distinct-values($burials/@cause)
     let $value := 0
-    let $cuase-count := count(@cause)
+    let $cause-count := count($cause)
     let $y-spacing := if ($value lt 5) then number($yspacer) else number($xspacer)
-    let $chart-height := $cuase-count * $y-spacing + 50
+    let $chart-height := $cause-count * $y-spacing + 50
     let $parish-y := 30 + ($n - 1) * ($chart-height + 20)
     return
 
@@ -98,10 +90,6 @@ declare variable $value := "0" ;
             <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>,
             <text x="{155 + $bar-length}" y="{$y-value + 5}" font-size="12" font-weight="bold">{$count}</text>
           )}
-          
-          
-         
-
   
         </g>
         }

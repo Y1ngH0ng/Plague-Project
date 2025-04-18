@@ -23,7 +23,42 @@
             <p>
                 The goal of our project is to compile death records from London parishes into a single database. This will help us trace how quickly the plague spread. We’re also exploring signs of underreported plague deaths by comparing months with high overall mortality but fewer recorded plague cases.
             </p>
+            
+            
+           </div>
+        
+        <div class="about-wrapper">
+            <h1>Methods and Choices</h1>
+            
+            <h2>Part 1: Project Beginnings and Summary</h2>
+            
+            The project was originally conceived by Dr. Campbell (our faculty member) as a way to map and track plague deaths in London during the Great Plague in 1665. Each team member expressed interest and was selected by Dr. Campbell to be a part of the project. These projects were started as proposals and were shaped by time and group decisions. The data from the Bills of Mortality was entered by Dr. Campbell’s World History to 1500 students and was checked using an Xquery from the project team. The parish registry data was gathered by the project team and input on forms provided by Dr. Campbell.
+            
+            
+            
+            <h2> Part 2: Code Used and Choices of Scope</h2>
+            
+            <h3>Parish Registers</h3>
+            
+            <p> During this Spring term, we decided to collect data on only 5 Parishes due to a time constraint of 16 weeks. The Bills of Mortality from London’s Dreadful Visitation had already been done, but had to be checked for accuracy.
+                
+                Each team member was assigned one Parish to complete, with the remaining being done by another member of the team. For the Parishes, we collected the Name of the person who died, the date, and the cause. Those who were given a cause were listed with an X. Names were left as represented in the Parish Registers, and causes were noted when given (they rarely are). The Parish registers completed were <a href="https://archive.org/details/registerofallchr01stpe/page/216/mode/2up">St Peter Cornhill</a>, <a href="https://archive.org/details/registersofstpau36stpa/page/32/mode/2up
+                    ">St Paul Covent Garden</a>, <a href="https://archive.org/details/parishregisterof16kens/page/132/mode/2up"
+                        >Kensington-Middlesex</a>, <a href="https://archive.org/details/registerbookofpa00lond/page/50/mode/2up">St Christopher Stocks </a>, <a href="https://archive.org/details/registerbookpar00pargoog/page/n128/mode/2up">St Nicholas-Acons</a> from 1664 to August 1666. These were pulled from the parish registers from internet archive. There are other registers that exist and can expand upon the small base we had begun with. The Scalable Vector Graphic made for these was done by RJ and Josiah and measures the plague deaths per parish on a month-by-month basis. Using this, we can compare with the Bills of Mortality to see any issues with the undercount of deaths in the parishes.
+            <p>
+            <h3>Bills of Mortality</h3>
+            
+           <p> The Bills of Mortality were done by students in the World History to 1500 class as homework assignments and were checked by Trenton by hand with XQuery written to help check the totals. When these were aligned, an XQuery was built to form an HTML table that was later converted into a CSV file, and another to make week-by-week data pages for every week. Alex and Trenton split the role of making these pages that have the numbers of every parish for the specified week. These pages can be seen under the data page. 
+            The next step was making heat maps of the spread of plague across the parishes of London. We used shape files that Dr.Campbell obtained from Layers of London - Institute of Historical Research, University of London, and Museum of London Archaeology. These files were turned into a CSV by Boris Michev of Pitt's University Library Digital Services. In order to correlate both the Map CSV and the death CSV we had to match names of the 1676 map with the 1665 data. Out of the around 125 we were able to match 118 (more on this is on the map page). Trenton then used ARCGIS to make the first set of maps that measure the plague deaths per parish from week 25-52. Alex made the map set that dealt with plague deaths as a percentage of total burials for those same weeks. The maps exist in jpg form and if you are interested in seeing them see our <a href="https://github.com/Y1ngH0ng/Plague-Project/tree/main">Github page</a> under the map folder. These were then put into a story map program by Trenton on ARCGIS that is found on the Maps tab of the website.
+           </p>
+            
+            <p>We hope that you enjoy seeing the data from these sources visualized in new modern forms! </p>
+            
+            
+            <p> -Plague Project Team</p> 
+           
         </div>
+        
         <div class="about-wrapper">
             <h2>The Team</h2>
             <p>
@@ -34,6 +69,12 @@
                 <li>Josiah Whipkey</li>
             </ul>
                 </div>
+            
+            
+            
+                
+                
+            
             
             <main>
                 <img src="placeholder.jpg" alt="plaguedoc" id="corner-img" />

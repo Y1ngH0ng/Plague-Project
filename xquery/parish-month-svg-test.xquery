@@ -13,15 +13,12 @@ declare variable $y-value := "30";
 declare variable $value := "0" ;
 <html>
 <head>
-<title>hi</title>
+<title>Deaths per parish by month: Register data</title>
 
 </head>
 <body>
-<svg>
-<rect x="0" y="0" width="10" height="10"/>
-</svg>
-<svg  viewBox="0 0 1000 17000">
 
+<svg  viewBox="0 0 1000 17000">
 {
   for $i in 0 to $total-charts - 1
   let $year := $start-year + floor(($start-month + $i - 1) div 12)
@@ -55,12 +52,13 @@ declare variable $value := "0" ;
     let $cause-count := count($cause)
     let $y-spacing := if ($value lt 5) then number($yspacer) else number($xspacer)
     let $chart-height := $cause-count * $y-spacing + 50
-    let $parish-y := 30 + ($n - 1) * ($chart-height + 20)
+    let $parish-y := 30 + ($n - 1) * ($chart-height + 20) (:whc: this is the problem. $parish-y needs to be calculated based on the number of causes of death in the *previous* parish.:)
+    let $parish-box-y := $registers[position()=$n - 1]//burial[substring(@date, 1, 4) = string($year) and substring(@date, 6, 2) = $month-str]=>distinct-values(@cause)=>count() * $y-spacing + 50
     return
 
       
-      <g transform="translate(0, {$parish-y})">
-      <text x="0" y="0">{string($parish-name)}</text>
+      <g transform="translate(0, {$parish-box-y})">
+      
          <!-- Gray translucent background box -->
    <!-- <rect x="0" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> -->
 <!-- Gray translucent background box (dynamic height) -->
@@ -89,11 +87,9 @@ declare variable $value := "0" ;
             let $bar-length := $count * $bar-scale
              return (
            
-            <g transform="translate(-150,0)">
-            <text x="10" y="{$y-value + 5}" font-size="12">{replace($cause,"x","unknown")}</text>,
+            <text x="10" y="{$y-value + 5}" font-size="12">{$cause}</text>,
             <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>,
             <text x="{155 + $bar-length}" y="{$y-value + 5}" font-size="12" font-weight="bold">{$count}</text>
-            </g>
           )}
   
         </g>

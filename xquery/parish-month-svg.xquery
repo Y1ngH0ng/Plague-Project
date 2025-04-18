@@ -17,8 +17,11 @@ declare variable $value := "0" ;
 
 </head>
 <body>
-
+<svg>
+<rect x="0" y="0" width="10" height="10"/>
+</svg>
 <svg  viewBox="0 0 1000 17000">
+
 {
   for $i in 0 to $total-charts - 1
   let $year := $start-year + floor(($start-month + $i - 1) div 12)
@@ -57,7 +60,7 @@ declare variable $value := "0" ;
 
       
       <g transform="translate(0, {$parish-y})">
-      
+      <text x="0" y="0">{string($parish-name)}</text>
          <!-- Gray translucent background box -->
    <!-- <rect x="0" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> -->
 <!-- Gray translucent background box (dynamic height) -->
@@ -86,9 +89,11 @@ declare variable $value := "0" ;
             let $bar-length := $count * $bar-scale
              return (
            
-            <text x="10" y="{$y-value + 5}" font-size="12">{$cause}</text>,
+            <g transform="translate(-150,0)">
+            <text x="10" y="{$y-value + 5}" font-size="12">{replace($cause,"x","unknown")}</text>,
             <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>,
             <text x="{155 + $bar-length}" y="{$y-value + 5}" font-size="12" font-weight="bold">{$count}</text>
+            </g>
           )}
   
         </g>

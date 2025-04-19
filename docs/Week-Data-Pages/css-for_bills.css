@@ -84,3 +84,8 @@ z-index: -1;
     
     
 }
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}

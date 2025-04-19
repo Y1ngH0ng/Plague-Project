@@ -74,10 +74,6 @@ declare variable $value := "0" ;
   <text x="500" y="{$chart-height + 5}" text-anchor="middle">500</text>
 </g>
 
-       
-        
-        <text x="0" y="0" font-size="20">{$parish-name}</text>
-   
          {
             for $cause at $cause-no in distinct-values($burials/@cause)
             let $cause-count := count($cause)
@@ -89,8 +85,8 @@ declare variable $value := "0" ;
              return (
            
             <g transform="translate(-150,0)">
-            <text x="10" y="{$y-value + 5}" font-size="12">{replace($cause,"x","unknown")}</text>,
-            <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>,
+            <text x="10" y="{$y-value + 5}" font-size="12">{replace($cause,"x","unknown")}</text>
+            <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>
             <text x="{155 + $bar-length}" y="{$y-value + 5}" font-size="12" font-weight="bold">{$count}</text>
             </g>
           )}

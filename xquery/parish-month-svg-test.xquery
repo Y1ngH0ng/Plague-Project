@@ -33,14 +33,7 @@ declare variable $value := "0" ;
          <text x="0" y="20" font-size="20" font-weight="bold">
         {concat("Month: ", $month-str, " / ", $year)}
       </text>
-          <!-- X-axis line -->
-         
-        <!-- X-axis ticks -->
-        <text x="0" y="-5" text-anchor="middle">0</text>
-        <text x="100" y="-5" text-anchor="middle">100</text>
-        <text x="300" y="-5" text-anchor="middle">300</text>
-        <text x="500" y="-5" text-anchor="middle">500</text>
-        <text x="0" y="5" ></text>
+        
 {      for $register at $n in $registers (:$n is a position indicator:)
       let $parish-name := $register/@parish
       let $burials := $register//burial[
@@ -48,19 +41,19 @@ declare variable $value := "0" ;
         substring(@date, 6, 2) = $month-str
       ]
      
-    where exists($burials)
+    (:where exists($burials):)
     let $cause := distinct-values($burials/@cause)
     let $value := 0
     let $cause-count := count($cause)
     let $y-spacing := if ($value lt 5) then number($yspacer) else number($xspacer)
     let $chart-height := $cause-count * $y-spacing + 50
-    let $parish-y := 30 + ($n - 1) * ($chart-height + 20) (:whc: this is the problem. $parish-y needs to be calculated based on the number of causes of death in the *previous* parish.:)
-    let $parish-box-y := $registers[position()=$n - 1]//burial[substring(@date, 1, 4) = string($year) and substring(@date, 6, 2) = $month-str]/distinct-values(@cause)=>count() * $y-spacing + 50
+    let $parish-y := 30 + ($n - 1) * ($chart-height + 20) (:whc: this is the problem. For boxes to be pushed down by different amounts, $parish-y needs to be calculated based on the number of causes of death in the *previous* parish.:)
+    let $parish-box-y := $registers[position()=$n - 1]//burial[substring(@date, 1, 4) = string($year) and substring(@date, 6, 2) = $month-str]/distinct-values(@cause)=>count() * $y-spacing + 50  (:whc: this was not successful at measuring the previous parish:)
+    let $parish-box-height := 30 + ($n - 1) * (90) (:whc: this gives boxes a standard spacing regardless of how many different causes of death are listed: it accommodates up to 4 bars, currently the maximum seen:)
     return
-
       
-      <g transform="translate(0, {$parish-box-y})">
-      
+      <g transform="translate(0, {$parish-box-height})">
+              <text x="5" y="15" font-size="15">{string($parish-name)}</text>
          <!-- Gray translucent background box -->
    <!-- <rect x="0" y="0" width="620" height="100" fill="lightgray" fill-opacity="0.3" rx="10" ry="10"/> -->
 <!-- Gray translucent background box (dynamic height) -->
@@ -68,17 +61,12 @@ declare variable $value := "0" ;
 
 <!-- X-axis line and ticks positioned 10px below rect -->
 <g class="x-axis">
-  <line x1="0" y1="{$chart-height + 10}" x2="600" y2="{$chart-height + 10}" stroke="black" stroke-width="2"/>
-  <text x="0" y="{$chart-height + 5}" text-anchor="middle">0</text>
-  <text x="100" y="{$chart-height + 5}" text-anchor="middle">100</text>
-  <text x="300" y="{$chart-height + 5}" text-anchor="middle">300</text>
-  <text x="500" y="{$chart-height + 5}" text-anchor="middle">500</text>
-</g>
-
-       
-        
-        <text x="0" y="0" font-size="20">{$parish-name}</text>
-   
+  <line x1="5" y1="{$chart-height}" x2="600" y2="{$chart-height}" stroke="black" stroke-width="2"/>
+  <text x="0" y="{$chart-height -3}" text-anchor="middle">0</text>
+  <text x="100" y="{$chart-height -3}" text-anchor="middle">100</text>
+  <text x="300" y="{$chart-height -3}" text-anchor="middle">300</text>
+  <text x="500" y="{$chart-height -3}" text-anchor="middle">500</text>
+</g> 
          {
             for $cause at $cause-no in distinct-values($burials/@cause)
             let $cause-count := count($cause)
@@ -87,11 +75,12 @@ declare variable $value := "0" ;
             let $count := count($burials[@cause = $cause])
             let $y-value := 30 + ($cause-no - 1) * $y-spacing
             let $bar-length := $count * $bar-scale
+            
              return (
            
             <g transform="translate(-150,0)">
-            <text x="10" y="{$y-value + 5}" font-size="12">{$cause}</text>,
-            <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>,
+            <text x="135" y="{$y-value + 5}" font-size="12" text-anchor="end">{$cause!replace(.,"x","unspecified")!replace(.,"plag", "plague")}</text>
+            <line x1="150" y1="{$y-value}" x2="{150 + $bar-length}" y2="{$y-value}" stroke="steelblue" stroke-width="10"/>
             <text x="{155 + $bar-length}" y="{$y-value + 5}" font-size="12" font-weight="bold">{$count}</text>
             </g>
           )}

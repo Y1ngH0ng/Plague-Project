@@ -21,7 +21,6 @@ declare variable $value := "0" ;
 <rect x="0" y="0" width="10" height="10"/>
 </svg>
 <svg  viewBox="0 0 1000 17000">
-
 {
   for $i in 0 to $total-charts - 1
   let $year := $start-year + floor(($start-month + $i - 1) div 12)
@@ -55,7 +54,7 @@ declare variable $value := "0" ;
     let $cause-count := count($cause)
     let $y-spacing := if ($value lt 5) then number($yspacer) else number($xspacer)
     let $chart-height := $cause-count * $y-spacing + 50
-    let $parish-y := 30 + ($n - 1) * ($chart-height + 20)
+    let $parish-y := 30 + ($n - 1) * ($chart-height + 20) (:whc: this is the problem. $parish-y needs to be calculated based on the number of causes of death in the *previous* parish.:)
     return
 
       

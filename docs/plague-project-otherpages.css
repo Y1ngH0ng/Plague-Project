@@ -1,3 +1,5 @@
+
+
 body
 {
     background-color: black;
@@ -12,6 +14,7 @@ body
     color: white; 
     text-align: center
 }
+
 header nav {
   position: fixed;
   top: 0;
@@ -94,6 +97,7 @@ header nav ul li:hover a {
 header nav {
   left: 12%; 
 }
+
 .about-container {
     max-width: 700px;
     margin: 0 auto;
@@ -124,4 +128,7 @@ header h2 {
    
     margin: 0 auto;
     margin-bottom: 20px;
+}
+.about-summary{
+    position: absolute; bottom: -55%; left: 0; width: 95%; text-align: center;
 }

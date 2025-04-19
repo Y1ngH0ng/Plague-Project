@@ -168,3 +168,10 @@ footer {
   vertical-align: text-bottom;
 }
 }
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+

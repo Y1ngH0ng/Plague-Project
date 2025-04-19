@@ -132,3 +132,9 @@ header h2 {
 .about-summary{
     position: absolute; bottom: -55%; left: 0; width: 95%; text-align: center;
 }
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}

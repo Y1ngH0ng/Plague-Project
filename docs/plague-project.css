@@ -174,6 +174,11 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
  .week-container { display: flex; flex-wrap: wrap; gap: 10px; }
             .week-link {
                 display: block;

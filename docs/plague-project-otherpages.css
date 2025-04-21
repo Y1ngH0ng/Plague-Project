@@ -174,3 +174,46 @@ a:link
   background-color: transparent;
   text-decoration: none;
 }
+ul {
+  list-style: none;
+ 
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  background: #333333;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: #000;
+}
+
+
+

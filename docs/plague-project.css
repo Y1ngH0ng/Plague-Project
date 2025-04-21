@@ -204,8 +204,28 @@ a:visited {
     background-color: rgba(128, 128, 128, 0.5);
     padding: 20px;
     border-radius: 10px; 
+    
 }
-
+.content-container1 {
+    position: static;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 10px; 
+    z-index: 1;
+}
+.content-container2 {
+    position: static;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 10px; 
+     z-index: 2;
+}
+.content-container3 {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 10px; 
+     z-index: 3;
+}
 .data_page
 {
 background-color: gray;

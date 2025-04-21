@@ -1,0 +1,105 @@
+/* Base Styles */
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Navigation */
+header nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 20px 0;
+    background: rgba(50, 50, 50, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+header nav ul li:hover a, header nav ul li.active a {
+    color: #FF1847;
+    background: transparent;
+}
+
+/* Dropdown Styles */
+header nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(50, 50, 50, 0.9);
+    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    z-index: 200;
+}
+
+header nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+header nav ul li ul.dropdown li {
+    width: 100%;
+    display: block;
+}
+
+header nav ul li ul.dropdown li a {
+    padding: 10px;
+    text-align: left;
+    display: block;
+}
+
+header nav ul li ul.dropdown li a:hover {
+    background: transparent; /* This removes the white background */
+    color: #FF1847;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+}
+
+/* Fix for images */
+img {
+    max-width: 100%;
+    height: auto;
+}

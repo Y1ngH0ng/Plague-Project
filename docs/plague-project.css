@@ -208,7 +208,7 @@ a:visited {
 }
 .content-container1 {
     position: static;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.8);
     padding: 20px;
     border-radius: 10px; 
     z-index: 1;

@@ -201,7 +201,7 @@ a:visited {
                  position: absolute; bottom: -90%; left: 0; width: 80%; text-align: center;}
                  .week-link-2:hover{ background-color: black;}
 .content-container {
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(128, 128, 128, 0.8);
     padding: 20px;
     border-radius: 10px; 
     

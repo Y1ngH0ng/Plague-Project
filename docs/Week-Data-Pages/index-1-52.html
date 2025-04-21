@@ -5,9 +5,15 @@
       <title>Weekly Links</title>
       <style>
             body { font-family: Arial, sans-serif; margin: 2em; 
-             background-color: #000;}
+             background-color: #000;
+      
+      }
             h1 { color: white; }
-            .Week-container { display: flex; flex-wrap: wrap; gap: 10px; }
+            .Week-container 
+            { 
+            display: flex; flex-wrap: wrap; gap: 10px; 
+            
+            }
             .Week-link {
                 display: block;
                 padding: 8px 12px;
@@ -24,7 +30,136 @@
 }
 .bottom{position: absolute; bottom: 50%; left: 0; width: 5%; text-align: center;}
 .bottom:hover{background-color: gray}
+header nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px 0;
+    z-index: 100;
+}
 
+/* Gray background box */
+header nav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.7); /* Semi-transparent gray */
+    border-radius: 8px;
+    z-index: -1; /* Place behind the links */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+header nav .line {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #FF1847;
+    margin: 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+header nav ul li {
+    opacity: 0.7;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+header nav ul li:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+header nav ul li.active {
+    opacity: 1;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-size: clamp(12px, 1.5vw, 20px);
+    padding: 10px 0;
+    transition: color 0.3s ease;
+}
+
+header nav ul li:hover a {
+    color: #FF1847;
+}
+
+header nav ul li.active::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #FF1847;
+}
+.viewer-container {
+      position: relative;
+      width: 80%;
+      height: 600px;
+      margin-top: 50px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      font-size: 20px;
+      cursor: pointer;
+      z-index: 10;
+      border-radius: 5px;
+      opacity: 0.7;
+    }
+
+    .arrow:hover {
+      opacity: 1;
+    }
+
+    #leftArrow {
+      left: -40px;
+    }
+
+    #rightArrow {
+      right: -40px;
+    }
+
+    .week-label {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
 
         </style>
    </head>
@@ -42,11 +177,100 @@
            </nav>
            
        </header>
+       <br>
+       <br>
+       <br>
       <h1>Weekly Links - Bill of Mortality</h1>
-     <div class="Week-container"><a href="Week-1-data.html" class="Week-link">Week 1</a><a href="Week-2-data.html" class="Week-link">Week 2</a><a href="Week-3-data.html" class="Week-link">Week 3</a><a href="Week-4-data.html" class="Week-link">Week 4</a><a href="Week-5-data.html" class="Week-link">Week 5</a><a href="Week-6-data.html" class="Week-link">Week 6</a><a href="Week-7-data.html" class="Week-link">Week 7</a><a href="Week-8-data.html" class="Week-link">Week 8</a><a href="Week-9-data.html" class="Week-link">Week 9</a><a href="Week-10-data.html" class="Week-link">Week 10</a><a href="Week-11-data.html" class="Week-link">Week 11</a><a href="Week-12-data.html" class="Week-link">Week 12</a><a href="Week-13-data.html" class="Week-link">Week 13</a><a href="Week-14-data.html" class="Week-link">Week 14</a><a href="Week-15-data.html" class="Week-link">Week 15</a><a href="Week-16-data.html" class="Week-link">Week 16</a><a href="Week-17-data.html" class="Week-link">Week 17</a><a href="Week-18-data.html" class="Week-link">Week 18</a><a href="Week-19-data.html" class="Week-link">Week 19</a><a href="Week-20-data.html" class="Week-link">Week 20</a><a href="Week-21-data.html" class="Week-link">Week 21</a><a href="Week-22-data.html" class="Week-link">Week 22</a><a href="Week-23-data.html" class="Week-link">Week 23</a><a href="Week-24-data.html" class="Week-link">Week 24</a><a href="Week-25-data.html" class="Week-link">Week 25</a><a href="Week-26-data.html" class="Week-link">Week 26</a><a href="Week-27-data.html" class="Week-link">Week 27</a><a href="Week-28-data.html" class="Week-link">Week 28</a><a href="Week-29-data.html" class="Week-link">Week 29</a><a href="Week-30-data.html" class="Week-link">Week 30</a><a href="Week-31-data.html" class="Week-link">Week 31</a><a href="Week-32-data.html" class="Week-link">Week 32</a><a href="Week-33-data.html" class="Week-link">Week 33</a><a href="Week-34-data.html" class="Week-link">Week 34</a><a href="Week-35-data.html" class="Week-link">Week 35</a><a href="Week-36-data.html" class="Week-link">Week 36</a><a href="Week-37-data.html" class="Week-link">Week 37</a><a href="Week-38-data.html" class="Week-link">Week 38</a><a href="Week-39-data.html" class="Week-link">Week 39</a><a href="Week-40-data.html" class="Week-link">Week 40</a><a href="Week-41-data.html" class="Week-link">Week 41</a><a href="Week-42-data.html" class="Week-link">Week 42</a><a href="Week-43-data.html" class="Week-link">Week 43</a><a href="Week-44-data.html" class="Week-link">Week 44</a><a href="Week-45-data.html" class="Week-link">Week 45</a><a href="Week-46-data.html" class="Week-link">Week 46</a><a href="Week-47-data.html" class="Week-link">Week 47</a><a href="Week-48-data.html" class="Week-link">Week 48</a><a href="Week-49-data.html" class="Week-link">Week 49</a><a href="Week-50-data.html" class="Week-link">Week 50</a><a href="Week-51-data.html" class="Week-link">Week 51</a><a href="Week-52-data.html" class="Week-link">Week 52</a></div>
+     <div class="Week-container">
+         <a href="Week-1-data.html" class="Week-link">Week 1</a>
+         <a href="Week-2-data.html" class="Week-link">Week 2</a>
+         <a href="Week-3-data.html" class="Week-link">Week 3</a>
+         <a href="Week-4-data.html" class="Week-link">Week 4</a>
+         <a href="Week-5-data.html" class="Week-link">Week 5</a>
+         <a href="Week-6-data.html" class="Week-link">Week 6</a>
+         <a href="Week-7-data.html" class="Week-link">Week 7</a>
+         <a href="Week-8-data.html" class="Week-link">Week 8</a>
+         <a href="Week-9-data.html" class="Week-link">Week 9</a>
+         <a href="Week-10-data.html" class="Week-link">Week 10</a>
+         <a href="Week-11-data.html" class="Week-link">Week 11</a>
+         <a href="Week-12-data.html" class="Week-link">Week 12</a>
+         <a href="Week-13-data.html" class="Week-link">Week 13</a>
+         <a href="Week-14-data.html" class="Week-link">Week 14</a>
+         <a href="Week-15-data.html" class="Week-link">Week 15</a>
+         <a href="Week-16-data.html" class="Week-link">Week 16</a>
+         <a href="Week-17-data.html" class="Week-link">Week 17</a>
+         <a href="Week-18-data.html" class="Week-link">Week 18</a>
+         <a href="Week-19-data.html" class="Week-link">Week 19</a>
+         <a href="Week-20-data.html" class="Week-link">Week 20</a>
+         <a href="Week-21-data.html" class="Week-link">Week 21</a>
+         <a href="Week-22-data.html" class="Week-link">Week 22</a>
+         <a href="Week-23-data.html" class="Week-link">Week 23</a>
+         <a href="Week-24-data.html" class="Week-link">Week 24</a>
+         <a href="Week-25-data.html" class="Week-link">Week 25</a>
+         <a href="Week-26-data.html" class="Week-link">Week 26</a>
+         <a href="Week-27-data.html" class="Week-link">Week 27</a>
+         <a href="Week-28-data.html" class="Week-link">Week 28</a>
+         <a href="Week-29-data.html" class="Week-link">Week 29</a>
+         <a href="Week-30-data.html" class="Week-link">Week 30</a>
+         <a href="Week-31-data.html" class="Week-link">Week 31</a>
+         <a href="Week-32-data.html" class="Week-link">Week 32</a>
+         <a href="Week-33-data.html" class="Week-link">Week 33</a>
+         <a href="Week-34-data.html" class="Week-link">Week 34</a>
+         <a href="Week-35-data.html" class="Week-link">Week 35</a>
+         <a href="Week-36-data.html" class="Week-link">Week 36</a>
+         <a href="Week-37-data.html" class="Week-link">Week 37</a>
+         <a href="Week-38-data.html" class="Week-link">Week 38</a>
+         <a href="Week-39-data.html" class="Week-link">Week 39</a>
+         <a href="Week-40-data.html" class="Week-link">Week 40</a>
+         <a href="Week-41-data.html" class="Week-link">Week 41</a>
+         <a href="Week-42-data.html" class="Week-link">Week 42</a>
+         <a href="Week-43-data.html" class="Week-link">Week 43</a>
+         <a href="Week-44-data.html" class="Week-link">Week 44</a>
+         <a href="Week-45-data.html" class="Week-link">Week 45</a>
+         <a href="Week-46-data.html" class="Week-link">Week 46</a>
+         <a href="Week-47-data.html" class="Week-link">Week 47</a>
+         <a href="Week-48-data.html" class="Week-link">Week 48</a>
+         <a href="Week-49-data.html" class="Week-link">Week 49</a>
+         <a href="Week-50-data.html" class="Week-link">Week 50</a>
+         <a href="Week-51-data.html" class="Week-link">Week 51</a>
+         <a href="Week-52-data.html" class="Week-link">Week 52</a>
+     </div>
+       
+       <div class="viewer-container">
+           <button id="leftArrow" class="arrow">&#8592;</button>
+           <iframe id="weekFrame" src="Week-1-data.html"></iframe>
+           <button id="rightArrow" class="arrow">&#8594;</button>
+       </div>
+           
        
        <footer>
-           <div class="bottom"><a href="../Data-hub.html">Back to Data-hub</a></div>
+           
        </footer>
+       <script>
+    const totalWeeks = 52;
+    let currentWeek = 1;
+
+    const frame = document.getElementById("weekFrame");
+    const label = document.getElementById("weekLabel");
+
+    function updateWeek() {
+      frame.src = `Week-${currentWeek}-data.html`;
+      label.textContent = `Week ${currentWeek}`;
+    }
+
+    document.getElementById("leftArrow").addEventListener("click", () => {
+      if (currentWeek > 1) {
+        currentWeek--;
+        updateWeek();
+      }
+    });
+
+    document.getElementById("rightArrow").addEventListener("click", () => {
+      if (currentWeek < totalWeeks) {
+        currentWeek++;
+        updateWeek();
+      }
+    });
+  </script>
    </body>
 </html>

@@ -18,8 +18,7 @@ declare variable $allDocs := collection('../xml/Parish_Registers/?select=*.xml')
         <th>Count</th>
       </tr>
 {
-(: for $b in //burial
-return  :)
+
 
       
         for $cause in distinct-values($allDocs//burial/@cause)

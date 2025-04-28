@@ -69,9 +69,9 @@ declare variable $value := "0" ;
 <g class="x-axis">
   <line x1="0" y1="{$chart-height + 10}" x2="600" y2="{$chart-height + 10}" stroke="black" stroke-width="2"/>
   <text x="0" y="{$chart-height + 5}" text-anchor="middle">0</text>
-  <text x="100" y="{$chart-height + 5}" text-anchor="middle">100</text>
-  <text x="300" y="{$chart-height + 5}" text-anchor="middle">300</text>
-  <text x="500" y="{$chart-height + 5}" text-anchor="middle">500</text>
+  <text x="100" y="{$chart-height + 5}" text-anchor="middle">25</text>
+  <text x="300" y="{$chart-height + 5}" text-anchor="middle">50</text>
+  <text x="500" y="{$chart-height + 5}" text-anchor="middle">100</text>
 </g>
 
          {
